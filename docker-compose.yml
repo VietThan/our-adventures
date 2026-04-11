@@ -2,7 +2,7 @@ services:
   db:
     image: postgres:16
     environment:
-      POSTGRES_DB: our_adventures
+      POSTGRES_DB: vietthan
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:

@@ -16,8 +16,10 @@ docker compose up -d
 
 This starts Postgres on port `5432` with:
 
-- database: `our_adventures`
+- database: `vietthan`
 - user: `postgres`
 - password: `postgres`
 
-Application packages and database schema are scaffolded in later steps.
+The app should use the `our_adventures` schema inside that shared database.
+
+Application packages and schema bootstrap are scaffolded in later steps.
