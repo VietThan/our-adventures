@@ -1,0 +1,3205 @@
+[
+  {
+    "id": 1,
+    "title": "A Screenslate director deep dive",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Pick a director. Watch two of their films at different indie theaters in one day. Use it as an excuse to wander between neighborhoods.",
+    "tip": "Free to browse at screenslate.com, use their guides to find themed double bills or obscure retrospectives happening this week.",
+    "link": "https://www.screenslate.com"
+  },
+  {
+    "id": 2,
+    "title": "Dine-in film night at Nitehawk",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Order food at your seat before the film starts. Pick something neither of us has heard of, the weirder the better.",
+    "tip": "Two locations: Williamsburg (136 Metropolitan Ave) and Prospect Park (188 Prospect Park West). Book online, ~$20/ticket + food."
+  },
+  {
+    "id": 3,
+    "title": "Late show and drinks at Metrograph",
+    "category": "cinema",
+    "season": "any",
+    "notes": "See the late screening, then go downstairs to the bar and stay too long. The programming is always impeccable.",
+    "tip": "7 Ludlow St, Lower East Side. Tickets ~$18. The bar stays open after screenings. Cult and international films, check their calendar ahead of time."
+  },
+  {
+    "id": 4,
+    "title": "IFC Center: pick a film blindly",
+    "category": "cinema",
+    "season": "any",
+    "notes": "A foreign film neither of us has researched. No reading reviews first. No trailers. Just go.",
+    "tip": "323 Sixth Ave, West Village. Tickets ~$18. Rush tickets sometimes available. Multiple screens: foreign, indie, and revival programming daily."
+  },
+  {
+    "id": 5,
+    "title": "A cult classic night at BAM",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Brooklyn Academy of Music runs themed retrospectives and special screenings all year. The building is worth the trip alone.",
+    "tip": "30 Lafayette Ave, Fort Greene. Tickets ~$17. Often features filmmaker Q&As. Check bam.org for the current series."
+  },
+  {
+    "id": 6,
+    "title": "Avant-garde night at Anthology Film Archives",
+    "category": "cinema",
+    "season": "any",
+    "notes": "The most genuinely weird, ambitious cinema programming in the city. Nothing is straightforward. That's the whole point.",
+    "tip": "32 Second Ave, East Village. Tickets ~$12. Their Essential Cinema series runs Sundays. Genuinely one-of-a-kind programming."
+  },
+  {
+    "id": 7,
+    "title": "Rooftop Cinema Club",
+    "category": "cinema",
+    "season": "summer",
+    "notes": "Outdoor screenings on rooftops around the city. Bring a blanket. Headphones are provided.",
+    "tip": "Multiple rooftop locations across the city. Reserve well in advance, these sell out weeks ahead. Check their website for the current lineup."
+  },
+  {
+    "id": 8,
+    "title": "NYFF or repertory night at Film at Lincoln Center",
+    "category": "cinema",
+    "season": "any",
+    "notes": "The New York Film Festival runs every October. Year-round programming is equally good: international films, restorations, filmmaker conversations.",
+    "tip": "165 W 65th St, Upper West Side. Regular screenings ~$15. NYFF tickets sell out fast, check filmlinc.org in September. Filmmaker talks are often free."
+  },
+  {
+    "id": 9,
+    "title": "Xiao long bao afternoon in Flushing",
+    "category": "food",
+    "season": "any",
+    "notes": "The crab & pork soup dumplings at Joe's Shanghai. Not the Manhattan location, the Flushing one. Make a whole afternoon of the neighborhood.",
+    "tip": "136-21 37th Ave, Flushing. Arrive before noon or after 2pm to avoid the worst of the wait. Cash-friendly. 7 train to Flushing-Main St."
+  },
+  {
+    "id": 10,
+    "title": "Olive Garden endless pasta bowl",
+    "category": "food",
+    "season": "any",
+    "notes": "The point is the breadsticks. Also the soup. Also the pasta. Absolutely no shame whatsoever.",
+    "tip": "The Times Square location (2 Times Square) is huge and easier to walk into. The Endless Pasta Bowl runs seasonally, check their website before going."
+  },
+  {
+    "id": 11,
+    "title": "Mafaldini with pink peppercorns at Lilia",
+    "category": "food",
+    "season": "any",
+    "notes": "One of the best pasta dishes in the city. The room is warm and loud and exactly right.",
+    "tip": "567 Union Ave, Williamsburg. Book on Resy 4–6 weeks out. ~$80–100/person with wine. Ask for a table in the main room, not the back."
+  },
+  {
+    "id": 12,
+    "title": "Lamb noodles at Xi'an Famous Foods",
+    "category": "food",
+    "season": "any",
+    "notes": "Spicy cumin lamb hand-ripped noodles, eaten standing at the counter. Order the spicy level you actually want.",
+    "tip": "Multiple locations. St. Marks Place (81 St. Marks) is the most atmospheric. ~$15–20/person. Get there before the lunch rush or after 2pm."
+  },
+  {
+    "id": 13,
+    "title": "BYO pizza night at Lucali",
+    "category": "food",
+    "season": "any",
+    "notes": "No reservations, BYO wine. Get there at 5pm and put your name in. The wait is genuinely part of the experience. The pizza is perfect.",
+    "tip": "575 Henry St, Carroll Gardens. Cash only. ~$30–40 for a pie. Bring a good bottle. The walk from Smith-9th Sts station takes about 10 min."
+  },
+  {
+    "id": 14,
+    "title": "Porterhouse for two at Peter Luger",
+    "category": "food",
+    "season": "any",
+    "notes": "The steak sauce. The schlag. The bread. Cash only. An institution in the best and most stubborn sense.",
+    "tip": "178 Broadway, Williamsburg. Cash or their own debit card ONLY. Porterhouse for two ~$120+. Reserve by phone: (718) 387-7400. Lunch is easier to get than dinner."
+  },
+  {
+    "id": 15,
+    "title": "The Classic board at Russ & Daughters Cafe",
+    "category": "food",
+    "season": "any",
+    "notes": "Smoked fish, cream cheese, bagel. A Dr. Brown's cream soda. Read the walls. This appetizing shop has been here since 1914.",
+    "tip": "127 Orchard St, Lower East Side. Reservations on Resy recommended, walk-in waits can be long. ~$30–50/person. The original appetizing shop is at 179 E Houston."
+  },
+  {
+    "id": 16,
+    "title": "Genuinely spicy Thai at Ugly Baby",
+    "category": "food",
+    "season": "any",
+    "notes": "Thai food that actually makes you sweat. Get the khao soi and the dry-fried catfish. They do not dumb down the heat.",
+    "tip": "407 Smith St, Carroll Gardens. Book on Resy, usually 1–2 weeks out. ~$50–70/person. Cash preferred. Not for people who ask for \"mild.\""
+  },
+  {
+    "id": 17,
+    "title": "Dinner at Tatiana by Kwame Onwuachi",
+    "category": "food",
+    "season": "any",
+    "notes": "Nigerian, Caribbean, Southern, all at once, all gorgeous. The best dining room view in the city. An actual event.",
+    "tip": "10 Lincoln Center Plaza, Upper West Side. Book on Resy 2–4 weeks out. ~$80–120/person. The bar does excellent cocktails if you can't get a dinner reservation."
+  },
+  {
+    "id": 18,
+    "title": "Veggie burger and sundae at Superiority Burger",
+    "category": "food",
+    "season": "any",
+    "notes": "Tiny, cheap, and genuinely one of the most interesting menus in NYC. The veggie burger is not a compromise, it's better than most real ones.",
+    "tip": "119 St. Marks Place, East Village. ~$15–20/person. Cash and card. Small room, often a line. The butterscotch sundae is not optional."
+  },
+  {
+    "id": 19,
+    "title": "One Michelin-star splurge night",
+    "category": "food",
+    "season": "any",
+    "notes": "Pick one we've been putting off. No occasion needed, just decide to do it.",
+    "tip": "Don Angie (163 W 10th, book far ahead on Resy), Foxface (walk-in bar seats often available), Musket Room (265 Elizabeth, quieter, easier to get). ~$100–150/person."
+  },
+  {
+    "id": 20,
+    "title": "Chocolate babka at Breads Bakery",
+    "category": "bakery",
+    "season": "any",
+    "notes": "The best babka in New York, and that's saying something. Get there before noon, it sells out.",
+    "tip": "18 E 16th St, Union Square. Opens 7am. Also at Bryant Park. The pistachio roll and cheese bourekas are excellent too. ~$12 for the babka."
+  },
+  {
+    "id": 21,
+    "title": "Saturday pastry crawl through Cobble Hill",
+    "category": "bakery",
+    "season": "spring",
+    "notes": "Start at Bien Cuit, get a croissant, then just walk. Let the neighborhood decide what's next.",
+    "tip": "Bien Cuit is at 120 Smith St. Add Colonie Coffee (127 Atlantic Ave) for a cortado. Free, just budget ~$20–30 for pastries. B/Q/R to Bergen St."
+  },
+  {
+    "id": 22,
+    "title": "Whatever seasonal thing at Dominique Ansel",
+    "category": "bakery",
+    "season": "any",
+    "notes": "Whatever they're doing this month will be worth it. The seasonal specials are the whole reason to go.",
+    "tip": "189 Spring St, SoHo. Opens 8am. Check their Instagram for current specials. ~$6–12/item. The DKA (caramelized kouign-amann) is always on the menu."
+  },
+  {
+    "id": 23,
+    "title": "Baguette and croissant walk through SoHo",
+    "category": "bakery",
+    "season": "spring",
+    "notes": "Buy a baguette and an almond croissant at Balthazar. Eat them while wandering SoHo. This is the whole plan.",
+    "tip": "80 Spring St, SoHo. Opens 7:30am weekdays, 8am weekends. ~$4–10. Counter service only. The almond croissant is one of the best in the city."
+  },
+  {
+    "id": 24,
+    "title": "Tahini cookie and cortado at Mah Ze Dahr",
+    "category": "bakery",
+    "season": "any",
+    "notes": "Small, warm, and very good. The tahini cookie is the thing, but everything here is worth trying.",
+    "tip": "28 Greenwich Ave, West Village. Opens 7am. ~$4–8/item. Very small space, get something to go and walk the neighborhood."
+  },
+  {
+    "id": 25,
+    "title": "Croissant at Pain D'Avignon, then the High Line",
+    "category": "bakery",
+    "season": "any",
+    "notes": "Get a croissant at Pain D'Avignon in Chelsea Market, then walk straight to the High Line entrance two blocks away.",
+    "tip": "75 9th Ave inside Chelsea Market. ~$5–12/item. High Line entrance is at W 16th St & 10th Ave. One of the best croissants in the city."
+  },
+  {
+    "id": 26,
+    "title": "Laminated pastries at Supermoon Bakehouse",
+    "category": "bakery",
+    "season": "any",
+    "notes": "Inventive laminated pastries in the Lower East Side. Creative flavor combinations, never just a plain croissant.",
+    "tip": "120 Rivington St, LES. Opens 8am. Weekend lines move quickly. ~$6–9/item. Limited quantities, get there before 10am to guarantee the good stuff."
+  },
+  {
+    "id": 27,
+    "title": "Broadway day-of at TKTS",
+    "category": "shows",
+    "season": "any",
+    "notes": "Show up at noon. Pick whatever has the best deal. No overthinking, no researching, no agenda.",
+    "tip": "Times Square TKTS booth opens at noon for matinees, 3pm for evening shows. Discounts 20–50% off. Card accepted, no fee. The app also sells TKTS tickets.",
+    "link": "https://www.tdf.org/nyc/7/TKTS-ticket-booths"
+  },
+  {
+    "id": 28,
+    "title": "New play at Playwrights Horizons",
+    "category": "shows",
+    "season": "any",
+    "notes": "More interesting than most of what's on Broadway. New work, small stages, weirder ideas. Often the best theater in the city.",
+    "tip": "416 W 42nd St, Hell's Kitchen. Tickets ~$35–85. Rush tickets often available via TodayTix app on the day of the show."
+  },
+  {
+    "id": 29,
+    "title": "The Comedy Cellar on a Tuesday night",
+    "category": "shows",
+    "season": "any",
+    "notes": "Smaller crowd, more unpredictable lineup. Famous for unannounced drop-ins. One of the city's great institutions.",
+    "tip": "117 MacDougal St, Greenwich Village. ~$30 + 2-drink minimum. Reserve online. Shows at 9pm and 11pm. Strict no-phone policy, they mean it."
+  },
+  {
+    "id": 30,
+    "title": "Village Vanguard on a Sunday",
+    "category": "shows",
+    "season": "any",
+    "notes": "The most legendary jazz club in the world. Arrive early. Order one drink. Stay for both sets.",
+    "tip": "178 7th Ave S, West Village. Sets at 8pm and 10pm, ~$30 + one-drink minimum. Cash preferred. Arrive 30 min early for a good seat. Sunday residencies are special."
+  },
+  {
+    "id": 31,
+    "title": "Lincoln Center outdoor concert series",
+    "category": "shows",
+    "season": "summer",
+    "notes": "Free and ticketed outdoor events all summer long: Midsummer Night Swing, concerts, screenings. The plaza on a summer night is magic.",
+    "tip": "Damrosch Park, W 62nd St. Check lincolncenter.org for the summer calendar. Midsummer Night Swing (dancing!) runs July–Aug. Most events free."
+  },
+  {
+    "id": 32,
+    "title": "A night at the Met Opera",
+    "category": "shows",
+    "season": "winter",
+    "notes": "You don't need to know opera. Pick something dramatic. Dress up a little. It's one of the great rooms in the city.",
+    "tip": "30 Lincoln Center Plaza. Standing room tickets $25 available day-of at 10am, they go fast. Regular seats $80–300. Book on metopera.org."
+  },
+  {
+    "id": 33,
+    "title": "Live music at Baby's All Right",
+    "category": "arts",
+    "season": "any",
+    "notes": "The perfect medium-sized venue. Not too big, not too small. Always something interesting on the calendar.",
+    "tip": "146 Broadway, Williamsburg. Tickets ~$15–30. Check Resident Advisor or their Instagram. Bar opens before the show, get there early for a spot.",
+    "link": "https://ra.co/events/us/newyork"
+  },
+  {
+    "id": 34,
+    "title": "MoMA PS1 on a Saturday afternoon",
+    "category": "arts",
+    "season": "any",
+    "notes": "No plan. Just wander. The building is a converted school. The art is always stranger and better than expected.",
+    "tip": "22-25 Jackson Ave, Long Island City. 7 train from Times Square, 7 min. ~$10 suggested. Free with MoMA membership. Warm Up parties run July–Sept."
+  },
+  {
+    "id": 35,
+    "title": "The Met: one wing, two hours",
+    "category": "arts",
+    "season": "any",
+    "notes": "Don't try to see all of it. Pick one period you're curious about and really stay with it. This is the only way.",
+    "tip": "1000 5th Ave. Pay what you wish (NYC residents). Suggested $30. The Islamic Art galleries and the Arms & Armor rooms are often uncrowded. Open until 9pm on Fri/Sat."
+  },
+  {
+    "id": 36,
+    "title": "Afternoon at the Whitney",
+    "category": "arts",
+    "season": "any",
+    "notes": "American art, including the Biennial and major contemporary exhibitions. The Hudson River views from the upper floors alone are worth the trip.",
+    "tip": "99 Gansevoort St, Meatpacking. ~$25. Free Fridays 5–10pm. The top-floor terrace has some of the best views in the city. Take the stairs."
+  },
+  {
+    "id": 37,
+    "title": "Nuyorican Poets Cafe Friday slam",
+    "category": "arts",
+    "season": "any",
+    "notes": "East Village. Very alive, very New York. Nothing like it anywhere else in the city.",
+    "tip": "236 E 3rd St, East Village. ~$15, buy in advance, it sells out. Doors at 9pm, slam starts around 10pm. Get there early for a good seat."
+  },
+  {
+    "id": 38,
+    "title": "Dia: Chelsea on a slow weekday",
+    "category": "arts",
+    "season": "any",
+    "notes": "Massive minimalist works in West Chelsea warehouse spaces. Go slow. Take your time with each room. It changes the way you see.",
+    "tip": "537 W 22nd St, Chelsea. ~$8. Best visited on a weekday when it's quiet. The Richard Serra sculptures need space and silence to work on you."
+  },
+  {
+    "id": 39,
+    "title": "Brooklyn Museum First Saturday",
+    "category": "arts",
+    "season": "any",
+    "notes": "Free 5–11pm on the first Saturday of every month. Live music, dancing, art, and actual community. One of the best nights out in Brooklyn.",
+    "tip": "200 Eastern Pkwy, Crown Heights. Free after 5pm on first Saturdays. 2/3 to Eastern Pkwy-Brooklyn Museum. Check their calendar for the monthly theme."
+  },
+  {
+    "id": 40,
+    "title": "Get off at a random subway stop",
+    "category": "explore",
+    "season": "any",
+    "notes": "Pick a neighborhood we've never really walked. Get off. Walk for two hours with no destination. This is reliably a great day.",
+    "tip": "Good targets: Kingsbridge (A), Rockaway Beach (A/S summer), Tottenville (Staten Island Railway), Mott Haven (6), or just close your eyes and pick."
+  },
+  {
+    "id": 41,
+    "title": "Governors Island by bike",
+    "category": "explore",
+    "season": "summer",
+    "notes": "Free ferry from Lower Manhattan. Rent bikes once you're there. Bring snacks. Come back on the last ferry of the day.",
+    "tip": "Ferry from Battery Maritime Building, next to Whitehall station. Free. Open May–Oct, weekends only early in the season. Bikes rent ~$15/hr on the island."
+  },
+  {
+    "id": 42,
+    "title": "Walk the High Line end to end",
+    "category": "explore",
+    "season": "spring",
+    "notes": "Start at 34th St and walk all the way south. Stop for tacos at Los Tacos No. 1. End at the Whitney for a view.",
+    "tip": "Free. Entrance at 34th St (north) or Gansevoort St (south). Los Tacos No. 1 is at the 10th Ave Square section. The full walk is about 1.5 miles, 45 min."
+  },
+  {
+    "id": 43,
+    "title": "A full day in Flushing",
+    "category": "explore",
+    "season": "any",
+    "notes": "Korean spa in the morning. Dim sum somewhere off the main drag. Bubble tea. Night market if you stay late.",
+    "tip": "7 train to Flushing-Main St. Spa Castle (~$50, bring flip flops). Golden Shopping Mall basement for cheap hand-pulled noodles. Night market on weekends in summer."
+  },
+  {
+    "id": 44,
+    "title": "The Cloisters on a quiet morning",
+    "category": "explore",
+    "season": "fall",
+    "notes": "A train to the end of Washington Heights. Medieval art and gardens suspended above the Hudson. Slow all the way down.",
+    "tip": "99 Margaret Corbin Drive, Fort Tryon Park. A train to 190th St. Pay what you wish. Go before noon for empty galleries. Give yourself 2–3 hours minimum."
+  },
+  {
+    "id": 45,
+    "title": "Red Hook waterfront afternoon",
+    "category": "explore",
+    "season": "summer",
+    "notes": "Bakery, then walk to the waterfront, then Hometown Bar-B-Que. The skyline view from the water is one of the best in the city.",
+    "tip": "B61 bus from Jay St-MetroTech, or walk from Smith-9th Sts (F/G). Hometown BBQ opens at noon. Baked in Red Hook for pie. Pier 44 is free."
+  },
+  {
+    "id": 46,
+    "title": "Boardwalk day at Coney Island",
+    "category": "explore",
+    "season": "summer",
+    "notes": "All the way to the end of the D train. Walk the boardwalk. Get a Nathan's hot dog. Ride something that makes you scream.",
+    "tip": "D, F, N, or Q to Coney Island-Stillwell Ave. Nathan's is right on the boardwalk. Luna Park rides from ~$10 each. Best June–August. Brighton Beach is a 10-min walk for Russian food."
+  },
+  {
+    "id": 47,
+    "title": "Full platza treatment at the Russian Baths",
+    "category": "wellness",
+    "season": "winter",
+    "notes": "Go back and forth between the rooms for at least 3 hours. The oak leaf scrub is not optional. Cash only.",
+    "tip": "268 E 10th St, East Village. ~$40–60 for full access. Cash preferred. Men-only and mixed-gender hours vary, check banyas.com before going."
+  },
+  {
+    "id": 48,
+    "title": "Aire Ancient Baths in Tribeca",
+    "category": "wellness",
+    "season": "any",
+    "notes": "The aromatherapy bath. Book ahead. Leave your phone in the locker and actually mean it.",
+    "tip": "88 Franklin St, Tribeca. ~$80–130/person for 90 min. Book 2–3 weeks in advance at beaire.com. Add the wine pairing. Strict phone-free environment."
+  },
+  {
+    "id": 49,
+    "title": "Sound bath at MNDFL",
+    "category": "wellness",
+    "season": "winter",
+    "notes": "Try to actually stay awake. Some people can't. You'll feel strange and calm after, for the rest of the day.",
+    "tip": "Multiple locations, book at mndfl.com. ~$35–50/session. 45–60 min. Wear comfortable layers, the room gets cool. Arrive 10 min early."
+  },
+  {
+    "id": 50,
+    "title": "Float therapy: one hour in the dark",
+    "category": "wellness",
+    "season": "any",
+    "notes": "One hour alone in a dark saltwater tank. Sounds strange. Is strange. Then it's genuinely amazing.",
+    "tip": "Lift/Next Level Float Studio (multiple locations), ~$80–100/session. First-time discounts often available. 60 or 90-min options. No experience or equipment needed."
+  },
+  {
+    "id": 51,
+    "title": "Infrared sauna at HigherDOSE",
+    "category": "wellness",
+    "season": "winter",
+    "notes": "45 minutes. Bring something to listen to and a lot of water. Genuinely restorative in a way that surprises you.",
+    "tip": "HigherDOSE has locations in Flatiron and NoMad. ~$65 for 45 min. Book at higherdose.com, 1–2 weeks ahead is usually enough. Towels provided."
+  },
+  {
+    "id": 52,
+    "title": "Community acupuncture together",
+    "category": "wellness",
+    "season": "any",
+    "notes": "Find a community acupuncture spot with sliding scale pricing, side by side in recliners. Just try it once.",
+    "tip": "New York Community Acupuncture (multiple locations) offers sliding scale $30–50. Book online at nycommunityacupuncture.com. No referral needed."
+  },
+  {
+    "id": 53,
+    "title": "A gallery day in Hudson, NY",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "Walk Warren St gallery by gallery. Eat somewhere good for dinner. Take the last Amtrak back before dark.",
+    "tip": "Amtrak Empire Service from Penn Station, ~2 hrs, ~$30–60 RT. The train station is a 10-min walk from Warren St. October foliage is spectacular."
+  },
+  {
+    "id": 54,
+    "title": "Dia:Beacon and a walk through town",
+    "category": "daytrip",
+    "season": "any",
+    "notes": "Metro-North from Grand Central. Spend the afternoon at Dia. Walk back through Beacon. One of the best day trips possible from the city.",
+    "tip": "Metro-North Hudson Line from Grand Central, ~1.5 hrs, ~$30 RT. Dia open Thu–Mon, ~$20 admission. Buy train tickets in advance on weekends, it fills up."
+  },
+  {
+    "id": 55,
+    "title": "Catskills hike and a diner on the way back",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "Zipcar or rental. Kaaterskill Falls or Slide Mountain. Stop at any roadside diner on the way home. Go in October for foliage.",
+    "tip": "Kaaterskill Falls parking lot fills by 9am on weekends, leave the city by 7am. Slide Mountain is a 4-hr round trip hike. Stewart's for snacks on the way."
+  },
+  {
+    "id": 56,
+    "title": "Boardwalk weekend in Asbury Park, NJ",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "Walk the boardwalk, swim if it's warm, find live music in the evening. A very easy, very good day.",
+    "tip": "NJ Transit North Jersey Coast Line from Penn Station, ~1.5 hrs, ~$25 RT. The Wonder Bar and Asbury Lanes are local staples. Check for weekend shows."
+  },
+  {
+    "id": 57,
+    "title": "Campus walk and bookshop in Princeton, NJ",
+    "category": "daytrip",
+    "season": "spring",
+    "notes": "NJ Transit to Princeton. Walk the campus in the spring. Browse Labyrinth Books. Eat somewhere good.",
+    "tip": "NJ Transit Northeast Corridor from Penn Station to Princeton Junction, ~1 hr, ~$25 RT, then shuttle to campus. Labyrinth Books on Nassau St. Small World Coffee."
+  },
+  {
+    "id": 58,
+    "title": "Fire Island for a day",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "Ferry from Bay Shore. Bring everything you need, there are no cars. A completely different pace for one whole day.",
+    "tip": "LIRR from Penn to Bay Shore (~1 hr, ~$15), then ferry (~$12 each way). Rent bikes or walk. Bring sunscreen, food, and cash. Open May–Oct."
+  },
+  {
+    "id": 59,
+    "title": "MoMA free Friday evening",
+    "category": "free",
+    "season": "any",
+    "notes": "Free admission 5–9pm on Fridays. Get there at 4:30 before the line forms outside.",
+    "tip": "11 W 53rd St, Midtown. Free 5–9pm every Friday. The sculpture garden is often uncrowded even when the galleries are busy. Stay for dinner in the neighborhood after."
+  },
+  {
+    "id": 60,
+    "title": "Shakespeare in the Park at Delacorte",
+    "category": "free",
+    "season": "summer",
+    "notes": "Free tickets, get in line early or enter the digital lottery. The experience of watching Shakespeare outside in Central Park on a summer night is irreplaceable.",
+    "tip": "Delacorte Theater, Central Park. Same-day free tickets: line at 7am at the theater OR enter the digital lottery via the Shakespeare in the Park app. Mid-June through August."
+  },
+  {
+    "id": 61,
+    "title": "SummerStage concert in Central Park",
+    "category": "free",
+    "season": "summer",
+    "notes": "Free concerts all summer at Rumsey Playfield. Bring a blanket and arrive early for a good spot on the grass.",
+    "tip": "Rumsey Playfield, Central Park (E 72nd St entrance). Check cityparksfoundation.org for the calendar. Most events free; some benefit concerts are ticketed. June–Sept."
+  },
+  {
+    "id": 62,
+    "title": "Hotel rooftop bar crash in summer",
+    "category": "free",
+    "season": "summer",
+    "notes": "Walk in with confidence. One drink each. Enjoy the view. This is a perfectly acceptable thing to do.",
+    "tip": "Williamsburg Hotel (96 Wythe Ave) and 1 Hotels Brooklyn Bridge (60 Furman St) both have rooftops accessible from the lobby. Dress up a little, it helps."
+  },
+  {
+    "id": 63,
+    "title": "A full Sunday in Prospect Park",
+    "category": "free",
+    "season": "spring",
+    "notes": "Morning walk. Afternoon nap in the Long Meadow. Nowhere to be, nothing to do. This is always a better day than you expect.",
+    "tip": "Any B/Q train to Prospect Park. Smorgasburg runs at Breeze Hill every Sunday May–Oct (~$10 per dish). The Boathouse Café for coffee on the way in."
+  },
+  {
+    "id": 64,
+    "title": "Brooklyn Botanic Garden in cherry blossom season",
+    "category": "free",
+    "season": "spring",
+    "notes": "Go during the cherry blossom peak, ideally on a weekday. It's genuinely one of the most beautiful things in the city.",
+    "tip": "150 Eastern Pkwy, Crown Heights. Free Tuesdays and some other days, check bbg.org. The Cherry Blossom Festival draws huge weekend crowds; go mid-week if possible."
+  },
+  {
+    "id": 65,
+    "title": "Staten Island Ferry at golden hour",
+    "category": "free",
+    "season": "any",
+    "notes": "Completely free. Some of the best views of Lower Manhattan and the Statue of Liberty in the city.",
+    "tip": "Whitehall Terminal, Lower Manhattan. Free, runs 24/7. Trip takes 25 min each way. Step off in St. George, walk around briefly, get back on the next one."
+  },
+  {
+    "id": 66,
+    "title": "Hotel rooftop bar in winter",
+    "category": "free",
+    "season": "winter",
+    "notes": "Less crowded than summer. Heated outdoor bars, dark city views, a hot drink. Genuinely great.",
+    "tip": "The Gansevoort (18 9th Ave) and The Standard High Line (848 Washington St) have heated outdoor bars. Dress up slightly, it helps at the door."
+  },
+  {
+    "id": 67,
+    "title": "Drop-in life drawing class",
+    "category": "classes",
+    "season": "any",
+    "notes": "A drop-in studio session, no experience needed. Surprisingly meditative and humbling. A good reset.",
+    "tip": "Art Students League (215 W 57th St) offers drop-in sessions ~$25–35. No registration needed. Check artstudentsleague.org for open life drawing schedule."
+  },
+  {
+    "id": 68,
+    "title": "Beginner ASL intro workshop",
+    "category": "classes",
+    "season": "any",
+    "notes": "A 2-hour intro class. A genuinely useful skill that's also just really interesting to try together.",
+    "tip": "Check Eventbrite for weekend intro sessions, typically ~$30–50. ASL classes also run at the Center for Deaf and Hard of Hearing in White Plains, accessible by Metro-North."
+  },
+  {
+    "id": 69,
+    "title": "Wheel throwing pottery class at Choplet",
+    "category": "classes",
+    "season": "any",
+    "notes": "Beginner wheel throwing in Williamsburg. You will make something lopsided. You will love it.",
+    "tip": "108 N 7th St, Williamsburg. ~$70–85 for a 2-hr session. Book at choplet.com. They fire your piece after and you pick it up a few weeks later, plan accordingly."
+  },
+  {
+    "id": 70,
+    "title": "Beginner salsa or swing dance class",
+    "category": "classes",
+    "season": "any",
+    "notes": "Neither of us needs to be good. That's the whole point. One lesson leads to social dancing the same night.",
+    "tip": "Swing 46 (349 W 46th St): beginner lesson at 8pm before the social dancing, ~$20. For salsa: Sandra Cameron Dance Center (10 E 17th St) or Stepping Out Studios."
+  },
+  {
+    "id": 71,
+    "title": "Walk the Brooklyn Bridge into DUMBO",
+    "category": "free",
+    "season": "any",
+    "notes": "One of the most satisfying walks in the city. Finish in DUMBO and get a slice at Grimaldi's or poke around the waterfront.",
+    "tip": "Start at City Hall station (4/5/6) on the Manhattan side. Walk takes about 30 min. Go early on weekend mornings before the tourist crowds arrive. The DUMBO waterfront park is right at the far end."
+  },
+  {
+    "id": 72,
+    "title": "Smorgasburg on a weekend morning",
+    "category": "free",
+    "season": "summer",
+    "notes": "Free to walk in, you just pay for what you eat. The best food market in the city. Every vendor is worth trying.",
+    "tip": "Saturdays in Williamsburg (East River State Park) and Sundays in Prospect Park (Breeze Hill). Open May through October. Get there before noon for the best selection. Budget ~$10–15 per dish."
+  },
+  {
+    "id": 73,
+    "title": "The Rose Main Reading Room at NYPL",
+    "category": "free",
+    "season": "any",
+    "notes": "One of the most beautiful rooms in New York. Bring a book or nothing at all. Just sit in it for an hour.",
+    "tip": "New York Public Library, 5th Ave and 42nd St. Free, open Mon–Sat. The grand staircase entrance faces 5th Ave. Quiet is expected. Bryant Park is right behind it."
+  },
+  {
+    "id": 74,
+    "title": "Bushwick Collective street art walk",
+    "category": "free",
+    "season": "any",
+    "notes": "Several blocks of rotating murals in East Bushwick, some of the best street art in the country. Worth at least two hours of wandering.",
+    "tip": "J/M/Z to Myrtle-Broadway or L to Jefferson St. Concentrate on Jefferson St and St. Nicholas Ave. Best on a weekend afternoon when artists are sometimes still at work."
+  },
+  {
+    "id": 75,
+    "title": "Free outdoor yoga in the park",
+    "category": "free",
+    "season": "summer",
+    "notes": "Free yoga classes run all summer in parks across the city. No mat required, no experience expected.",
+    "tip": "Bryant Park hosts free yoga on Tuesday and Thursday evenings. Lululemon runs free classes on the Central Park Great Lawn. Check each park's summer calendar. June through August."
+  },
+  {
+    "id": 76,
+    "title": "Wave Hill in the Bronx",
+    "category": "free",
+    "season": "spring",
+    "notes": "A public garden overlooking the Hudson and the Palisades in Riverdale. Genuinely peaceful, genuinely beautiful.",
+    "tip": "Free on weekday mornings and Saturday mornings before noon. Metro-North to Riverdale (~30 min from Grand Central) or the BX10 bus. Gardens are best in late April and May."
+  },
+  {
+    "id": 77,
+    "title": "Beginner improv class at Magnet Theater",
+    "category": "classes",
+    "season": "any",
+    "notes": "A two-hour intro class where you learn the basics and do scenes with strangers. More fun than it sounds. Less terrifying than it sounds.",
+    "tip": "Magnet Theater, 254 W 29th St. Intro workshops run regularly, ~$30–40. Book at magnettheater.com. UCB also runs drop-in improv classes, check their schedule."
+  },
+  {
+    "id": 78,
+    "title": "Fresh pasta making class",
+    "category": "classes",
+    "season": "any",
+    "notes": "Make pasta from scratch and eat everything at the end. A hands-on, satisfying afternoon that feels like an actual accomplishment.",
+    "tip": "Eataly (200 5th Ave) and ICE (225 Liberty St) both run pasta classes. Airbnb Experiences has smaller, more intimate options. ~$75–120/person. Book 1–2 weeks ahead."
+  },
+  {
+    "id": 79,
+    "title": "Cocktail making workshop",
+    "category": "classes",
+    "season": "any",
+    "notes": "Two hours mixing and drinking three cocktails you made yourself. A genuinely fun date format.",
+    "tip": "Cocktail Kingdom (23 W 39th St) and The Eddy (96 Ave C) both run workshops. Airbnb Experiences also has good options. ~$60–90/person. Small groups, book in advance."
+  },
+  {
+    "id": 80,
+    "title": "Flower arranging workshop",
+    "category": "classes",
+    "season": "spring",
+    "notes": "A 2-hour hands-on class. You leave with an arrangement you made yourself. Surprisingly meditative.",
+    "tip": "Saipua (100 Ferris St, Red Hook) and Le Fanfare run regular workshops. Airbnb Experiences has pop-up options too. ~$65–100/person. Spring is the best season for interesting blooms."
+  },
+  {
+    "id": 81,
+    "title": "Dine-in film at Alamo Drafthouse Brooklyn",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Full food and cocktail service during the movie, strict no-talking policy, and genuinely thoughtful programming. The most serious about film of any dine-in theater.",
+    "tip": "445 Albee Square W, Downtown Brooklyn. ~$22–28/ticket. Book online. No latecomers seated, ever. The pre-show programming is part of the experience."
+  },
+  {
+    "id": 82,
+    "title": "Museum of the Moving Image in Astoria",
+    "category": "cinema",
+    "season": "any",
+    "notes": "A museum about how films and television get made, then a screening in the main theater. An underrated afternoon in a great neighborhood.",
+    "tip": "36-01 35th Ave, Astoria. ~$20. R/M to Steinway St or N/W to 36th Ave. Closed Tuesdays. Screenings often include filmmaker Q&As. Combine with Greek food nearby after."
+  },
+  {
+    "id": 83,
+    "title": "Bryant Park outdoor movie Monday night",
+    "category": "cinema",
+    "season": "summer",
+    "notes": "Free movies on the lawn every Monday evening in summer. Get there two hours early with wine, snacks, and a blanket. The whole lawn fills up.",
+    "tip": "Bryant Park, 42nd St and 6th Ave. Free. Lawn opens 5pm, screenings start around dusk. Check bryantpark.org for the summer schedule. Bring your own food and drink."
+  },
+  {
+    "id": 84,
+    "title": "A film at Syndicated in Bushwick",
+    "category": "cinema",
+    "season": "any",
+    "notes": "A bar with a full-size screen in a converted warehouse in Bushwick. Good food, great vibe, cult and indie programming.",
+    "tip": "40 Bogart St, Bushwick. L to Morgan Ave. Check their website for the screening schedule. Full bar and food menu. ~$15–20 plus food. No reservations needed for bar seating."
+  },
+  {
+    "id": 85,
+    "title": "The Paris Theatre on 58th Street",
+    "category": "cinema",
+    "season": "any",
+    "notes": "The last single-screen theater in Manhattan, right across from the Plaza Hotel. A real piece of the city that keeps almost disappearing.",
+    "tip": "4 W 58th St, Midtown. ~$20/ticket. Small, elegant, and worth the price. They show prestige and specialty releases. Check their schedule before going."
+  },
+  {
+    "id": 86,
+    "title": "A Film Forum double bill",
+    "category": "cinema",
+    "season": "any",
+    "notes": "The best repertory programming in the city, in a basement on West Houston. Pick a double feature of something you've both been meaning to see.",
+    "tip": "209 W Houston St, West Village. ~$17/ticket. Check filmforum.org. The revival programming is exceptional. The popcorn is better than it should be."
+  },
+  {
+    "id": 87,
+    "title": "Pastrami on rye at Katz's Delicatessen",
+    "category": "food",
+    "season": "any",
+    "notes": "The most famous deli in New York. Order the pastrami on rye with mustard at the counter. It costs too much and is worth every cent.",
+    "tip": "205 E Houston St, Lower East Side. ~$30 for a sandwich, enormous and shareable. Hold onto your ticket or they charge you extra. Open until 10:45pm most nights."
+  },
+  {
+    "id": 88,
+    "title": "Korean BBQ on 32nd Street",
+    "category": "food",
+    "season": "any",
+    "notes": "K-Town runs 24 hours. Grill your own meat at the table. Order more than you think you need. Soju is not optional.",
+    "tip": "32nd St between 5th and 6th Ave, Koreatown. Jongro BBQ and Kang Ho Dong Baekjeong are both solid. ~$40–60/person. Most places stay open very late."
+  },
+  {
+    "id": 89,
+    "title": "The Halal Guys original cart",
+    "category": "food",
+    "season": "any",
+    "notes": "The original cart. Chicken and rice with white sauce and hot sauce. There are now restaurants everywhere but this corner is the one that matters.",
+    "tip": "SW corner of 53rd St and 6th Ave, Midtown. Cash only, ~$10. Open until very late. The line moves fast. Get both sauces. The restaurant locations are fine but not the same."
+  },
+  {
+    "id": 90,
+    "title": "Weekend dim sum in Sunset Park",
+    "category": "food",
+    "season": "any",
+    "notes": "Brooklyn's Chinatown has some of the best dim sum in the city, without the Flushing crowds. Go when the carts are rolling.",
+    "tip": "8th Ave between 54th and 60th St, Sunset Park. Pacificana (813 55th St) is a classic. Go between 10am and 1pm for peak cart service. ~$25–35/person. Cash preferred."
+  },
+  {
+    "id": 91,
+    "title": "Midnight burger at Corner Bistro",
+    "category": "food",
+    "season": "any",
+    "notes": "A divey West Village bar that has been here forever. The Bistro Burger, a McSorley Ale, and nothing else. Best after midnight.",
+    "tip": "331 W 4th St, West Village. Cash only. ~$10–15. Open until 3:30am on weekends. The line at 1am moves quickly. Order at the bar."
+  },
+  {
+    "id": 92,
+    "title": "A Chinatown food crawl",
+    "category": "food",
+    "season": "any",
+    "notes": "No itinerary. Just walk Mott Street eating. Soup dumplings, egg tarts, scallion pancakes, roast duck from a window. Keep going until full.",
+    "tip": "Start at Prosperity Dumpling (46 Eldridge St) for cheap dumplings. Walk to Tai Pan Bakery (194 Canal St) for egg tarts. Wah Fung (79 Chrystie St) for roast pork. Budget ~$25."
+  },
+  {
+    "id": 93,
+    "title": "Brunch at Clinton Street Baking Co.",
+    "category": "food",
+    "season": "any",
+    "notes": "The pancakes with warm maple butter. The weekend waits are real and worth it. A New York brunch institution.",
+    "tip": "4 Clinton St, Lower East Side. Walk-in only. Weekend waits are 45–60 min. Arrive before 10am to beat the worst of it. ~$20–30/person. The blueberry pancakes are the move."
+  },
+  {
+    "id": 94,
+    "title": "Dinner on Arthur Avenue in the Bronx",
+    "category": "food",
+    "season": "any",
+    "notes": "The real Little Italy. Better food, more authentic, less touristy than Mulberry Street. Come very hungry.",
+    "tip": "Arthur Ave around 187th St, Belmont. D/B to Fordham Rd. Arthur Avenue Retail Market is the indoor market for snacks. Dominick's for old-school red sauce dinner. ~$30–50/person."
+  },
+  {
+    "id": 95,
+    "title": "Late night ramen at Ichiran",
+    "category": "food",
+    "season": "any",
+    "notes": "Solo dining booths, broth you customize exactly to your taste, no small talk required. A deeply satisfying late-night ritual.",
+    "tip": "132 W 49th St (Midtown) or 374 Johnson Ave (Bushwick). Open late. ~$20–30/person. Order the extra noodle refill. The tonkotsu is the move."
+  },
+  {
+    "id": 96,
+    "title": "Lobster roll at Luke's Lobster",
+    "category": "food",
+    "season": "summer",
+    "notes": "A Maine-style cold lobster roll. Simple, good, no argument. A perfect warm weather lunch.",
+    "tip": "Multiple locations. The Seaport location (26 S William St) has outdoor seating. ~$22–28 for a roll. The whole-belly clam roll is also excellent. Go at lunch to avoid lines."
+  },
+  {
+    "id": 97,
+    "title": "A long Sunday brunch at Balthazar",
+    "category": "food",
+    "season": "any",
+    "notes": "The most quintessentially New York restaurant in the city. Steak frites, a glass of something good, and nowhere to be.",
+    "tip": "80 Spring St, SoHo. Book on Resy, or arrive right at 11:30am for the best walk-in chances. ~$40–60/person. The raw bar is excellent. Order the croque madame."
+  },
+  {
+    "id": 98,
+    "title": "Arcade Bakery hidden in a Tribeca lobby",
+    "category": "bakery",
+    "season": "any",
+    "notes": "A croissant counter tucked inside a lobby at 220 Church Street. Hard to find, worth finding. Excellent laminated pastries.",
+    "tip": "220 Church St lobby, Tribeca. Weekdays only, closes midday. Get there before 10am. The twice-baked croissants sell out fast. ~$5–8/item. This is a locals-only spot."
+  },
+  {
+    "id": 99,
+    "title": "Salty chocolate chip cookie at Ovenly",
+    "category": "bakery",
+    "season": "any",
+    "notes": "The salty chocolate chip cookie is famous for a reason. Everything else here is also excellent. A neighborhood bakery done very right.",
+    "tip": "31 Greenpoint Ave, Greenpoint. G to Greenpoint Ave. Opens 8am. ~$3–6/item. The olive oil coffee cake and cardamom knot are also worth trying."
+  },
+  {
+    "id": 100,
+    "title": "Levain cookies on the Upper West Side",
+    "category": "bakery",
+    "season": "any",
+    "notes": "The most famous cookies in New York. Dense, thick, and completely not for anyone watching their diet.",
+    "tip": "Original location at 167 W 74th St, Upper West Side. Opens 8am. ~$5/cookie. The dark chocolate chocolate chip is the one. Also in NoMad and Williamsburg."
+  },
+  {
+    "id": 101,
+    "title": "Coffee and a pastry at Runner & Stone",
+    "category": "bakery",
+    "season": "any",
+    "notes": "A serious neighborhood bakery in Gowanus with excellent bread, honest pastries, and very good coffee.",
+    "tip": "285 3rd Ave, Gowanus. F/G to Smith-9th Sts. Opens 7:30am. ~$4–10. The country loaf is good to take home. Small tables, quiet mornings."
+  },
+  {
+    "id": 102,
+    "title": "Hot Bread Kitchen at Essex Market",
+    "category": "bakery",
+    "season": "any",
+    "notes": "A social enterprise bakery where everything reflects the diversity of New York. Mana'eesh, m'smen, challah, injera-style flatbreads.",
+    "tip": "Essex Market, 88 Essex St, Lower East Side. ~$4–10/item. Worth trying something unfamiliar. A genuinely New York place."
+  },
+  {
+    "id": 103,
+    "title": "Sleep No More at the McKittrick Hotel",
+    "category": "shows",
+    "season": "any",
+    "notes": "An immersive theater experience in a six-story hotel. You wear a mask, you wander alone. You will not fully understand it. That is the point.",
+    "tip": "530 W 27th St, Chelsea. ~$140–165/ticket. Book well ahead at mckittrickhotel.com. Wear comfortable shoes. Split up from each other for the best experience. Arrive for the pre-show bar."
+  },
+  {
+    "id": 104,
+    "title": "A night at the Apollo Theater",
+    "category": "shows",
+    "season": "any",
+    "notes": "The most storied stage in American music. Catch whatever is on. The room itself carries the history.",
+    "tip": "253 W 125th St, Harlem. Ticket prices vary widely. Check apollotheater.org. Amateur Night on Wednesdays is legendary and affordable. 2/3 train to 125th St."
+  },
+  {
+    "id": 105,
+    "title": "Blue Note Jazz Club late set",
+    "category": "shows",
+    "season": "any",
+    "notes": "One of the most famous jazz clubs in the world. Intimate room, serious musicians. A late set on a weekend is the way to do it.",
+    "tip": "131 W 3rd St, Greenwich Village. Sets at 8pm and 10:30pm. ~$30–50 plus drink minimum. Book online. Sunday brunch jazz is a more affordable option at ~$35 with food."
+  },
+  {
+    "id": 106,
+    "title": "Roots music at Jalopy Theatre, Red Hook",
+    "category": "shows",
+    "season": "any",
+    "notes": "A tiny, wonderful venue in Red Hook for folk, bluegrass, country, and old-time music. No pretense, all heart.",
+    "tip": "315 Columbia St, Red Hook. Tickets ~$10–20, often at the door. Check jalopy.biz. The venue is also an instrument shop. Very small space, arrive early."
+  },
+  {
+    "id": 107,
+    "title": "A concert or event at Pioneer Works",
+    "category": "shows",
+    "season": "any",
+    "notes": "An art and culture center in a huge converted warehouse in Red Hook. Concerts, talks, openings. The space is extraordinary.",
+    "tip": "159 Pioneer St, Red Hook. Ticket prices vary. Check pioneerworks.org. Second Sundays events are free and open to the public. Worth the trip to Red Hook alone."
+  },
+  {
+    "id": 108,
+    "title": "Joe's Pub at The Public Theater",
+    "category": "shows",
+    "season": "any",
+    "notes": "The best small venue in the city. Theater, cabaret, jazz, folk, comedy. Always something surprising and very well done.",
+    "tip": "425 Lafayette St, East Village (inside The Public Theater). Tickets ~$15–35 plus 2-drink minimum. Book online at joespub.com. Arrive early for a good table."
+  },
+  {
+    "id": 109,
+    "title": "A show at Town Hall",
+    "category": "shows",
+    "season": "any",
+    "notes": "A gorgeous 1921 landmarked theater that hosts everything from spoken word to jazz to indie rock. Excellent acoustics, a real room.",
+    "tip": "123 W 43rd St, Midtown. Ticket prices vary by show. Check the-townhall-nyc.org. A/C/E or 1/2/3 to Times Square. Balcony seats have great views and lower prices."
+  },
+  {
+    "id": 110,
+    "title": "New Museum on the Bowery",
+    "category": "arts",
+    "season": "any",
+    "notes": "The most consistently challenging contemporary art museum in the city. Never comfortable, always interesting.",
+    "tip": "235 Bowery, Lower East Side. ~$18, free Thursday evenings. The building itself is a stack of misaligned boxes worth seeing from the street. Check newmuseum.org for exhibitions."
+  },
+  {
+    "id": 111,
+    "title": "The Noguchi Museum sculpture garden",
+    "category": "arts",
+    "season": "any",
+    "notes": "The sculpture garden at the Noguchi Museum is one of the most serene spaces in the city. Go slow. Give it more time than you think you need.",
+    "tip": "9-01 33rd Rd, Long Island City. ~$10. W to Broadway or N to 36th Ave. Closed Tue/Wed. Free on the first Friday of every month. The garden alone is worth the trip."
+  },
+  {
+    "id": 112,
+    "title": "El Museo del Barrio in East Harlem",
+    "category": "arts",
+    "season": "any",
+    "notes": "Latin American and Caribbean art at the top of Museum Mile. One of the most undervisited museums in New York.",
+    "tip": "1230 5th Ave at 104th St. Suggested admission $9. 6 to 103rd St. The permanent collection is excellent. Pair with a walk through East Harlem and lunch at Patsy's."
+  },
+  {
+    "id": 113,
+    "title": "Louis Armstrong House in Corona, Queens",
+    "category": "arts",
+    "season": "any",
+    "notes": "Louis Armstrong's actual house, preserved exactly as he left it. A genuinely moving experience and a beautiful piece of the city's history.",
+    "tip": "34-56 107th St, Corona, Queens. ~$15. Tours hourly. 7 train to 103rd St-Corona Plaza. Book ahead at louisarmstronghouse.org. Combine with a Flushing afternoon."
+  },
+  {
+    "id": 114,
+    "title": "Thursday gallery opening night in Chelsea",
+    "category": "arts",
+    "season": "any",
+    "notes": "Chelsea has more contemporary art galleries per block than anywhere in the world. Thursday openings are free, wine is often served, and the art is real.",
+    "tip": "Concentrate on W 22nd and W 25th St between 10th and 11th Aves. Openings typically run 6–8pm Thursdays. Check artforum.com/events for what's on. Just walk in."
+  },
+  {
+    "id": 115,
+    "title": "The Frick Collection on a quiet afternoon",
+    "category": "arts",
+    "season": "any",
+    "notes": "One of the great house museums anywhere. A Gilded Age mansion filled with Vermeers, Rembrandts, and Turners. Sit in the Garden Court.",
+    "tip": "1 E 70th St at 5th Ave. ~$22. 6 to 68th St. Buy tickets ahead at frick.org. No photos inside. Give yourself at least two hours. The Garden Court is worth 20 minutes by itself."
+  },
+  {
+    "id": 116,
+    "title": "Drawing Center in SoHo",
+    "category": "arts",
+    "season": "any",
+    "notes": "A small, focused gallery dedicated entirely to drawing in all its forms. Always surprising, never crowded, never disappointing.",
+    "tip": "35 Wooster St, SoHo. Free admission. A/C/E to Canal St. Closed Mondays. Small but worth 45 minutes. Combine with a walk through SoHo and a stop at a bakery."
+  },
+  {
+    "id": 117,
+    "title": "A full afternoon in Astoria",
+    "category": "explore",
+    "season": "any",
+    "notes": "Greek food, excellent bakeries, coffee everywhere, and a genuinely local feel. One of the best neighborhoods in the outer boroughs.",
+    "tip": "N/W to Astoria-Ditmars Blvd. Taverna Kyclades for fish, Astoria Bier & Cheese for snacks, Mombar for Egyptian dinner. Give it a whole lazy afternoon."
+  },
+  {
+    "id": 118,
+    "title": "Jackson Heights food and culture crawl",
+    "category": "explore",
+    "season": "any",
+    "notes": "One of the most diverse neighborhoods on earth. Indian, Tibetan, Nepalese, Ecuadorian, Colombian, all within a few blocks.",
+    "tip": "7 train to 74th St-Jackson Heights. Walk Roosevelt Ave under the elevated tracks. Patel Brothers for snacks. Pio Pio for rotisserie chicken. Budget a full afternoon."
+  },
+  {
+    "id": 119,
+    "title": "Greenpoint on a Sunday morning",
+    "category": "explore",
+    "season": "spring",
+    "notes": "The northernmost tip of Brooklyn, still genuinely neighborhood-y. Great coffee, good brunch, Polish food, and a quiet waterfront.",
+    "tip": "G to Greenpoint Ave. Start at Cafe Grumpy (193 Meserole Ave). Walk to the Greenpoint waterfront for Manhattan views. Five Leaves for brunch, line up early."
+  },
+  {
+    "id": 120,
+    "title": "A day at Jacob Riis Beach, the Rockaways",
+    "category": "explore",
+    "season": "summer",
+    "notes": "A real New York beach, reachable by subway. Riis Beach is more relaxed, diverse, and less crowded than the Hamptons will ever be.",
+    "tip": "A train to Rockaway Park-Beach 116th St (summer shuttle service). Jacob Riis Park is free. Bring everything you need. The taco trucks near the lot are the right lunch."
+  },
+  {
+    "id": 121,
+    "title": "Roosevelt Island tram and a full walk",
+    "category": "explore",
+    "season": "any",
+    "notes": "Take the aerial tram from 59th and 2nd, walk the entire island, and see Manhattan from water level the whole way. Almost nobody does this.",
+    "tip": "Tram departs 59th St and 2nd Ave (MetroCard/OMNY accepted). Walk south to the FDR Memorial at the island tip. The whole loop takes about an hour. F train also stops there."
+  },
+  {
+    "id": 122,
+    "title": "Inwood Hill Park and the old-growth forest",
+    "category": "explore",
+    "season": "fall",
+    "notes": "The last old-growth forest in Manhattan. Ancient trees, the cave where Peter Minuit reportedly bought the island, and almost no tourists.",
+    "tip": "A train to Inwood-207th St. Free, open year-round. The Indian Caves trail is the main draw. Pair with Indian Road Cafe for lunch or Dyckman Farmhouse Museum nearby."
+  },
+  {
+    "id": 123,
+    "title": "Bike the Hudson River Greenway",
+    "category": "explore",
+    "season": "spring",
+    "notes": "The Greenway runs the entire length of Manhattan's west side. Pick up a Citi Bike and go north as far as you feel like going.",
+    "tip": "Citi Bike day pass ~$15. The greenway is mostly car-free. Ride north toward the Little Red Lighthouse under the George Washington Bridge for a good destination. About 5 miles one way."
+  },
+  {
+    "id": 124,
+    "title": "Sunset Park, Industry City, and the waterfront",
+    "category": "explore",
+    "season": "any",
+    "notes": "A working-class Brooklyn neighborhood transforming around a huge converted factory complex. Great food vendors, artist studios, and water views.",
+    "tip": "D/N/R to 36th St, Sunset Park. Industry City is on 2nd Ave and 37th St. Walk the waterfront path toward the park. Combine with dim sum on 8th Ave for a full day."
+  },
+  {
+    "id": 125,
+    "title": "Mott Haven arts district in the South Bronx",
+    "category": "explore",
+    "season": "any",
+    "notes": "A fast-changing neighborhood with galleries, studios, and some of the best street art in New York. An honest view of what the city is becoming.",
+    "tip": "6 train to 138th St-Grand Concourse. Walk along 138th St and Willis Ave. The Bronx Museum of the Arts (1040 Grand Concourse) is free. Combine with dinner in Hunts Point or Arthur Ave."
+  },
+  {
+    "id": 126,
+    "title": "Reflexology and massage in Chinatown",
+    "category": "wellness",
+    "season": "any",
+    "notes": "A no-frills Chinese foot reflexology and massage spot. The quality is better than the price suggests. Cash only.",
+    "tip": "Look around Mott St, Bayard St, and East Broadway in Chinatown. Most spots are walk-in, ~$40–60 for 60 min. Golden Spa at 9 Mott St. Cash only. Go in the afternoon."
+  },
+  {
+    "id": 127,
+    "title": "Hot yoga to hip hop at Y7",
+    "category": "wellness",
+    "season": "any",
+    "notes": "A 60-minute hot yoga class in candlelight with a hip hop soundtrack. Sounds gimmicky, is actually a great workout.",
+    "tip": "Multiple locations. ~$30/class or use ClassPass. Book online, classes fill up. Bring a towel and arrive well-hydrated. The playlists are genuinely excellent."
+  },
+  {
+    "id": 128,
+    "title": "Juvenex Spa in Koreatown",
+    "category": "wellness",
+    "season": "winter",
+    "notes": "An all-hours Korean spa in K-Town. Jade heated floors, multiple sauna rooms, sleeping areas. The full treatment takes an entire afternoon.",
+    "tip": "25 W 32nd St, 5th floor. ~$45–70 entry. Open 24hrs for women, mixed-gender hours for couples. Bring a change of clothes. Add the Korean body scrub treatment."
+  },
+  {
+    "id": 129,
+    "title": "Morning swim at a public pool",
+    "category": "wellness",
+    "season": "summer",
+    "notes": "The city's free public pools open in late June. A morning swim before the crowds arrive is genuinely good for you.",
+    "tip": "McCarren Pool in Williamsburg is the most impressive. Hamilton Fish Pool on the LES is classic. Free with a NYC Parks Recreation card (also free). Open late June through Labor Day."
+  },
+  {
+    "id": 130,
+    "title": "Walk all three East River bridges in one day",
+    "category": "wellness",
+    "season": "spring",
+    "notes": "Brooklyn Bridge, Manhattan Bridge, Williamsburg Bridge, all on foot. A half-day walk that shows you the city from above.",
+    "tip": "Start at City Hall (Brooklyn Bridge), walk to DUMBO, cross the Manhattan Bridge back to Canal St, walk to Delancey, cross the Williamsburg Bridge. About 4 miles total."
+  },
+  {
+    "id": 131,
+    "title": "Forest bathing in the Ramble, Central Park",
+    "category": "wellness",
+    "season": "fall",
+    "notes": "Slow walking through the wild woodland section of Central Park. No podcasts, no phone. Just trees and time.",
+    "tip": "Enter the Ramble at the 79th St transverse from the west side or from the Loeb Boathouse on the east. It's intentionally maze-like. Getting slightly lost is fine."
+  },
+  {
+    "id": 132,
+    "title": "A day at Sojo Spa Club in New Jersey",
+    "category": "wellness",
+    "season": "any",
+    "notes": "A large Korean spa complex just over the George Washington Bridge. Multiple pools, saunas, and outdoor hot tubs overlooking the Hudson. A full reset.",
+    "tip": "Edgewater, NJ. ~$50–70 entry. Bus from Port Authority (NJ Transit 158/159) or a short Uber from the GWB. Book online. Bring a bathing suit and plan to stay 4–5 hours."
+  },
+  {
+    "id": 133,
+    "title": "Cold Spring, NY for the day",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "A beautiful Hudson Valley village. Walk Main Street, hike Bull Hill, eat well. One of the best day trips from the city.",
+    "tip": "Metro-North Hudson Line from Grand Central, ~1.5 hrs, ~$30 RT. The waterfront park is a 5-min walk from the station. Riverview Restaurant for lunch. Go in October for the foliage."
+  },
+  {
+    "id": 134,
+    "title": "Montauk day trip",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "The far end of Long Island. Raw, windy, real. Swimming at Ditch Plains, oysters somewhere, the lighthouse at the very tip.",
+    "tip": "LIRR from Penn Station, ~3 hrs, ~$40–50 RT. Book ahead on summer weekends. Ditch Plains for the beach. The Lobster Roll on Montauk Hwy for lunch. Last train back around 9pm."
+  },
+  {
+    "id": 135,
+    "title": "Rhinebeck and the Hudson Valley",
+    "category": "daytrip",
+    "season": "spring",
+    "notes": "A Dutchess County village with excellent restaurants, the oldest inn in America, and the whole Hudson Valley around it.",
+    "tip": "Amtrak from Penn to Rhinecliff, ~2 hrs, ~$35 RT. Taxi or rideshare to Rhinebeck village (10 min). Bread Alone for breakfast. Book dinner ahead. Beekman Arms inn for drinks."
+  },
+  {
+    "id": 136,
+    "title": "Long Beach, NY beach day",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "A real beach town 45 minutes from Penn Station. Less scene than the Hamptons, genuinely swimmable, easy to do spontaneously.",
+    "tip": "LIRR Long Beach branch from Penn Station, ~45 min, ~$15 RT. Beach access is included in the fare during summer. The beach is a 10-min walk from the station. Bring sunscreen."
+  },
+  {
+    "id": 137,
+    "title": "Philadelphia for a day",
+    "category": "daytrip",
+    "season": "any",
+    "notes": "Amtrak to Philly and back in a day. Reading Terminal Market, a cheesesteak, the Barnes Foundation, and still home for dinner.",
+    "tip": "Amtrak from Penn Station, ~1.5 hrs, ~$30–80 RT depending on timing. Book a week ahead for better prices. Barnes Foundation needs advance tickets. Reading Terminal for lunch."
+  },
+  {
+    "id": 138,
+    "title": "Tarrytown and Sleepy Hollow",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "Sleepy Hollow in October is exactly as atmospheric as you'd hope. The cemetery, the old Dutch church, and the Hudson River below.",
+    "tip": "Metro-North Hudson Line from Grand Central, ~45 min, ~$20 RT. Sleepy Hollow Cemetery is free and open year-round. Best in mid-October. The Horse Man pub for lunch after."
+  },
+  {
+    "id": 139,
+    "title": "New Haven for pizza at Frank Pepe's",
+    "category": "daytrip",
+    "season": "any",
+    "notes": "The white clam pizza at Frank Pepe's is one of the great things you can eat. New Haven is worth the trip for this alone.",
+    "tip": "Metro-North New Haven Line from Grand Central, ~1.5–2 hrs, ~$30 RT. Frank Pepe's is at 157 Wooster St. Arrive early or expect a wait. Sally's Apizza next door is also legendary."
+  },
+  {
+    "id": 140,
+    "title": "The High Bridge walk to the Bronx",
+    "category": "free",
+    "season": "spring",
+    "notes": "The oldest bridge in New York, connecting Washington Heights to the Bronx. Walk across and wander Highbridge Park on the other side.",
+    "tip": "Enter from the Manhattan side near 173rd St. Free. A train to 168th St. The bridge reopened after a long restoration in 2015. The pool in Highbridge Park is free to swim in summer."
+  },
+  {
+    "id": 141,
+    "title": "Noguchi Museum free first Fridays",
+    "category": "free",
+    "season": "any",
+    "notes": "The sculpture garden is one of the most serene spaces in New York. Going when it's free makes it even better.",
+    "tip": "9-01 33rd Rd, Long Island City. Free the first Friday of every month, 5–8pm. W to Broadway station in Queens. Check noguchi.org. The garden is the main event."
+  },
+  {
+    "id": 142,
+    "title": "Union Square Greenmarket on a Saturday",
+    "category": "free",
+    "season": "fall",
+    "notes": "The best farmers market in the city. Go when something is in season and let it decide what you cook for dinner.",
+    "tip": "Union Square, 14th St and Broadway. Open year-round on Wed, Fri, and Sat mornings. Peak season is June through October. The cider donuts in fall are not optional."
+  },
+  {
+    "id": 143,
+    "title": "Wander Grand Central Terminal",
+    "category": "free",
+    "season": "any",
+    "notes": "Walk every level. The whispering gallery. The famous ceiling. The Oyster Bar downstairs. Just wander it like a destination, not a commute.",
+    "tip": "Free. The whispering gallery is the curved arch outside the Oyster Bar, lower concourse. Stand facing the corner and talk quietly. The Campbell Bar for one drink after."
+  },
+  {
+    "id": 144,
+    "title": "Citi Bike the Central Park loop",
+    "category": "free",
+    "season": "spring",
+    "notes": "Rent a Citi Bike and ride the 6-mile car-free loop. One of the most enjoyable things you can do in the city for $15.",
+    "tip": "Citi Bike day pass ~$15. Bikes available at park entrances near 59th, 72nd, and 86th St. The loop road is car-free on weekends. Takes about 45 min to ride the full perimeter."
+  },
+  {
+    "id": 145,
+    "title": "Evening concert at the Cathedral of St. John the Divine",
+    "category": "free",
+    "season": "any",
+    "notes": "The cathedral hosts regular free and low-cost concerts. The acoustics are extraordinary, the space is vast and unlike anywhere else.",
+    "tip": "1047 Amsterdam Ave, Morningside Heights. 1 to Cathedral Pkwy/110th St. Check stjohndivine.org for the music calendar. The building itself is worth the visit."
+  },
+  {
+    "id": 146,
+    "title": "The 9/11 Memorial pools",
+    "category": "free",
+    "season": "any",
+    "notes": "The two reflecting pools are genuinely moving and worth visiting slowly, not as a check-the-box thing. Give it more time than you think.",
+    "tip": "180 Greenwich St, Lower Manhattan. Free. Open daily. Timed entry tickets are recommended (free, at 911memorial.org). The museum requires a separate ticket. The pools alone are enough."
+  },
+  {
+    "id": 147,
+    "title": "Socrates Sculpture Park in Long Island City",
+    "category": "free",
+    "season": "summer",
+    "notes": "A free outdoor sculpture park on the East River in LIC with Manhattan views and rotating large-scale installations.",
+    "tip": "32-01 Vernon Blvd, Long Island City. Free, open year-round. N/W to Broadway (Queens). The summer outdoor film series and music events are also free. A quick trip from Midtown."
+  },
+  {
+    "id": 148,
+    "title": "Little Island park at sunset",
+    "category": "free",
+    "season": "summer",
+    "notes": "A floating park built on reclaimed pilings on the Hudson River. Strange, lovely, and worth it at golden hour.",
+    "tip": "Pier 55, Hudson River Park at W 13th St. Free. Timed entry passes recommended in summer at littleisland.org. The amphitheater hosts free events. Good coffee truck on site."
+  },
+  {
+    "id": 149,
+    "title": "A Sunday at the Queens Night Market",
+    "category": "free",
+    "season": "summer",
+    "notes": "The most diverse food market in New York. Dozens of vendors, every cuisine, $5 dishes. Free to enter, very much worth going for dinner.",
+    "tip": "New York Hall of Science, 47-01 111th St, Corona, Queens. 7 train to 111th St. Runs Saturday evenings May through October. ~$5–10 per dish. Get there before 8pm."
+  },
+  {
+    "id": 150,
+    "title": "Intro rock climbing session",
+    "category": "classes",
+    "season": "any",
+    "notes": "A two-hour intro session that covers the basics. A surprisingly fun and physical way to spend an afternoon together.",
+    "tip": "Brooklyn Boulders (multiple locations) and The Cliffs offer intro classes ~$40–60 including gear. Book online. No experience or strength required. Day passes let you keep climbing after."
+  },
+  {
+    "id": 151,
+    "title": "Stand-up comedy open mic night",
+    "category": "classes",
+    "season": "any",
+    "notes": "Sign up and each do two minutes. This is terrifying and will be the funniest night you've had in a long time.",
+    "tip": "Creek and The Cave (10-93 Jackson Ave, Long Island City) hosts open mics most nights. Sign-ups start 30 min before. Free to perform, one-drink minimum for the audience."
+  },
+  {
+    "id": 152,
+    "title": "A fermentation workshop",
+    "category": "classes",
+    "season": "any",
+    "notes": "Make kimchi, pickles, or hot sauce in a two-hour class. You leave with jars of something you actually made.",
+    "tip": "The Brooklyn Kitchen (100 Frost St, Williamsburg) runs food skills workshops. Airbnb Experiences has many options too. ~$50–80. Nothing perishable to worry about taking home."
+  },
+  {
+    "id": 153,
+    "title": "Intro screenprinting workshop",
+    "category": "classes",
+    "season": "any",
+    "notes": "Design and print something on a tote or a shirt in a 3-hour session. A tangible thing to take home.",
+    "tip": "Pratt Institute runs community workshops. Printmaking studios in Gowanus and Bushwick also offer drop-in sessions. Check Eventbrite. ~$60–90. Results are always a little imperfect."
+  },
+  {
+    "id": 154,
+    "title": "Guided foraging walk in Central Park",
+    "category": "classes",
+    "season": "spring",
+    "notes": "A naturalist walks you through the park identifying edible plants, mushrooms, and herbs. Weirder and more interesting than it sounds.",
+    "tip": "Several guides offer seasonal walks. Check Airbnb Experiences or wildedible.com. ~$40–60. Spring and fall are best. You will look at the park differently for years after."
+  },
+  {
+    "id": 155,
+    "title": "Film photography class and darkroom session",
+    "category": "classes",
+    "season": "any",
+    "notes": "Shoot a roll of film together and develop it yourselves in the darkroom. The waiting and the reveal is the whole point.",
+    "tip": "Bushwick Film Club and 4th Street Photo Gallery both offer darkroom sessions. ~$50–80. Check Eventbrite for workshops. Bring an analog camera or borrow one from the studio."
+  },
+  {
+    "id": 156,
+    "title": "Watercolor class for beginners",
+    "category": "classes",
+    "season": "any",
+    "notes": "A two-hour beginner session where you actually make something. More forgiving than drawing, more satisfying than expected.",
+    "tip": "Art Students League (215 W 57th St) offers drop-in watercolor sessions. Airbnb Experiences has many one-off workshops. ~$30–60. Supplies usually provided."
+  },
+  {
+    "id": 157,
+    "title": "Bread baking at the Institute of Culinary Education",
+    "category": "classes",
+    "season": "any",
+    "notes": "Learn to make a proper loaf from scratch and take it home. A satisfying and practical afternoon.",
+    "tip": "ICE has a campus at 225 Liberty St, Financial District. Recreational bread baking classes ~$85–130. Book at ice.edu. Classes fill up, reserve 2–3 weeks ahead."
+  },
+  {
+    "id": 158,
+    "title": "A sushi rolling class",
+    "category": "classes",
+    "season": "any",
+    "notes": "Learn the basics of making rolls and nigiri, then eat everything you made. A fun dinner-that-you-cook format.",
+    "tip": "Multiple options on Airbnb Experiences and Eventbrite. The Sushi Room in Midtown runs regular classes. ~$80–120/person. Most classes include sake or beer."
+  },
+  {
+    "id": 159,
+    "title": "Natural wine tasting and education class",
+    "category": "classes",
+    "season": "any",
+    "notes": "A structured tasting with a guide who explains what you're drinking and why. You will leave with actual opinions about wine.",
+    "tip": "Parcelle and Appellation Wine both run tasting events. Chambers Street Wines occasionally does education nights. ~$40–80. Check their websites for upcoming sessions."
+  },
+  {
+    "id": 160,
+    "title": "Calligraphy or hand lettering workshop",
+    "category": "classes",
+    "season": "any",
+    "notes": "A two-hour intro class with a proper nib pen and ink. Surprisingly meditative and you leave with a real skill to practice.",
+    "tip": "Check Eventbrite for sessions at studios in Williamsburg and the LES. Kestrel Workshop in Red Hook sometimes hosts these. ~$50–75. All materials provided."
+  },
+  {
+    "id": 161,
+    "title": "Angelika Film Center in SoHo",
+    "category": "cinema",
+    "season": "any",
+    "notes": "The indie cinema where you can hear the subway rumbling under the screen during quiet scenes. A New York experience that cannot be replicated anywhere else.",
+    "tip": "18 W Houston St, SoHo. Tickets ~$18. Coffee bar downstairs worth lingering in. 1/C/E to Spring St. Multiple screens, foreign and documentary programming."
+  },
+  {
+    "id": 162,
+    "title": "A double feature at Quad Cinema",
+    "category": "cinema",
+    "season": "any",
+    "notes": "The last four-screen repertory cinema in New York. The programming is adventurous, the audience is genuinely there for the films.",
+    "tip": "34 W 13th St, Greenwich Village. Tickets ~$14–17. Check quadcinema.com. A/C/E/L to 14th St. Double features are common. Membership pays for itself quickly."
+  },
+  {
+    "id": 163,
+    "title": "Ethiopian dinner at Bunna Cafe",
+    "category": "food",
+    "season": "any",
+    "notes": "A fully plant-based Ethiopian restaurant in Bushwick with incredible injera, rich stews, and some of the warmest hospitality in the city.",
+    "tip": "1084 Flushing Ave, Bushwick. J to Kosciuszko St. ~$25–40/person. Reservations on Resy. Order the combination platter. The honey wine is excellent."
+  },
+  {
+    "id": 164,
+    "title": "Arepas at Caracas Arepa Bar",
+    "category": "food",
+    "season": "any",
+    "notes": "A Venezuelan arepa spot in the East Village that has been quietly excellent for years. Order two, sit in the narrow room, feel lucky to be there.",
+    "tip": "93 E 7th St, East Village. ~$10–15/person. Small, often a short wait. The De Pabellón with black beans, shredded beef, and plantains is the one to get."
+  },
+  {
+    "id": 165,
+    "title": "Bar dinner at Estela",
+    "category": "food",
+    "season": "any",
+    "notes": "One of the best small plates restaurants in New York. Sit at the bar, order whatever the server suggests, drink something natural. A perfect evening.",
+    "tip": "47 E Houston St, SoHo. Book on Resy 2–3 weeks out, or try bar walk-in after 6pm. ~$60–90/person. The burrata with anchovy toast is non-negotiable."
+  },
+  {
+    "id": 166,
+    "title": "Szechuan hot pot in Flushing on a cold night",
+    "category": "food",
+    "season": "winter",
+    "notes": "A boiling pot of numbing, spicy broth with everything you cook in it. Loud, communal, and completely excellent. An experience rather than just dinner.",
+    "tip": "Little Pepper (18-24 College Point Blvd) and Spicy Village are both good in Flushing. ~$30–50/person. 7 to Flushing-Main St. Go on a cold weeknight."
+  },
+  {
+    "id": 167,
+    "title": "Orwasher's Bakery on the Upper East Side",
+    "category": "bakery",
+    "season": "any",
+    "notes": "A Jewish bakery in operation since 1916. The raisin pumpernickel and the challah are extraordinary. A living piece of what New York used to be and still is.",
+    "tip": "308 E 78th St, Upper East Side. Opens 7am. ~$6–12 for a loaf. 6 to 77th St. Call ahead on Fridays for holiday breads. Very small, very beloved."
+  },
+  {
+    "id": 168,
+    "title": "Lafayette Grand Cafe pastry case",
+    "category": "bakery",
+    "season": "any",
+    "notes": "An all-day Parisian grand cafe with one of the best pastry cases in New York. The croissant and the religieuse are both exceptional.",
+    "tip": "380 Lafayette St, NoHo. Opens 8am. ~$5–12/item. B/D/F/M to Broadway-Lafayette. The cafe is large and loud in a good way. Busy on weekends, calmer on weekdays."
+  },
+  {
+    "id": 169,
+    "title": "A night at Caveat on the Lower East Side",
+    "category": "shows",
+    "season": "any",
+    "notes": "Comedy, storytelling, game shows, and genuinely original performance in a small basement venue. Something you will not find anywhere else.",
+    "tip": "21A Clinton St, LES. Tickets ~$15–25. Check caveat.nyc. F/J/M/Z to Delancey-Essex. Small room, buy tickets ahead. Anything on the calendar tends to be excellent."
+  },
+  {
+    "id": 170,
+    "title": "Live music at City Winery",
+    "category": "shows",
+    "season": "any",
+    "notes": "Intimate live music in a converted warehouse with wine made on-site. A good level of artist, a great level of access. A real night out.",
+    "tip": "25 11th Ave, Hudson Yards. Tickets ~$20–60 depending on the show. Reserve a table for dinner plus the show. Check citywinery.com/new-york for the calendar."
+  },
+  {
+    "id": 171,
+    "title": "World music at Barbes in Park Slope",
+    "category": "shows",
+    "season": "any",
+    "notes": "A tiny, beloved bar that hosts live world music, jazz, and folk every single night. One of the most genuinely New York music venues left in the city.",
+    "tip": "376 9th St at 6th Ave, Park Slope. F/G to 7th Ave. Cover ~$10–15, often pay-what-you-wish. No reservations. The back room is the stage. Arrive early."
+  },
+  {
+    "id": 172,
+    "title": "A show at The Bell House in Gowanus",
+    "category": "shows",
+    "season": "any",
+    "notes": "A large, airy converted warehouse venue for comedy, indie rock, and themed events. Always something interesting, always a great room.",
+    "tip": "149 7th St, Gowanus. F/G to Smith-9th Sts. Tickets ~$15–30. Check thebellhouseny.com. The front bar is worth a drink before the show."
+  },
+  {
+    "id": 173,
+    "title": "International Center of Photography",
+    "category": "arts",
+    "season": "any",
+    "notes": "The best photography museum in New York. Thoughtful exhibitions spanning documentary, fine art, and everything in between.",
+    "tip": "79 Essex St inside Essex Market, LES. ~$14. Closed Tuesdays. Check icp.org. The bookshop has one of the best photography book selections in the city."
+  },
+  {
+    "id": 174,
+    "title": "Fotografiska New York",
+    "category": "arts",
+    "season": "any",
+    "notes": "A Stockholm-based photography museum with major rotating exhibitions and a rooftop restaurant worth visiting on its own.",
+    "tip": "281 Park Ave S at 22nd St, Gramercy. ~$23. Open until 11pm on weekends. 6 to 23rd St. The rooftop bar is excellent for a drink after the exhibition."
+  },
+  {
+    "id": 175,
+    "title": "The Morgan Library & Museum",
+    "category": "arts",
+    "season": "any",
+    "notes": "J.P. Morgan's original private library, now a museum with manuscript treasures and one of the most beautiful rooms in New York. The East Room alone is worth it.",
+    "tip": "225 Madison Ave at 36th St. ~$22. 6 to 33rd St. Free on Friday evenings. Check themorgan.org. Allow at least 90 minutes. The original library is extraordinary."
+  },
+  {
+    "id": 176,
+    "title": "The Bronx Museum of the Arts",
+    "category": "arts",
+    "season": "any",
+    "notes": "Free admission, always. Art that reflects the Bronx and its communities with honesty. One of the most undervisited museums in New York.",
+    "tip": "1040 Grand Concourse at 165th St. Free. B/D to 167th St. Closed Mon/Tue. Walk the Grand Concourse after to see the Art Deco apartment buildings."
+  },
+  {
+    "id": 177,
+    "title": "A walk along the Grand Concourse in the Bronx",
+    "category": "explore",
+    "season": "any",
+    "notes": "The Champs-Elysees of the Bronx. Miles of Art Deco apartment buildings, wide boulevards, and real neighborhood life. Completely underrated.",
+    "tip": "B/D to 161st St-Yankee Stadium. Walk north. The Bronx Museum is at 165th St. The Loews Paradise Theater facade at 2403 Grand Concourse is a landmark. Free."
+  },
+  {
+    "id": 178,
+    "title": "Woodlawn Cemetery in the Bronx",
+    "category": "explore",
+    "season": "fall",
+    "notes": "One of the great garden cemeteries in America. Duke Ellington, Miles Davis, and Herman Melville are buried here. The mausoleums are extraordinary.",
+    "tip": "4 to Woodlawn (last stop) or Metro-North Harlem Line to Woodlawn. Free. Maps at the gate. Best in fall for foliage. Plan 2 hours minimum."
+  },
+  {
+    "id": 179,
+    "title": "The Bronx Zoo for a full day",
+    "category": "explore",
+    "season": "spring",
+    "notes": "The largest metropolitan zoo in the country. The Congo Gorilla Forest and Tiger Mountain are both extraordinary. Give it a full unhurried day.",
+    "tip": "~$34 online, or pay-what-you-wish on Wednesdays. B/D to Fordham Rd then BX12 bus, or 2/5 to Pelham Pkwy. Arrive at opening to beat crowds."
+  },
+  {
+    "id": 180,
+    "title": "Ridgewood, Queens on a weekend",
+    "category": "explore",
+    "season": "any",
+    "notes": "A neighborhood on the Queens-Brooklyn border that feels like the city did fifteen years ago. Great bars, interesting restaurants, not yet overrun.",
+    "tip": "L to Halsey St or M to Fresh Pond Rd. Walk Seneca Ave and Myrtle Ave. Nowadays bar (54-07 Myrtle Ave) and Rolo's (56-12 Forest Ave) are both excellent."
+  },
+  {
+    "id": 181,
+    "title": "Astoria Park and the Hell Gate Bridge",
+    "category": "explore",
+    "season": "summer",
+    "notes": "The largest park in Queens, with the enormous Hell Gate railroad bridge dominating the view. Watch the river and feel the full scale of the city.",
+    "tip": "N/W to Astoria-Ditmars Blvd, then walk west to the park. Free. The park pool is free in summer. The bridge view from the main lawn is one of the best in any outer borough."
+  },
+  {
+    "id": 182,
+    "title": "Salt room halotherapy session",
+    "category": "wellness",
+    "season": "winter",
+    "notes": "Sit in a room lined with Himalayan salt in a warm, cave-like environment. Deeply relaxing in a way that's hard to explain until you've tried it.",
+    "tip": "The Salt Suite and Montauk Salt Cave both have NYC locations. ~$40–60 for 45 min. Book online. Multiple sessions are recommended but once is enough to understand it."
+  },
+  {
+    "id": 183,
+    "title": "A proper couples massage at a hotel spa",
+    "category": "wellness",
+    "season": "any",
+    "notes": "Book a real, proper couples massage. Not a bargain option. An afternoon that feels like leaving the city entirely.",
+    "tip": "The Spa at Mandarin Oriental (80 Columbus Circle) or The Well (7 W 23rd St). ~$150–250/person. Book weeks ahead. Make a whole slow afternoon of it."
+  },
+  {
+    "id": 184,
+    "title": "A drop-in meditation session",
+    "category": "wellness",
+    "season": "any",
+    "notes": "A guided meditation in a real studio. Easier and more grounding than doing it alone at home with an app.",
+    "tip": "MNDFL (multiple locations) offers guided sessions ~$20–30. Interdependence Project also runs drop-ins. No experience needed. 45–60 min sessions."
+  },
+  {
+    "id": 185,
+    "title": "Sunrise walk through Central Park",
+    "category": "wellness",
+    "season": "spring",
+    "notes": "The park before 7am is completely different. Almost no one there. Morning light through the trees in early spring is genuinely something.",
+    "tip": "Enter at any gate before sunrise. The Reservoir loop is 1.6 miles. The Ramble at dawn has extraordinary birding from April through June. Bring coffee."
+  },
+  {
+    "id": 186,
+    "title": "Woodstock, NY for the day",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "The original artist colony in the Catskills. Good galleries, excellent record shops, great food. The town delivers on the mythology.",
+    "tip": "Trailways bus from Port Authority, ~2.5 hrs, ~$25 RT. Or Zipcar. Oriole 9 for brunch. Golden Notebook record shop on Tinker St is essential. Go in October."
+  },
+  {
+    "id": 187,
+    "title": "North Fork wine country, Long Island",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "The right Long Island wine region. Less expensive, more interesting, more honest than the Hamptons. A whole afternoon of tastings.",
+    "tip": "LIRR to Greenport (~2.5 hrs, ~$25 RT). Rent bikes or arrange a shuttle between wineries. Shinn Estate and Bedell Cellars are both excellent. Go on a weekday."
+  },
+  {
+    "id": 188,
+    "title": "Saratoga Springs for the day",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "A beautifully preserved Victorian spa town upstate. The racetrack in August, free mineral springs, Caffe Lena (the oldest folk venue in America), and great food.",
+    "tip": "Amtrak from Penn Station, ~3 hrs, ~$40–60 RT. Worth an overnight if possible. The Saratoga Race Course runs July through September. Congress Park mineral springs are free."
+  },
+  {
+    "id": 189,
+    "title": "Delaware Water Gap hike",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "A spectacular river gorge on the NJ-PA border. Waterfalls, ridge walks, swimming holes. One of the best hikes within two hours of the city.",
+    "tip": "Zipcar or rental, ~1.5 hrs. Dingmans Falls trail is easy and beautiful. Raymondskill Falls is the tallest waterfall in Pennsylvania. Spring and fall are best."
+  },
+  {
+    "id": 190,
+    "title": "The Ford Foundation Building atrium",
+    "category": "free",
+    "season": "any",
+    "notes": "A 12-story indoor tropical garden inside a Midtown office building. A lush, quiet, secret New York room almost nobody knows about.",
+    "tip": "320 E 43rd St, Midtown. Free, open weekdays during business hours. 42nd St-Grand Central on the 4/5/6/7. Just walk in through the lobby. The garden fills the entire interior court."
+  },
+  {
+    "id": 191,
+    "title": "The Museum at FIT",
+    "category": "free",
+    "season": "any",
+    "notes": "The fashion museum at the Fashion Institute of Technology. Free admission and often the most interesting design exhibitions in the city.",
+    "tip": "227 W 27th St, Chelsea. Free. 1 to 28th St. Closed Sun/Mon. Check fitnyc.edu/museum for the current show. Small but consistently excellent."
+  },
+  {
+    "id": 192,
+    "title": "Hunters Point South Park waterfront, LIC",
+    "category": "free",
+    "season": "summer",
+    "notes": "A long waterfront park in Long Island City with some of the best unobstructed Manhattan skyline views anywhere in New York. Almost no tourists.",
+    "tip": "7 to Hunters Point Ave or Vernon Blvd-Jackson Ave. Free, always open. Walk south along the waterfront. The views at golden hour are extraordinary."
+  },
+  {
+    "id": 193,
+    "title": "The Elevated Acre at 55 Water Street",
+    "category": "free",
+    "season": "any",
+    "notes": "A secret elevated park above the street in the Financial District. Unexpected garden, wooden walkways, and harbor views from above. Almost nobody knows it exists.",
+    "tip": "55 Water St, Financial District. Free. Enter through the lobby or outdoor escalator on Old Slip. Open during business hours. A completely hidden piece of the city."
+  },
+  {
+    "id": 194,
+    "title": "Domino Park waterfront in Williamsburg",
+    "category": "free",
+    "season": "summer",
+    "notes": "A beautifully designed park on the old Domino Sugar factory site. Preserved industrial machinery, a waterfront promenade, and the best summer lawn in Brooklyn.",
+    "tip": "S 1st St and River St, Williamsburg. Free, always open. L to Bedford Ave, then walk west. The High Viaduct section gives elevated views of the East River."
+  },
+  {
+    "id": 195,
+    "title": "NYC Ferry ride for the ride itself",
+    "category": "free",
+    "season": "summer",
+    "notes": "Take the ferry to a neighborhood you'd normally take the subway to. It completely changes how the city feels. Worth doing for the ride alone.",
+    "tip": "~$4 each way. Buy tickets on the NYC Ferry app. The East River route is the most scenic. South Brooklyn and Astoria routes show the city from angles you've never seen."
+  },
+  {
+    "id": 196,
+    "title": "Glass blowing at Urban Glass",
+    "category": "classes",
+    "season": "any",
+    "notes": "A two-hour beginner session where you shape something real from molten glass. Genuinely unlike any other class you have ever taken.",
+    "tip": "647 Fulton St, Fort Greene, Brooklyn. ~$100–150 for a beginner workshop. Book at urbanglass.org. Open studios also available. The results are imperfect and beautiful."
+  },
+  {
+    "id": 197,
+    "title": "Letterpress printing at Bowne & Co.",
+    "category": "classes",
+    "season": "any",
+    "notes": "Learn to set type and print on a 19th-century letterpress machine. You leave with something you made by hand on a press that's been running for over 150 years.",
+    "tip": "211 Water St, South Street Seaport. ~$50–75. Book online. The shop itself is a museum of printing history. The neighborhood is worth exploring after."
+  },
+  {
+    "id": 198,
+    "title": "A hands-on cooking class in one cuisine",
+    "category": "classes",
+    "season": "any",
+    "notes": "Pick a cuisine you both love and spend an afternoon learning to make it properly. Ethiopian, Japanese, Thai, or Italian, all available and all excellent.",
+    "tip": "The Brooklyn Kitchen (100 Frost St) and Haven's Kitchen (109 W 17th St) both run great hands-on classes. ~$80–130/person. Book 2–3 weeks ahead."
+  },
+  {
+    "id": 199,
+    "title": "Beginner weaving or macrame workshop",
+    "category": "classes",
+    "season": "any",
+    "notes": "A 2-hour intro to hand weaving or macrame. More meditative than you expect. You leave with something that actually looks good.",
+    "tip": "Check Airbnb Experiences and Eventbrite for workshops in Williamsburg, Bushwick, and the LES. ~$55–85. Materials always provided. No experience needed."
+  },
+  {
+    "id": 200,
+    "title": "Natural perfume blending workshop",
+    "category": "classes",
+    "season": "any",
+    "notes": "Blend your own fragrance from raw materials with a perfumer guiding the session. The whole olfactory experience is unlike anything else.",
+    "tip": "Several NYC perfumers offer workshops. Check Airbnb Experiences and Eventbrite. ~$60–100. Small groups, book ahead. You leave with a bottle of something entirely your own."
+  },
+  {
+    "id": 201,
+    "title": "A silent film with live piano at Anthology",
+    "category": "cinema",
+    "season": "winter",
+    "notes": "Anthology screens silent classics with live accompaniment several times a year. An entirely different way to watch a film — and the piano fills the room.",
+    "tip": "32 Second Ave, East Village. Check anthologyfilmarchives.org for upcoming silent film events. Tickets ~$12. Arrive a few minutes early to watch the pianist set up."
+  },
+  {
+    "id": 202,
+    "title": "Film Forum midnight movie",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Their late-night cult film series is one of the city's great guilty pleasures. Packed room, great prints, the right crowd.",
+    "tip": "209 W Houston St, West Village. Tickets ~$16. Midnight screenings usually Friday and Saturday. The concession stand popcorn is genuinely above average."
+  },
+  {
+    "id": 203,
+    "title": "An Oscar-season Sunday at Lincoln Center",
+    "category": "cinema",
+    "season": "winter",
+    "notes": "The January before the Oscars, Film at Lincoln Center programs everything. Pick something foreign and critically acclaimed that we haven't seen.",
+    "tip": "165 W 65th St. Tickets ~$15. January is the best month for programming breadth. The Walter Reade lobby has great natural light for a pre-film coffee."
+  },
+  {
+    "id": 204,
+    "title": "BAFICI retrospective or World Cinema at BAM",
+    "category": "cinema",
+    "season": "fall",
+    "notes": "BAM's international programming rivals anything in the city. Pick something from a country whose cinema we barely know.",
+    "tip": "30 Lafayette Ave, Fort Greene. Tickets ~$17. The BAMcinemaFest in June and the New Directors/New Films series in spring are both essential. Check bam.org for series calendars."
+  },
+  {
+    "id": 205,
+    "title": "A documentary double bill anywhere",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Two documentary films in one day — pick a theme. Music docs, nature films, political history, anything. Let the subject matter be the frame for the day.",
+    "tip": "IFC Center and Film at Lincoln Center both program strong documentary slates. Or pick two streaming docs and do it at home with proper snacks and zero interruptions."
+  },
+  {
+    "id": 206,
+    "title": "Opening night at a NYC film festival",
+    "category": "cinema",
+    "season": "fall",
+    "notes": "The NewFest, New York Asian Film Festival, or DOC NYC opening night. The energy is different when a film is brand new and the audience came specifically for it.",
+    "tip": "NewFest runs every fall at IFC. Asian Film Festival runs at Lincoln Center in summer. DOC NYC runs in November. Check each site for opening night tickets — often sells out."
+  },
+  {
+    "id": 207,
+    "title": "A Kubrick or Hitchcock revival double feature",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Find a rep screening of two films by the same director on 35mm. Watch something we've seen before but never in a theater. Completely different experience.",
+    "tip": "Film Forum, IFC, and Metrograph all run archival prints regularly. 35mm screenings are marked on the calendar. The quality of a clean archival print is shocking."
+  },
+  {
+    "id": 208,
+    "title": "NYC Short Film Festival screening",
+    "category": "cinema",
+    "season": "fall",
+    "notes": "A program of short films, which is its own experience — nothing is padded, everything is concentrated. Five great shorts in a row is one of the better evenings in the city.",
+    "tip": "Omeleto and other short film festivals sometimes screen in the city. Also check Anthology and MoMA, which program short film nights throughout the year."
+  },
+  {
+    "id": 209,
+    "title": "A new release on opening weekend at Alamo Drafthouse",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Alamo has the strictest no-talking, no-phone policy in the city and the best food service in a theater. A genuinely different moviegoing experience.",
+    "tip": "28 Liberty St, Financial District. Book online, choose your seats. Food ordered on paper slips. ~$22–26/ticket + food. No latecomers admitted. The whiskey program is excellent."
+  },
+  {
+    "id": 210,
+    "title": "Late night Hong Kong cinema at Metrograph",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Metrograph programs Hong Kong New Wave films more consistently than anyone in the city. Wong Kar-wai, John Woo, Tsui Hark — see any of them on the big screen.",
+    "tip": "7 Ludlow St, LES. Tickets ~$18. Check metrograph.com for upcoming HK cinema nights. The bar is the right place to decompress afterward."
+  },
+  {
+    "id": 211,
+    "title": "The Tribeca Film Festival on a weekday",
+    "category": "cinema",
+    "season": "spring",
+    "notes": "Less crowded on weekdays. A mix of documentaries, narrative films, and special events. Pick something that has no distribution deal yet and might never get one.",
+    "tip": "Runs every April–May at multiple downtown venues. Tickets ~$20–30. Check tribecafilm.com. The Bow Tie Cinemas screenings are often the most accessible."
+  },
+  {
+    "id": 212,
+    "title": "A double bill at the old-school Quad Cinema",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Four tiny screens, all showing something interesting. The Quad is genuinely idiosyncratic — they program things other theaters won't touch.",
+    "tip": "34 W 13th St, Greenwich Village. Tickets ~$17. Usually two films per screen each day, so you can often catch a double feature. The tiny lobby feels like the 1970s."
+  },
+  {
+    "id": 213,
+    "title": "A children's classic at a family matinee",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Pick a film we loved as kids and watch it on the big screen. Doesn't have to be sophisticated. The point is the ritual and the popcorn.",
+    "tip": "Check the BAM Rose Cinemas family matinees or the Museum of the Moving Image weekend screenings. Many theaters do one-off classic screenings on weekend mornings."
+  },
+  {
+    "id": 214,
+    "title": "Astoria beer and a film at Kaufman Studios",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Museum of the Moving Image in Astoria, then a beer at one of the neighborhood's excellent Greek bars. The museum's permanent film history collection alone is worth the trip.",
+    "tip": "36-01 35th Ave, Astoria. Museum tickets ~$15, films extra. N/W to 36th Ave. The Bohemian Hall beer garden is a ten-minute walk. Plan a full afternoon."
+  },
+  {
+    "id": 215,
+    "title": "A French New Wave film at Film Forum",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Godard, Truffaut, Varda, Rohmer — Film Forum programs them regularly. Pick something that feels like Paris and watch it in the West Village.",
+    "tip": "209 W Houston St. Tickets ~$16. The French New Wave retrospectives usually run in spring. Their calendar goes three weeks out, check filmforum.org regularly."
+  },
+  {
+    "id": 216,
+    "title": "Sundance or SXSW award-winner on release",
+    "category": "cinema",
+    "season": "spring",
+    "notes": "Chase a Sundance winner when it finally opens in New York. The discussion around it will still be fresh. Usually lands at IFC or Metrograph.",
+    "tip": "Sundance winners typically open in NYC 1–3 months after the festival. Watch the acquisitions news and put it on the list early. IFC and A24 releases are the most reliable."
+  },
+  {
+    "id": 217,
+    "title": "Horror double feature on Halloween weekend",
+    "category": "cinema",
+    "season": "fall",
+    "notes": "Multiple theaters do horror marathons the weekend before Halloween. Pick two that genuinely scare us, not just gore.",
+    "tip": "IFC Center and Nitehawk both do Halloween programming. The Alamo Drafthouse sometimes hosts 6-hour horror blocks. Book early, these sell out in October."
+  },
+  {
+    "id": 218,
+    "title": "A film shot in New York, set in New York",
+    "category": "cinema",
+    "season": "any",
+    "notes": "Pick a great film set in the actual city — Midnight Cowboy, Do the Right Thing, Taxi Driver, Desperately Seeking Susan — and walk the neighborhood afterward.",
+    "tip": "The Criterion Collection has many NYC classics. Metrograph and Film Forum program these regularly. Plan a walk through the film's neighborhood after the screening."
+  },
+  {
+    "id": 219,
+    "title": "MoMA film screening series",
+    "category": "cinema",
+    "season": "any",
+    "notes": "MoMA's film program is one of the best museum cinema programs anywhere. Not just retrospectives — contemporary and avant-garde work too.",
+    "tip": "11 W 53rd St, Midtown. Museum admission ($25) includes film screenings. Check moma.org for the film calendar. Some screenings are free with admission."
+  },
+  {
+    "id": 220,
+    "title": "Brooklyn Academy of Music opera simulcast",
+    "category": "cinema",
+    "season": "winter",
+    "notes": "BAM broadcasts live Met Opera performances in HD — same night as the stage show, on a big screen, at a fraction of the ticket price.",
+    "tip": "30 Lafayette Ave, Fort Greene. Tickets ~$25–30. The Met Opera Live in HD series runs October through May on Saturday afternoons. Check bam.org for dates."
+  },
+  {
+    "id": 221,
+    "title": "A proper steak frites at Balthazar",
+    "category": "food",
+    "season": "any",
+    "notes": "The steak frites. The oysters on ice. The room that never stops feeling like Paris. Balthazar is as reliable as anything in the city and better than it has any right to be.",
+    "tip": "80 Spring St, SoHo. Book on Resy 2–3 weeks out. ~$70–100/person with wine. Lunch service is slightly less expensive. The bread basket counts as a full course."
+  },
+  {
+    "id": 222,
+    "title": "Ethiopian feast at Ghenet",
+    "category": "food",
+    "season": "any",
+    "notes": "One big injera platter between two people. Everything arrives at once, you eat with your hands, and the stewed meats and lentils are as good as any in the city.",
+    "tip": "284 Mulberry St, NoLita. ~$50–60/person. No reservations, walk-in only. Go early on a weekday. The doro wat (chicken stew) and tibs are essential. Cash preferred."
+  },
+  {
+    "id": 223,
+    "title": "Breakfast at Clinton St. Baking Company",
+    "category": "food",
+    "season": "any",
+    "notes": "Blueberry pancakes with warm maple butter and some of the best breakfast food in the city. The wait is worth it. Do not skip the biscuits.",
+    "tip": "4 Clinton St, LES. Opens 8am, waits can be 45 min on weekends. ~$25–35/person. Go on a weekday morning if possible. The wild blueberry compote is what you came for."
+  },
+  {
+    "id": 224,
+    "title": "A bowl of ramen at Totto or Mu Ramen",
+    "category": "food",
+    "season": "winter",
+    "notes": "Real chicken-paitan ramen at Totto, or the refined broths at Mu Ramen in Jackson Heights. Either way, a serious bowl of noodles on a cold afternoon.",
+    "tip": "Totto Ramen: 366 W 52nd St or 248 E 52nd St. Mu Ramen: 8501 Northern Blvd, Jackson Heights. Both ~$20–25. Mu Ramen requires a detour to Queens but earns it."
+  },
+  {
+    "id": 225,
+    "title": "Oysters and wine at Maison Premiere",
+    "category": "food",
+    "season": "any",
+    "notes": "A New Orleans-style oyster bar in Williamsburg. Twenty kinds of oysters, absinthe cocktails, and a garden in the back. One of the most distinctive rooms in Brooklyn.",
+    "tip": "298 Bedford Ave, Williamsburg. Reservations on Resy recommended. Oysters ~$3–5 each. Go with a dozen of mixed varieties and the French 75. The garden is best in summer."
+  },
+  {
+    "id": 226,
+    "title": "Whole roast chicken at Zuni-style: Café Altro Paradiso",
+    "category": "food",
+    "season": "any",
+    "notes": "The short pasta and Italian-American warmth of Altro Paradiso. A neighborhood restaurant that feels like it was designed exactly for you.",
+    "tip": "234 Spring St, SoHo. Book on Resy 1–2 weeks out. ~$70–90/person. The bucatini and the polpette are essential. The room is quiet enough to actually talk."
+  },
+  {
+    "id": 227,
+    "title": "Sichuan mala hot pot at Little Pepper",
+    "category": "food",
+    "season": "winter",
+    "notes": "Real, unapologetic Sichuan mala hot pot in Flushing. The numbing heat builds slowly and then doesn't stop. Order the pork belly and the tofu skin.",
+    "tip": "133-43 Roosevelt Ave, Flushing. ~$30–40/person. 7 to Flushing-Main St. Weekend waits are long, go on a weekday. Order medium spice if you're not experienced with Sichuan heat."
+  },
+  {
+    "id": 228,
+    "title": "Lunch counter seats at the Nom Wah Tea Parlor",
+    "category": "food",
+    "season": "any",
+    "notes": "The oldest dim sum restaurant in the city, open since 1920. The har gow and egg tarts taste like they always have. An irreplaceable piece of Chinatown history.",
+    "tip": "13 Doyers St, Chinatown. ~$30–40/person. No reservations, arrive before noon to avoid a wait. Cash friendly. The shrimp and pork egg rolls are not on other dim sum menus."
+  },
+  {
+    "id": 229,
+    "title": "A Japanese omakase counter experience",
+    "category": "food",
+    "season": "any",
+    "notes": "An omakase doesn't have to cost $400. Nishiki in Astoria, Tanoshi on the Upper East Side, or Sushi Katsuei in Park Slope all offer exceptional quality at a reasonable price.",
+    "tip": "Nishiki: 33-04 31st Ave, Astoria, ~$75–100. Tanoshi: 1372 York Ave, UES, ~$70. Sushi Katsuei: 210 7th Ave, Park Slope, ~$65. All require reservations well in advance."
+  },
+  {
+    "id": 230,
+    "title": "The Vietnamese sandwich at Banh Mi Saigon",
+    "category": "food",
+    "season": "any",
+    "notes": "The best banh mi in New York. Crusty French baguette, the exact right ratio of pâté, pickled vegetables, and jalapeño. One of the best sandwiches in the city, full stop.",
+    "tip": "138 Centre St, Chinatown. ~$7–9/sandwich. Cash only. Usually a line at lunch, moves fast. Get the classic pork with pâté. They close when they sell out, usually by 3pm."
+  },
+  {
+    "id": 231,
+    "title": "A late dinner at Don Angie",
+    "category": "food",
+    "season": "any",
+    "notes": "Pinwheel lasagna. Silky pasta. Warm Italian-American cooking elevated without being pretentious. One of the most enjoyable restaurants in the city.",
+    "tip": "163 W 10th St, West Village. Book on Resy 4–6 weeks out. ~$90–120/person. Bar seating sometimes available same-day. The pinwheel lasagna is the reason to come."
+  },
+  {
+    "id": 232,
+    "title": "Grilled fish and mezze at Avra Estiatorio",
+    "category": "food",
+    "season": "summer",
+    "notes": "Whole grilled fish sold by the pound, displayed on ice when you walk in. A genuinely Athenian dining experience in Midtown that doesn't compromise.",
+    "tip": "141 E 48th St, Midtown. ~$80–120/person. Reservations via Resy. The grilled branzino and the taramosalata are essential. The private dining rooms feel like a different city."
+  },
+  {
+    "id": 233,
+    "title": "Dim sum brunch at Golden Unicorn",
+    "category": "food",
+    "season": "any",
+    "notes": "A real old-school Hong Kong-style dim sum hall in Chinatown, with carts still rolling. The har gow, siu mai, and turnip cake arrive in waves. Arrive early and hungry.",
+    "tip": "18 E Broadway, Chinatown. ~$25–35/person. Go at 10:30am to beat the wait. Cash friendly. The egg custard tarts come out of the kitchen warm, ask a cart pusher."
+  },
+  {
+    "id": 234,
+    "title": "Pizza slice tour of a single neighborhood",
+    "category": "food",
+    "season": "any",
+    "notes": "Pick one neighborhood and eat only pizza, by the slice, walking. Two or three stops over an afternoon. No sit-down, no table service, just slices and blocks.",
+    "tip": "Best for: the West Village (Joe's + John's), Bay Ridge (L'Industrie + Spumoni), or Bed-Stuy (Corner Slice + Ops). ~$3–5/slice each stop. The point is the contrast."
+  },
+  {
+    "id": 235,
+    "title": "A burger and fries at Corner Bistro",
+    "category": "food",
+    "season": "any",
+    "notes": "The Bistro Burger: a messy, no-frills, genuinely great burger with plastic cheese and crinkle-cut fries. The bar is dark and old and perfect.",
+    "tip": "331 W 4th St, West Village. Cash only. ~$9–12/burger. Open until 4am. Goes fast on Friday and Saturday nights, go before 7pm. The McSorley's dark ale on tap belongs."
+  },
+  {
+    "id": 236,
+    "title": "Tasting menu at a James Beard-nominated chef",
+    "category": "food",
+    "season": "any",
+    "notes": "Pick a James Beard nominee we haven't tried yet. The list changes every year — look it up and book the one that feels most right this season.",
+    "tip": "James Beard nominees announced in March each year at jamesbeard.org. NYC restaurants appear every year. Many are on Resy. Book 3–6 weeks ahead for tasting menu seats."
+  },
+  {
+    "id": 237,
+    "title": "A Korean BBQ night in Koreatown",
+    "category": "food",
+    "season": "any",
+    "notes": "Charcoal or gas grills at the table. Banchan arriving in waves. Brisket, short ribs, pork belly. Order the drinks. Make a full evening of it.",
+    "tip": "Ktown is 32nd St between 5th and 6th, Midtown. Jongro BBQ (22 W 32nd, open 24hrs) and WOORIJIP (12 W 32nd, also a buffet) are both excellent. ~$40–70/person with drinks."
+  },
+  {
+    "id": 238,
+    "title": "Happy hour oysters and Champagne at Coquette",
+    "category": "food",
+    "season": "any",
+    "notes": "Certain West Village and SoHo restaurants do $1 oysters during a brief happy hour window. It's one of the better deals in the city if you catch it right.",
+    "tip": "Coquette (60 W 10th St), Bar Boulud, and Maison Premiere all run oyster specials. Check their websites for happy hour times, usually 5–7pm on weekdays. Go promptly."
+  },
+  {
+    "id": 239,
+    "title": "Brunch at Prune",
+    "category": "food",
+    "season": "any",
+    "notes": "Gabrielle Hamilton's Prune is small, personal, and one of the city's most influential restaurants. The brunch is a legend. The Dutch pancake is the whole reason to go.",
+    "tip": "54 E 1st St, East Village. No reservations for brunch, arrive at opening (10am on weekends). ~$30–50/person. The Bloody Mary is made with house pickled vegetables and is also the reason."
+  },
+  {
+    "id": 240,
+    "title": "A solo plate at the bar at Via Carota",
+    "category": "food",
+    "season": "any",
+    "notes": "Insalata verde, cacio e pepe, a glass of something orange. Via Carota at the bar, eating slowly and watching the room. One of the most reliable pleasure experiences in the city.",
+    "tip": "51 Grove St, West Village. No reservations, walk-in only. The bar opens at 5pm, arrive then to get a seat. ~$50–70/person with wine. The insalata verde is actually what people talk about."
+  },
+  {
+    "id": 241,
+    "title": "Cardamom bun at Laila, Greenpoint",
+    "category": "bakery",
+    "season": "any",
+    "notes": "A Scandinavian-influenced bakery in Greenpoint with one of the best cardamom buns in the city. The whole shop smells extraordinary from a block away.",
+    "tip": "151 India St, Greenpoint. Opens 7am. ~$5–8/item. G to Greenpoint Ave. The almond croissant and the seeded rye loaf are both exceptional. Usually sells out of buns by noon."
+  },
+  {
+    "id": 242,
+    "title": "A loaf of bread from She Wolf Bakery",
+    "category": "bakery",
+    "season": "any",
+    "notes": "One of the best bakeries in New York for whole grain and naturally leavened breads. Buy a loaf and eat it slowly over two days with good butter.",
+    "tip": "6 Kent Ave, Williamsburg (or Essex Market, 88 Essex St, LES). ~$10–16/loaf. L to Lorimer St. The country sourdough and the einkorn loaf are both exceptional."
+  },
+  {
+    "id": 243,
+    "title": "Morning buns at Brooklyn Pigeon",
+    "category": "bakery",
+    "season": "spring",
+    "notes": "A tiny neighborhood bakery in Crown Heights that turns out exceptional morning buns, croissants, and seasonal tarts. Feels like a neighborhood secret.",
+    "tip": "Check their Instagram for hours and specials — hours vary by season. ~$4–8/item. 2/3 to Crown Heights-Utica Ave. They sell out fast, go right at opening."
+  },
+  {
+    "id": 244,
+    "title": "A Swedish fika at Fika in Midtown",
+    "category": "bakery",
+    "season": "winter",
+    "notes": "A proper Swedish-style coffee break: a dark coffee and a cinnamon bun, not rushed, in the middle of a workday or a wandering day. The ritual is the point.",
+    "tip": "66 Pearl St or 41 W 58th St. ~$5–9/item. The kanelbullar (Swedish cinnamon bun) is made fresh each morning. Bring something to read or just sit and watch the street."
+  },
+  {
+    "id": 245,
+    "title": "Mochi donuts at Mochinut",
+    "category": "bakery",
+    "season": "any",
+    "notes": "Chewy, stretchy, ring-shaped mochi donuts in rotating flavors. Lighter than a standard donut, more interesting. A genuinely different texture experience.",
+    "tip": "Multiple NYC locations including 40 W 32nd St and 95 3rd Ave. ~$3–4 each. The ube and matcha varieties are consistently the best. Go early, they sell out by mid-afternoon."
+  },
+  {
+    "id": 246,
+    "title": "Potato bread and pastries at Bien Cuit",
+    "category": "bakery",
+    "season": "any",
+    "notes": "Zachary Golper's Bien Cuit is one of the technically finest bakeries in New York. The country loaves have a depth of flavor that's rare. Worth a trip to Cobble Hill.",
+    "tip": "120 Smith St, Cobble Hill, Brooklyn. Opens 7am. ~$5–15/item. F/G to Bergen St. The potato bread and the kouign-amann are the two essential items. Very limited on weekdays."
+  },
+  {
+    "id": 247,
+    "title": "A slice of cake at Four & Twenty Blackbirds",
+    "category": "bakery",
+    "season": "fall",
+    "notes": "Brooklyn's best pie bakery. The salted caramel apple pie in fall is one of the most genuinely excellent pastries in the city. A small piece is never enough.",
+    "tip": "439 3rd Ave, Gowanus (also Dekalb Market). Opens 8am. ~$7–10/slice. F/G to 4th Ave-9th St. The chess pie and the salty honey pie are year-round staples. Check their seasonal specials."
+  },
+  {
+    "id": 248,
+    "title": "Brown butter tart at Maman",
+    "category": "bakery",
+    "season": "any",
+    "notes": "Maman's nutty brown butter tart is perfect. The whole aesthetic of the café is perfectly studied, but the pastry program is genuinely first-rate.",
+    "tip": "Multiple locations including 211 W Broadway (TriBeCa) and 22 W 25th St (Chelsea). ~$6–10/item. The nutty brown butter tart is the reason. Also excellent: the hazelnut financier."
+  },
+  {
+    "id": 249,
+    "title": "A cruffin or seasonal pastry at Arcade Bakery",
+    "category": "bakery",
+    "season": "any",
+    "notes": "Hidden inside a lobby in TriBeCa, Arcade Bakery makes some of the best laminated pastries in the city. Their seasonal cruffins rotate and are always worth it.",
+    "tip": "220 Church St, TriBeCa (lobby). ~$5–9/item. Weekdays only, closes at 4pm. 1 to Franklin St. Limited quantities — the cruffins sell out by 11am. Arrive when it opens at 8am."
+  },
+  {
+    "id": 250,
+    "title": "Tahini chocolate halva at Seed + Mill",
+    "category": "bakery",
+    "season": "any",
+    "notes": "An Israeli sesame shop in Chelsea Market with the best halva in New York. Rich, crumbly, not too sweet. Get a small piece of three different varieties.",
+    "tip": "75 9th Ave, Chelsea Market. ~$10–15 for a sampler. The vanilla sesame and the dark chocolate varieties are essential. They also make excellent tahini milkshakes in summer."
+  },
+  {
+    "id": 251,
+    "title": "Egg tart and pineapple bun at Golden Steamer",
+    "category": "bakery",
+    "season": "any",
+    "notes": "A classic Hong Kong-style egg tart, warm from the oven, in Chinatown. One of the best things you can eat in New York for under $3.",
+    "tip": "143 1/2 Mott St, Chinatown. ~$1.50–3/item. Cash only. The egg tarts come out of the oven in batches — ask when the next one is ready if the case is empty. The pineapple bun is also essential."
+  },
+  {
+    "id": 252,
+    "title": "Focaccia sandwiches at Bread Alone",
+    "category": "bakery",
+    "season": "summer",
+    "notes": "Bread Alone's farmers market stands at the Union Square Greenmarket are some of the best focaccia sandwiches in the city. Eat it on a park bench.",
+    "tip": "Union Square Greenmarket runs Mon/Wed/Fri/Sat. Bread Alone booth arrives early. ~$10–14/sandwich. The roasted vegetable on focaccia is the standard. Get there before noon."
+  },
+  {
+    "id": 253,
+    "title": "Sourdough and cultured butter at Runner & Stone",
+    "category": "bakery",
+    "season": "any",
+    "notes": "A deeply serious bread bakery in Gowanus that also does an exceptional weekend brunch. The bread alone is worth the trip.",
+    "tip": "285 3rd Ave, Gowanus, Brooklyn. Opens 7am. ~$5–14/item. F/G to 4th Ave-9th St. The country loaf and the seeded rye are the standards. The cultured butter makes the difference."
+  },
+  {
+    "id": 254,
+    "title": "A cinnamon roll at Kitsby, Williamsburg",
+    "category": "bakery",
+    "season": "any",
+    "notes": "One of the better cinnamon rolls in the borough — warm, gooey, the right size, not reformed into something else. Williamsburg's breakfast answer.",
+    "tip": "Check Instagram for hours and current menu, as small bakeries change often. ~$6–8. L to Lorimer St or Bedford Ave. Best eaten immediately, while still warm."
+  },
+  {
+    "id": 255,
+    "title": "A fruit danish at Patisserie Chanson",
+    "category": "bakery",
+    "season": "spring",
+    "notes": "A French pâtisserie in the Flatiron with some of the most technically beautiful pastry work in the city. The fruit danishes in spring use whatever is at peak season.",
+    "tip": "928 Broadway, Flatiron. Opens 7am. ~$6–12/item. N/R/W to 23rd St. The entremets and mirror glaze cakes are the showpieces, but the danish is the best daily item."
+  },
+  {
+    "id": 256,
+    "title": "The Met's Egyptian Art wing at opening time",
+    "category": "arts",
+    "season": "any",
+    "notes": "The Temple of Dendur before the crowds arrive. A 2,000-year-old Egyptian temple reassembled inside a glass-enclosed hall on the Upper East Side. Properly awe-inspiring.",
+    "tip": "1000 5th Ave, UES. Opens 10am. ~$30 suggested admission. 4/5/6 to 86th St. The Egyptian wing is through the Great Hall and to the right. Go on a Tuesday when it's quietest."
+  },
+  {
+    "id": 257,
+    "title": "A gallery opening in the Lower East Side",
+    "category": "arts",
+    "season": "any",
+    "notes": "The LES has the most active small gallery scene in the city. Opening nights on Thursdays are free, social, and usually serve wine. Pick any Thursday and walk Orchard and Rivington.",
+    "tip": "Check Artsy and the gallery websites for opening dates. Orchard, Rivington, and Essex St have the highest gallery density. Free. Thursday openings run ~6–9pm."
+  },
+  {
+    "id": 258,
+    "title": "New Museum Triennial",
+    "category": "arts",
+    "season": "spring",
+    "notes": "The New Museum Triennial every three years showcases emerging artists from around the world. The most forward-looking survey of contemporary art in the city.",
+    "tip": "235 Bowery, LES. ~$18. 6 to Spring St. The Triennial runs in spring. Non-Triennial years, the New Museum still has the most consistently interesting programming on the Bowery."
+  },
+  {
+    "id": 259,
+    "title": "The Cloisters on a gray winter morning",
+    "category": "arts",
+    "season": "winter",
+    "notes": "A medieval European monastery transplanted to the northern tip of Manhattan, overlooking the Hudson. Tapestries, illuminated manuscripts, stone chapels. An entirely different world.",
+    "tip": "99 Margaret Corbin Dr, Washington Heights/Fort Tryon Park. ~$30 suggested. A to 190th St. Open until 5pm. The unicorn tapestries are in Room 7. The view from the garden is best in fog."
+  },
+  {
+    "id": 260,
+    "title": "Artist talks at the Brooklyn Museum",
+    "category": "arts",
+    "season": "any",
+    "notes": "The Brooklyn Museum runs excellent artist talks and curator-led tours throughout the year. More intimate and focused than the major Manhattan institutions.",
+    "tip": "200 Eastern Pkwy, Crown Heights. Suggested ~$16 admission. 2/3 to Eastern Pkwy-Brooklyn Museum. Check brooklynmuseum.org for First Saturdays (free 5–11pm) and upcoming talks."
+  },
+  {
+    "id": 261,
+    "title": "The Folk Art Museum on a weekday",
+    "category": "arts",
+    "season": "any",
+    "notes": "The American Folk Art Museum is small, focused, and consistently overlooked. Self-taught and outsider art that stops you longer than you expect.",
+    "tip": "2 Lincoln Square (Columbus Ave & W 66th St). Free. 1 to 66th St-Lincoln Center. Closed Mon/Tue. The Henry Darger gallery and the historical quilt collection are the highlights."
+  },
+  {
+    "id": 262,
+    "title": "Dia:Beacon on a long weekend",
+    "category": "arts",
+    "season": "summer",
+    "notes": "A former Nabisco printing factory on the Hudson River turned into one of the world's great modern art spaces. Richard Serra's steel plates. Dan Flavin's light. An all-day experience.",
+    "tip": "3 Beekman St, Beacon, NY. ~$18. Metro-North Poughkeepsie line from Grand Central to Beacon, ~1.5 hrs, ~$30 RT. Open Fri–Mon. Plan 3–4 hours minimum. The café is good."
+  },
+  {
+    "id": 263,
+    "title": "Japan Society gallery exhibition",
+    "category": "arts",
+    "season": "any",
+    "notes": "The Japan Society on the East Side runs some of the most scholarly and beautifully presented Japanese art exhibitions in the country. Never just tourist-facing.",
+    "tip": "333 E 47th St, Midtown East. ~$15. 6 to 51st St. Check japansociety.org for the current exhibition. Small, focused shows that reward slow looking."
+  },
+  {
+    "id": 264,
+    "title": "Studio Museum in Harlem free Sunday",
+    "category": "arts",
+    "season": "any",
+    "notes": "The Studio Museum in Harlem is currently in the process of reopening in its new building. A landmark institution for contemporary Black art and artists. Free on Sundays.",
+    "tip": "144 W 125th St, Harlem. Free on Sundays. 2/3/A/B/C/D to 125th St. Check studiomuseum.org for the current opening status and exhibitions. Artist studio programs throughout the year."
+  },
+  {
+    "id": 265,
+    "title": "The Drawing Center in SoHo",
+    "category": "arts",
+    "season": "any",
+    "notes": "A single-medium gallery dedicated entirely to drawing, in all its forms — historical, contemporary, artist books. One of the most focused museum spaces in the city.",
+    "tip": "35 Wooster St, SoHo. ~$5 suggested. 1/C/E to Spring St. Closed Mon/Tue. The Drawing Center's shows often feature process work and studies that don't appear in larger museums."
+  },
+  {
+    "id": 266,
+    "title": "The Frick Collection re-opening",
+    "category": "arts",
+    "season": "any",
+    "notes": "After years of renovation, the Frick reopened with the full Gilded Age mansion and collection intact. Vermeer, Rembrandt, Holbein — a masterwork per room.",
+    "tip": "1 E 70th St, UES. ~$22. 6 to 68th St-Hunter College. Timed entry recommended. Smaller and quieter than the Met. The Fragonard Room alone is worth the trip."
+  },
+  {
+    "id": 267,
+    "title": "A sound installation at Socrates Sculpture Park",
+    "category": "arts",
+    "season": "summer",
+    "notes": "A free outdoor sculpture park in Long Island City with rotating large-scale installations. On summer evenings, they sometimes host sound and light events along the waterfront.",
+    "tip": "32-01 Vernon Blvd, Long Island City. Free. N/W to Broadway (Astoria). Check socratessculpturepark.org for events. The park is always open during daylight hours, waterfront views included."
+  },
+  {
+    "id": 268,
+    "title": "Rubin Museum of Art on a Thursday night",
+    "category": "arts",
+    "season": "any",
+    "notes": "The Rubin is devoted to Himalayan and South Asian art. Thursday nights they do \"Spiral\" events — a floor per theme, with music and programming. A completely unexpected New York evening.",
+    "tip": "150 W 17th St, Chelsea. ~$15 standard, Spiral events may vary. 1 to 18th St. Check rubinmuseum.org for Spiral program lineup. The mandalas and Tibetan deity sculptures are extraordinary."
+  },
+  {
+    "id": 269,
+    "title": "The galleries of 57th Street",
+    "category": "arts",
+    "season": "any",
+    "notes": "57th Street between 10th and 11th avenues has some of the most important private galleries in the world. All free to enter, all open to the public. Spend an afternoon looking at major work.",
+    "tip": "Hauser & Wirth, Pace Gallery, and David Zwirner all have major galleries in this stretch. Free. Check their websites for current shows. Opens 10am–6pm Tue–Sat."
+  },
+  {
+    "id": 270,
+    "title": "Poster House: graphic design museum",
+    "category": "arts",
+    "season": "any",
+    "notes": "The only museum in the US dedicated entirely to the poster as an art form. Consistently excellent thematic exhibitions pulling from global poster history.",
+    "tip": "119 W 23rd St, Chelsea. ~$16. 1 to 23rd St. Check posterhouse.org for current shows. Small but expertly curated. The gift shop has exceptional reproductions."
+  },
+  {
+    "id": 271,
+    "title": "An afternoon at P.S.1 / MoMA PS1",
+    "category": "arts",
+    "season": "summer",
+    "notes": "In summer, PS1's courtyard becomes the site of the Warm Up series — outdoor DJ sets and an incredible rotating architectural installation. Even without the event, it's excellent.",
+    "tip": "22-25 Jackson Ave, Long Island City. ~$10 ($5 with MoMA membership). 7/E/M to Court Sq-23rd St. Warm Up runs July–September on Saturdays. Check momaps1.org for the schedule."
+  },
+  {
+    "id": 272,
+    "title": "ICP: International Center of Photography",
+    "category": "arts",
+    "season": "any",
+    "notes": "The city's dedicated photography museum. Documentary, fine art, photojournalism — rotating exhibitions that take photography seriously as a discipline.",
+    "tip": "79 Essex St, LES. ~$14. F/M/J/Z to Delancey-Essex. Check icp.org for current shows. The public archive and library are also open by appointment."
+  },
+  {
+    "id": 273,
+    "title": "El Museo del Barrio on a Sunday",
+    "category": "arts",
+    "season": "any",
+    "notes": "The only major museum dedicated to Puerto Rican and Latin American art on Museum Mile. Frequently overlooked, consistently excellent programming.",
+    "tip": "1230 5th Ave at 104th St, East Harlem. ~$9 suggested, free on Sundays. 6 to 103rd St. Check elmuseo.org for current exhibitions. The permanent collection of pre-Columbian objects is extraordinary."
+  },
+  {
+    "id": 274,
+    "title": "A cabaret night at Birdland Jazz Club",
+    "category": "shows",
+    "season": "any",
+    "notes": "Not just a jazz bar — Birdland books cabaret singers, big band nights, and Latin jazz regularly. A grown-up New York evening in an actual venue that takes music seriously.",
+    "tip": "315 W 44th St, Hell's Kitchen. ~$20–40 cover + 2-drink minimum. Reservations available. Two shows most nights, 8pm and 10pm. The Monday night big band is a city institution."
+  },
+  {
+    "id": 275,
+    "title": "A standup comedy show at The Bell House",
+    "category": "shows",
+    "season": "any",
+    "notes": "The Bell House in Gowanus books excellent standup lineups — national acts, NYC favorites, and late-night taping audiences. A proper venue for comedy.",
+    "tip": "149 7th St, Gowanus, Brooklyn. Tickets ~$15–35. thebellhouseny.com for the calendar. F/G to 4th Ave-9th St. The bar is generous and the room has great sight lines."
+  },
+  {
+    "id": 276,
+    "title": "A night at the Metropolitan Opera",
+    "category": "shows",
+    "season": "fall",
+    "notes": "Pick something neither of us knows. Bring binoculars for the upper ring. The house itself is the experience — the chandelier rising is genuinely theatrical.",
+    "tip": "Lincoln Center Plaza, UWS. Tickets range from $30 (upper ring) to $300+. metopera.org. Rush tickets available at the box office 2 hours before curtain. Season runs Sept–May."
+  },
+  {
+    "id": 277,
+    "title": "An improv show at UCB or Peoples Improv Theater",
+    "category": "shows",
+    "season": "any",
+    "notes": "A well-formed improv group in a dedicated space is one of the funniest, most alive things in the city. Pick a team with good reviews and a late Friday slot.",
+    "tip": "UCB reopened in Hell's Kitchen. The PIT is at 123 E 24th St. ~$5–15. TodayTix and the theaters' own sites list shows. Harold teams on Friday nights are the gold standard."
+  },
+  {
+    "id": 278,
+    "title": "New York Philharmonic at David Geffen Hall",
+    "category": "shows",
+    "season": "winter",
+    "notes": "The renovated David Geffen Hall at Lincoln Center now has genuinely excellent acoustics. Pick a program with something we recognize and something we don't.",
+    "tip": "10 Lincoln Center Plaza, UWS. Tickets ~$30–120. nyphil.org. Rush tickets sometimes available. The Friday afternoon series has great prices and an older, more knowledgeable audience."
+  },
+  {
+    "id": 279,
+    "title": "A drag show at C'mon Everybody, Brooklyn",
+    "category": "shows",
+    "season": "any",
+    "notes": "One of the best drag venues in Brooklyn — serious performers, a real stage, and a crowd that shows up for the art of it. A genuinely electric room.",
+    "tip": "325 Franklin Ave, Crown Heights. Tickets ~$10–20 online. Shows most Friday and Saturday nights. C to Franklin Ave. The bar program is excellent and the staff are warm."
+  },
+  {
+    "id": 280,
+    "title": "Sleep No More (if it runs again)",
+    "category": "shows",
+    "season": "any",
+    "notes": "The immersive theater piece by Punchdrunk that's run at the McKittrick Hotel for over a decade. Wander a five-floor dreamlike staging of Macbeth in a mask. Nothing else is quite like it.",
+    "tip": "530 W 27th St, Chelsea. ~$120–170. Check mckittrickhotel.com for the current run. Go alone or as a couple and deliberately split up — you see different things."
+  },
+  {
+    "id": 281,
+    "title": "A jazz concert at Village Vanguard",
+    "category": "shows",
+    "season": "any",
+    "notes": "The most important jazz club in the world, still in operation. The room is small, the sight lines are good, and the music is serious. A Monday night set is often the best of the week.",
+    "tip": "178 7th Ave S, West Village. ~$35 cover + 1-drink minimum. villagevanguard.com. Most sets at 8pm and 10pm. Arrive 30 min early for a good seat. The Monday night big band has been running since 1966."
+  },
+  {
+    "id": 282,
+    "title": "A show at (Le) Poisson Rouge",
+    "category": "shows",
+    "season": "any",
+    "notes": "LPR books everything — classical music, jazz, indie rock, spoken word. The programming is genuinely eclectic and the room has a real club feel with good acoustics.",
+    "tip": "158 Bleecker St, Greenwich Village. Tickets ~$15–40. lprnyc.com. Standing room most shows, seating upstairs. A to W 4th St. The bar takes music seriously too."
+  },
+  {
+    "id": 283,
+    "title": "A Bargemusic chamber concert",
+    "category": "shows",
+    "season": "any",
+    "notes": "Chamber music performed on a converted coffee barge moored under the Brooklyn Bridge. An impossibly romantic venue for serious classical music. One of New York's best-kept secrets.",
+    "tip": "Fulton Ferry Landing, DUMBO. ~$35–40. bargemusic.org. F to York St, or walk from Brooklyn Bridge Park. Thursday and Sunday concerts year-round. The barge rocks slightly in rough weather — somehow perfect."
+  },
+  {
+    "id": 284,
+    "title": "Poetry reading at the 92nd Street Y",
+    "category": "shows",
+    "season": "any",
+    "notes": "The 92Y books the best poets in the world — Nobel laureates, recent prize winners, and emerging voices. A reading there is a genuinely important literary event.",
+    "tip": "1395 Lexington Ave, UES. ~$25–40. 92y.org. 6 to 86th St. The Unterberg Poetry Center has been running since 1939. Check the calendar in September for the full-year program."
+  },
+  {
+    "id": 285,
+    "title": "An evening at Blue Note Jazz Club",
+    "category": "shows",
+    "season": "any",
+    "notes": "Blue Note books legends and serious working musicians. Not as historically significant as the Vanguard, but more accessible and equally good.",
+    "tip": "131 W 3rd St, Greenwich Village. ~$20–45 cover. bluenotejazz.com. Sets at 8pm and 10:30pm. Arrive early for table seats. The late-night sets (midnight on weekends) are sometimes the loosest and best."
+  },
+  {
+    "id": 286,
+    "title": "A revival musical at City Center Encores!",
+    "category": "shows",
+    "season": "winter",
+    "notes": "City Center's Encores! series does concert-form revivals of forgotten Broadway musicals, cast with major stars and the full orchestra. Tickets are reasonable, performances are extraordinary.",
+    "tip": "131 W 55th St, Midtown. Tickets ~$25–90. nycitycenter.org. The series runs January through April. N/R/W to 57th St. Concert staging means the focus is entirely on the score."
+  },
+  {
+    "id": 287,
+    "title": "A show at St. Ann's Warehouse",
+    "category": "shows",
+    "season": "any",
+    "notes": "The most adventurous theater producing in the city. International work, American premieres, and experimental performance that would struggle to find a home elsewhere.",
+    "tip": "45 Water St, DUMBO, Brooklyn. Tickets ~$50–90. stannswarehouse.org. A/C to High St, or F to York St. Check the calendar for anything by English-language international companies."
+  },
+  {
+    "id": 288,
+    "title": "A live taping of a late-night show",
+    "category": "shows",
+    "season": "any",
+    "notes": "The Late Show, Tonight Show, Seth Meyers, and others all offer free standby or lottery tickets. The energy of a live taping is nothing like watching at home.",
+    "tip": "CBS Late Show: 1697 Broadway, free standby. NBC Tonight Show: 30 Rock, free lottery. SNL: NBC lottery (apply in August). Standby lines open early morning. Bring ID."
+  },
+  {
+    "id": 289,
+    "title": "A night at Smoke Jazz & Supper Club",
+    "category": "shows",
+    "season": "any",
+    "notes": "Smoke is quieter and more intimate than the famous clubs, with consistently excellent booking and a real supper club atmosphere. A genuine Harlem jazz night.",
+    "tip": "2751 Broadway, Upper West Side. ~$25–40 cover. smokejazz.com. 1 to 103rd St. Sets at 7pm, 9pm, and 11pm. The kitchen is open until midnight. Reservations strongly recommended on weekends."
+  },
+  {
+    "id": 290,
+    "title": "A Shakespeare in the Park lottery",
+    "category": "shows",
+    "season": "summer",
+    "notes": "Free Shakespeare in Central Park's Delacorte Theater. The lottery is frustrating but worth attempting. The productions are Broadway-quality and the outdoor setting at dusk is extraordinary.",
+    "tip": "Delacorte Theater, Central Park, 81st St. Free, digital lottery via TodayTix app at noon on show day. Or wait in the in-person standby line starting at 12pm. Season runs June–August."
+  },
+  {
+    "id": 291,
+    "title": "Walk the entire length of the High Line",
+    "category": "explore",
+    "season": "spring",
+    "notes": "All 1.45 miles, start to finish, from Gansevoort to Hudson Yards. Stop at every viewpoint. Have a coffee at one of the food stalls. End with the oculus view of the Hudson at 34th St.",
+    "tip": "Enter at Gansevoort St (14th St side). Walk north. Free, always open. The Little Island is just off the south end at Pier 55 — add that too. Best on a warm morning before 10am."
+  },
+  {
+    "id": 292,
+    "title": "Explore a neighborhood with no plan at all",
+    "category": "explore",
+    "season": "any",
+    "notes": "Pick a subway stop we've never gotten off at. Walk until something looks interesting. The only rule is no phones for directions. Stay at least two hours.",
+    "tip": "Good candidates: Mott Haven (6 to 3rd Ave-138th), East Williamsburg (L to Morgan Ave), Jackson Heights (7 to 74th St-Broadway), Soundview (6 to Whitlock Ave). Take the train."
+  },
+  {
+    "id": 293,
+    "title": "The Greenwood Cemetery tour",
+    "category": "explore",
+    "season": "fall",
+    "notes": "One of the great 19th-century rural cemeteries in America, full of extraordinary Victorian monuments, rolling hills, and some of the best views in Brooklyn.",
+    "tip": "500 25th St, Gowanus. Free entry at all gates during daylight hours. Guided tours from ~$10 at green-wood.com. D/N/R to 25th St. The main gothic entrance gate is the most atmospheric way in."
+  },
+  {
+    "id": 294,
+    "title": "A walk through Jackson Heights, Queens",
+    "category": "explore",
+    "season": "any",
+    "notes": "The most ethnically diverse neighborhood in New York. South Asian groceries, Bangladeshi sweet shops, Colombian bakeries, Nepali restaurants, all within a few blocks.",
+    "tip": "7 to 74th St-Broadway, or E/F/M/R to Jackson Heights-Roosevelt Ave. Walk Roosevelt Ave and then the side streets north toward 37th Ave. Eat at Patel Brothers' snack counter and then get lassi."
+  },
+  {
+    "id": 295,
+    "title": "The Brooklyn Naval Yard exploration",
+    "category": "explore",
+    "season": "any",
+    "notes": "The BLDG 92 museum at the Naval Yard traces the history of this 300-acre industrial complex. Then wander the campus, which is now full of manufacturers, artists, and rooftop farms.",
+    "tip": "63 Flushing Ave, Navy Yard, Brooklyn. BLDG 92 museum is free. F to York St, or B57 bus. Some areas require tours. The rooftop farm at Brooklyn Grange is worth booking separately."
+  },
+  {
+    "id": 296,
+    "title": "A walk across the Manhattan Bridge",
+    "category": "explore",
+    "season": "spring",
+    "notes": "The Manhattan Bridge has a dedicated pedestrian path with one of the most dramatic views in the city: the Brooklyn Bridge to your right, lower Manhattan, and the whole harbor opening up.",
+    "tip": "Access from Canal St and Forsyth St in Manhattan, or Sands St and Jay St in DUMBO. ~1.2 miles. The view looking back toward Manhattan from the midpoint is the best frame in the city."
+  },
+  {
+    "id": 297,
+    "title": "Rockaway Beach and Riis Park in summer",
+    "category": "explore",
+    "season": "summer",
+    "notes": "An actual beach at the end of the A train. The boardwalk at Rockaway feels entirely different from the city. Riis Park next door is quieter and even more beautiful.",
+    "tip": "A to Rockaway Park-Beach 116th St, then the Q22 bus to Riis Park. Free. Rockaway Beach has food stalls and bathrooms. Riis Park is the old city bathhouse, now a National Park Service site."
+  },
+  {
+    "id": 298,
+    "title": "Staten Island Ferry and Fort Wadsworth walk",
+    "category": "explore",
+    "season": "any",
+    "notes": "The free ferry to Staten Island, then a bus to Fort Wadsworth — a Civil War-era fortification sitting directly under the Verrazzano-Narrows Bridge with extraordinary harbor views.",
+    "tip": "Take the free SI Ferry from Whitehall Terminal, then the S51 bus to Fort Wadsworth (National Park, free). The battery of casements has harbor views unlike anything else. Walk back to St. George for the ferry."
+  },
+  {
+    "id": 299,
+    "title": "A walk through Sunset Park, Brooklyn",
+    "category": "explore",
+    "season": "summer",
+    "notes": "The park itself has an unobstructed panoramic view of lower Manhattan that most New Yorkers have never seen. Then eat your way through the surrounding Chinese-Guatemalan-Latinx neighborhood.",
+    "tip": "R to 59th St or N to Bay Ridge Ave. The park overlook is at 41st–44th St. Industry City (36th St and 2nd Ave) is nearby for food. New York Mart is the best grocery store in Brooklyn."
+  },
+  {
+    "id": 300,
+    "title": "The Ridgewood and Bushwick border on foot",
+    "category": "explore",
+    "season": "any",
+    "notes": "The blocks where Ridgewood and Bushwick blur together have some of the best street art in the city alongside early 20th-century row houses. A genuine surprise every block.",
+    "tip": "M to Seneca Ave or Halsey St. Walk DeKalb Ave and Wyckoff Ave. No map needed, just wander. The Ridgewood Savings Bank building (at Seneca Ave) is one of the great overlooked buildings in the city."
+  },
+  {
+    "id": 301,
+    "title": "The Newtown Creek Nature Walk, Greenpoint",
+    "category": "explore",
+    "season": "any",
+    "notes": "A wetland nature walk along one of the most Superfund-contaminated waterways in America. The juxtaposition of wildflowers, industrial pipes, and the Manhattan skyline is genuinely strange and beautiful.",
+    "tip": "Between Provost St and Kingsland Ave, Greenpoint. Free, always open. G to Greenpoint Ave. The wastewater treatment plant's stainless steel egg digesters are visible from the walk. Unique and uncanny."
+  },
+  {
+    "id": 302,
+    "title": "The Rockaways boardwalk in fall",
+    "category": "explore",
+    "season": "fall",
+    "notes": "The same boardwalk as summer but empty. The light is different in October. The ocean is still warm enough to wade. Completely different from the summer version.",
+    "tip": "A to Far Rockaway or Rockaway Park-Beach 116th St. The boardwalk runs from Beach 9th St to Beach 149th St. No crowds after Labor Day. The fish tacos at Rippers are still open through October."
+  },
+  {
+    "id": 303,
+    "title": "A walk from DUMBO through Brooklyn Heights",
+    "category": "explore",
+    "season": "any",
+    "notes": "From the cobblestones under the Manhattan Bridge, through the Brooklyn Bridge Park waterfront, and up into the quiet brownstone streets of Brooklyn Heights. One of the best urban walks anywhere.",
+    "tip": "Start at Water St and Washington St in DUMBO. Walk south through the park to Squibb Park. Climb into Brooklyn Heights. The Promenade at the end gives you the full Manhattan skyline."
+  },
+  {
+    "id": 304,
+    "title": "Exploring Governors Island in the warm months",
+    "category": "explore",
+    "season": "summer",
+    "notes": "A car-free island in the harbor with gardens, hills, food vendors, and extraordinary Manhattan-facing views. Completely removed from the city while still being ten minutes away.",
+    "tip": "Ferry from the Whitehall/South Ferry Terminal or Brooklyn Bridge Park, ~$4 RT. Open May–October. Rent bikes on the island. The Hills section at the south end has the best views. Go on a weekday."
+  },
+  {
+    "id": 305,
+    "title": "An afternoon in Flushing Meadows-Corona Park",
+    "category": "explore",
+    "season": "summer",
+    "notes": "The second-largest park in New York, home to the Unisphere, the Queens Museum, Citi Field, and the USTA tennis center. An afternoon that keeps revealing new things.",
+    "tip": "7 to Mets-Willets Point. The Queens Museum has one of the best small art museums in the city (~$8). The Unisphere is free. The Terrace on the Park restaurant has a rooftop view worth the detour."
+  },
+  {
+    "id": 306,
+    "title": "Walk the full length of Atlantic Avenue",
+    "category": "explore",
+    "season": "any",
+    "notes": "Atlantic Avenue from Cobble Hill through Boerum Hill to downtown Brooklyn. Middle Eastern grocery stores, antique shops, restaurants from a dozen cuisines, and one of the best-preserved commercial strips in Brooklyn.",
+    "tip": "B/Q to Atlantic Ave-Barclays or 2/3/4/5 to Borough Hall. Walk west on Atlantic toward the BQE. Sahadi's (187 Atlantic) for provisions. The antique district around Court St is the best stretch."
+  },
+  {
+    "id": 307,
+    "title": "Coney Island in October",
+    "category": "explore",
+    "season": "fall",
+    "notes": "Coney Island after the tourists leave. The Cyclone and Wonder Wheel still run through October. Nathan's is open. The boardwalk is quiet and the ocean is right there.",
+    "tip": "D/F/N/Q to Coney Island-Stillwell Ave. Rides from ~$6 each, or an all-day pass. Nathan's Famous is still the reference hot dog. Walk east toward Brighton Beach after for the Russian food stores."
+  },
+  {
+    "id": 308,
+    "title": "The Noguchi Museum in Long Island City",
+    "category": "explore",
+    "season": "any",
+    "notes": "Isamu Noguchi's own museum, built in his studio. Stone, light, and garden spaces that feel entirely unlike a conventional museum. One of the most peaceful spaces in New York.",
+    "tip": "9-01 33rd Rd, Long Island City. ~$10. N/W to Broadway (Astoria), then walk or take the Q104 bus. Closed Tue/Wed. The sculpture garden is the heart of the experience. Plan 1.5–2 hrs."
+  },
+  {
+    "id": 309,
+    "title": "A walk through the Meatpacking District at dawn",
+    "category": "explore",
+    "season": "any",
+    "notes": "The only time the Meatpacking District makes sense. Before 7am, the cobblestones are quiet, the old loading docks are visible, and the neighborhood still carries a ghost of what it was.",
+    "tip": "A/C/E/L to 14th St. Walk the cobblestone blocks between 9th Ave and Washington St. The remnants of the actual meatpacking industry are still there if you look for them. Have coffee at La Colombe after."
+  },
+  {
+    "id": 310,
+    "title": "Tottenville and Conference House Park, Staten Island",
+    "category": "explore",
+    "season": "fall",
+    "notes": "The southernmost point of New York City — and you can take public transit all the way there. Conference House Park has trails to the actual southern tip, and the old Conference House is a colonial museum.",
+    "tip": "SI Ferry, then SIR train to Tottenville (~40 min from St. George). The park and trails are free. The Conference House Museum is ~$3. Fall foliage makes October the best time. Bring a picnic."
+  },
+  {
+    "id": 311,
+    "title": "A long swim at the public outdoor pool",
+    "category": "wellness",
+    "season": "summer",
+    "notes": "New York's public outdoor pools open in late June and are free. The McCarren Park Pool in Williamsburg was restored to its original 1930s grandeur. An afternoon of actual swimming.",
+    "tip": "McCarren Park: Bedford Ave & N 12th St, Williamsburg. Free, open late June through Labor Day. L to Bedford Ave. Bring a lock for the locker rooms. The crowd is a genuine cross-section of the city."
+  },
+  {
+    "id": 312,
+    "title": "A sound bath at a dedicated wellness studio",
+    "category": "wellness",
+    "season": "any",
+    "notes": "Singing bowls and gongs played around you as you lie still. Nothing like ambient music at home. The sound is physical and the 60 minutes passes differently than any other hour.",
+    "tip": "MNDFL, Woom Center (Multiple Manhattsan locations), and The Well all offer sound baths. ~$30–50. Book in advance. Wear layers and bring your own mat if the studio allows it."
+  },
+  {
+    "id": 313,
+    "title": "An early morning run in Prospect Park",
+    "category": "wellness",
+    "season": "spring",
+    "notes": "The inner loop is 3.4 miles. Before 7am in spring, it's mostly regulars, dog-walkers, and birders. The long meadow in early light is one of the best things in Brooklyn.",
+    "tip": "Enter at Grand Army Plaza (2/3) or the 9th St entrance (F/G). Free, always open. The loop runs counterclockwise by convention. Prospect Park runs every Sunday morning, 9am at Grand Army Plaza."
+  },
+  {
+    "id": 314,
+    "title": "Infrared sauna session for two",
+    "category": "wellness",
+    "season": "winter",
+    "notes": "An infrared sauna is gentler on the lungs than a traditional Finnish sauna but deeply warming. A private cabin for two hours is a genuinely different kind of afternoon.",
+    "tip": "HigherDOSE has locations in Flatiron and Williamsburg. ~$45–65/person for 45–60 min. Book online. They also do red light therapy add-ons. A good pre-date or recovery activity."
+  },
+  {
+    "id": 315,
+    "title": "A slow morning yoga class in the neighborhood",
+    "category": "wellness",
+    "season": "any",
+    "notes": "A Sunday morning yoga class somewhere within walking distance. Not a destination class — just a neighborhood studio, a slow start, the rest of the day afterward.",
+    "tip": "Most neighborhood studios have a Sunday 9am or 10am class. ~$20–30 drop-in or use a ClassPass credit. Modo Yoga, Yoga Works, and Sacred Brooklyn are all accessible. Bring water."
+  },
+  {
+    "id": 316,
+    "title": "An afternoon at the Russian baths, 10th Street",
+    "category": "wellness",
+    "season": "winter",
+    "notes": "The 10th Street Russian and Turkish Baths have been open since 1892. Schvitz, cold plunge, Russian oak leaf beating, a bottle of kombucha. An experience unchanged in 130 years.",
+    "tip": "268 E 10th St, East Village. ~$40–50 for a single admission. 6 to Astor Pl. Co-ed days are Monday, Tuesday, Thursday, Friday. Wednesday is women-only, Sunday is men-only. The cold plunge is mandatory."
+  },
+  {
+    "id": 317,
+    "title": "A Nordic spa afternoon at Spa 88",
+    "category": "wellness",
+    "season": "any",
+    "notes": "A series of hot and cold plunges in a thermotherapy circuit, inspired by Nordic bathing traditions. No pressure, no agenda — just move between temperatures at your own pace.",
+    "tip": "88 Fulton St, Financial District. ~$50–75 for thermotherapy access. 4/5 to Fulton St. Bring a swimsuit. The circuit includes steam rooms, cold plunge, and warm pools. No talking required."
+  },
+  {
+    "id": 318,
+    "title": "A float tank session in Brooklyn",
+    "category": "wellness",
+    "season": "any",
+    "notes": "One hour floating in a sensory deprivation tank. A profoundly strange and meditative experience that's impossible to explain until you've done it. The hour feels like ten minutes.",
+    "tip": "Lift / Next Therapy / Float Lab — multiple Brooklyn and Manhattan locations. ~$70–90/session. Book online. Go into it with no agenda. The first 20 minutes are always awkward; the second 40 are remarkable."
+  },
+  {
+    "id": 319,
+    "title": "Walk the full Central Park loop",
+    "category": "wellness",
+    "season": "spring",
+    "notes": "The full outer loop of Central Park is 6.1 miles. Start at any point and go all the way around. You'll pass things you've never noticed even after years in the city.",
+    "tip": "Free, always open. The loop is paved and clearly marked. Add the Reservoir loop (1.6 miles) for an extra layer. Best on a weekday morning. The North Woods section feels genuinely wild."
+  },
+  {
+    "id": 320,
+    "title": "Horseback riding at Kensington Stables, Prospect Park",
+    "category": "wellness",
+    "season": "spring",
+    "notes": "Rent a horse for an hour and ride through Prospect Park. One of the stranger, more wonderful things you can do on a weekend morning in Brooklyn.",
+    "tip": "51 Caton Pl, Kensington, Brooklyn. ~$70–80/hour/person. kensingtonstables.com. F to Fort Hamilton Pkwy. Book in advance. Rides go through the wooded paths of Prospect Park. No experience required."
+  },
+  {
+    "id": 321,
+    "title": "A guided forest bathing walk in the Ramble",
+    "category": "wellness",
+    "season": "fall",
+    "notes": "The Ramble in Central Park is 36 acres of deliberately wild woodland in the middle of the city. In fall, the birding and the foliage both peak. A slow guided walk changes the experience entirely.",
+    "tip": "Enter the Ramble from the West 77th St or East 79th St gates. The NYC Audubon Society and Central Park Conservancy both lead walks. ~$10–20. Free to wander independently. Fall migration: September–October."
+  },
+  {
+    "id": 322,
+    "title": "A slow Sunday at the Korean spa, Juvenex",
+    "category": "wellness",
+    "season": "any",
+    "notes": "A women-only Korean spa in Midtown with multiple soaking pools, steam rooms, and body scrub services. A full afternoon that costs less than most spa days.",
+    "tip": "25 W 32nd St, 5th floor, Midtown (women only). ~$35–45 admission. B/D/F/M/N/Q/R to 34th St-Herald Square. The scrub treatments are additional (~$50). Open 24 hours — the morning hours before 10am are quietest."
+  },
+  {
+    "id": 323,
+    "title": "Swimming laps at the Asphalt Green pool",
+    "category": "wellness",
+    "season": "any",
+    "notes": "An Olympic-size indoor pool on the Upper East Side. Actual lane swimming, not a fitness spa. A rare chance to do real open-water laps in Manhattan.",
+    "tip": "555 E 90th St, UES. Day passes ~$25–35 for non-members. 4/5/6 to 86th St. Lap swim hours vary by day — check asphaltgreen.org before going. The morning lap swim session is serious and excellent."
+  },
+  {
+    "id": 324,
+    "title": "A long bike ride on the Hudson River Greenway",
+    "category": "wellness",
+    "season": "summer",
+    "notes": "The Hudson River Greenway runs 13 miles up the west side of Manhattan from Battery Park to the George Washington Bridge. Rent a Citi Bike or bring your own and ride the whole thing.",
+    "tip": "Citi Bike stations throughout. ~$4 for a single trip. The path is entirely car-free. The Soldiers and Sailors Monument near 89th St and the Little Red Lighthouse under the GWB are the high points."
+  },
+  {
+    "id": 325,
+    "title": "A day of hot yoga, then a long dinner",
+    "category": "wellness",
+    "season": "winter",
+    "notes": "Ninety minutes of hot yoga, then a slow dinner somewhere nearby. The physical contrast — drenched, then sitting with food and wine — is one of the better ways to spend a winter Saturday.",
+    "tip": "CorePower Yoga and Bikram Studios have multiple NYC locations. ~$20–30/class or ClassPass. Book a dinner nearby for after. The contrast between the heat and the meal makes both better."
+  },
+  {
+    "id": 326,
+    "title": "An aerial yoga or trapeze class",
+    "category": "wellness",
+    "season": "any",
+    "notes": "The Trapeze School of New York runs beginner lessons on the roof of a pier on the Hudson River. Aerial yoga studios in Brooklyn offer hammock-based inversions. Both are genuinely fun.",
+    "tip": "Trapeze School: Pier 40, Hudson River Park (~$65 for a lesson). Aerial yoga: multiple Brooklyn studios on ClassPass or Airbnb Experiences. ~$25–45. Book in advance; classes fill quickly."
+  },
+  {
+    "id": 327,
+    "title": "A sunset paddle on the Hudson or Gowanus Canal",
+    "category": "wellness",
+    "season": "summer",
+    "notes": "Kayak or stand-up paddleboard at sunset on the Hudson, or take a guided paddle on the Gowanus Canal (genuinely weird, completely worth it). The city from water level is unrecognizable.",
+    "tip": "Manhattan Kayak at Pier 84 (free community kayaking Tue–Sun in summer). Gowanus Dredgers Canoe Club offers free canoe launches from 2nd St. Both are free — no experience needed for flatwater paddling."
+  },
+  {
+    "id": 328,
+    "title": "A long weekend in the Catskills",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "Book a cabin or small inn in Woodstock, Phoenicia, or Catskill for two nights. Hike Slide Mountain or the Escarpment Trail. Eat at a farm-to-table spot. Drive home Sunday evening.",
+    "tip": "Zipcar or rental, ~2–2.5 hrs to Phoenicia. Cold Hollow cabins or The Graham (Tivoli) for stays. Black Bear Restaurant in Phoenicia for dinner. Peak foliage is mid-October."
+  },
+  {
+    "id": 329,
+    "title": "Greenport and Orient Point, Long Island",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "Greenport is a beautifully preserved whaling village at the end of the North Fork. Ferry to Shelter Island, oysters at a waterfront restaurant, then the beach.",
+    "tip": "LIRR to Greenport (~2.5 hrs, ~$25 RT). The South Street ferry runs to Shelter Island. Claudio's clam bar has been open since 1870. The Shelter Island ferry from Greenport is ~$3/person."
+  },
+  {
+    "id": 330,
+    "title": "Storm King Art Center",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "Vast outdoor sculpture spread over 500 acres of Hudson Valley landscape. Mark di Suvero's massive steel works look different every hour as the light changes. An all-day experience.",
+    "tip": "Metro-North to Beacon (~1.5 hrs) + shuttle, or Zipcar/rental directly (~1 hr). ~$20 admission. stormking.org. Open April–November. Bring comfortable shoes and a picnic. Budget 4–5 hours."
+  },
+  {
+    "id": 331,
+    "title": "Cold Spring and the Hudson Valley",
+    "category": "daytrip",
+    "season": "spring",
+    "notes": "A small Victorian river town an hour north of the city, with hiking on Hudson Highlands trails and views straight down the river. The town itself has good food and antique shops.",
+    "tip": "Metro-North Hudson Line to Cold Spring (~1.25 hrs, ~$20 RT). Bull Hill via the Cornish Estate is the best hike. The Hudson Hil's Cookhouse does good lunch. The train back to the city at sunset is the whole point."
+  },
+  {
+    "id": 332,
+    "title": "The Delaware & Hudson Canal Heritage Corridor",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "The D&H Canal towpath in the Hudson Valley offers flat, shaded walking along a historic 19th-century waterway — completely quiet, deeply rural, and still very close to New York.",
+    "tip": "Zipcar to High Falls, NY (~2 hrs). The towpath runs for miles north and south of High Falls. Stone arch bridges still cross the canal. The DePuy Canal House in High Falls for lunch."
+  },
+  {
+    "id": 333,
+    "title": "A day in Asbury Park, New Jersey",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "Asbury Park has been genuinely revived. The boardwalk, the beach, the Asbury Lanes bowling alley, and some excellent restaurants. A full day that doesn't feel like a compromise.",
+    "tip": "NJ Transit from Penn Station to Asbury Park (~1.5 hrs, ~$20 RT). The Wonder Bar, Porta pizza, and the Asbury Hotel rooftop bar are all essential. The beach itself is free and beautiful."
+  },
+  {
+    "id": 334,
+    "title": "The Sleepy Hollow area in fall",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "Sleepy Hollow Cemetery, Kykuit (the Rockefeller estate), and Tarrytown — all within an easy drive or Metro-North trip. The Halloween-season decorations are legitimately excellent.",
+    "tip": "Metro-North Hudson Line to Tarrytown (~40 min, ~$15 RT). Walk or bus to Sleepy Hollow Cemetery. Kykuit tours ($23–$35) run April–November. October weekends in Sleepy Hollow are atmospheric and crowded."
+  },
+  {
+    "id": 335,
+    "title": "A farm visit in the Hudson Valley",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "Apple picking at Fishkill Farms or Samascott Orchards, with a cider doughnut and a jug of cider pressed on the premises. A reliable fall ritual that never disappoints.",
+    "tip": "Fishkill Farms: 9 Fishkill Farm Rd, Fishkill. ~2 hrs by car. Pick-your-own apples ~$20–30/bag. The orchard cider is the reason. Go on a weekday to avoid the fall weekend crowds."
+  },
+  {
+    "id": 336,
+    "title": "A day at Fire Island",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "A barrier island with no cars, no roads, just wooden boardwalks and ocean beach. The Fire Island Pines and Cherry Grove communities are genuinely beautiful and different from anything else.",
+    "tip": "LIRR to Bay Shore, then the Fire Island Ferry (~$12 RT) to the Pines or Cherry Grove. The ferry runs May–October. No cars on the island. Bring everything you need; limited stores."
+  },
+  {
+    "id": 337,
+    "title": "Mohonk Mountain House and the Shawangunk Ridge",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "The Shawangunks are one of the best rock climbing and hiking areas in the Northeast. The Mohonk Preserve offers miles of carriage roads and cliff-side trails with extraordinary views.",
+    "tip": "Zipcar, ~2 hrs. Mohonk Preserve day pass ~$20. mohonkpreserve.org. The Trapps carriage road is the classic route. The Sky Top Tower on the Mohonk Mountain House property is open to non-guests for a fee."
+  },
+  {
+    "id": 338,
+    "title": "Montauk for a day",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "The far end of Long Island — actual dunes, a real lighthouse, and the best fried fish shack in the Hamptons. Go in June before the crowds arrive.",
+    "tip": "LIRR to Montauk (~3.5 hrs, ~$30+ RT). Gurney's for drinks. Lunch at Duryea's lobster shack. The Montauk Lighthouse park is the eastern tip of New York. Go early June or after Labor Day."
+  },
+  {
+    "id": 339,
+    "title": "Princeton for an afternoon",
+    "category": "daytrip",
+    "season": "any",
+    "notes": "NJ Transit brings you to the most beautiful American university campus within reach of the city. The art museum, the architecture, and Nassau Street's bookshops make a perfect afternoon.",
+    "tip": "NJ Transit from Penn Station to Princeton Junction, then the Dinky to Princeton (~1.25 hrs, ~$20 RT). The Princeton University Art Museum is free. Labyrinth Books on Nassau St is essential."
+  },
+  {
+    "id": 340,
+    "title": "West Point, Hudson Valley",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "The military academy sits on one of the most strategically dramatic bends of the Hudson River. The grounds, the museum, and the river view at Trophy Point are genuinely impressive.",
+    "tip": "Metro-North to Garrison, then taxi (~$15), or guided tour. The West Point Museum is free. Trophy Point and the Constitution Island ferry are the best public access points. Fall football weekends are crowded."
+  },
+  {
+    "id": 341,
+    "title": "A day in New Haven for pizza",
+    "category": "daytrip",
+    "season": "any",
+    "notes": "The pilgrimage to Pepe's, Sally's, and Modern Apizza. Three of the most important pizza places in America, all within walking distance of each other in New Haven. A genuine food trip.",
+    "tip": "Metro-North New Haven Line from Grand Central (~2 hrs, ~$25 RT). Frank Pepe Pizzeria is at 157 Wooster St. Sally's is at 237 Wooster. Go on a weekday, waits are shorter. Lunch service starts at 11:30am."
+  },
+  {
+    "id": 342,
+    "title": "A day trip to Pennsylvania's Brandywine Valley",
+    "category": "daytrip",
+    "season": "fall",
+    "notes": "The Brandywine River Museum of Art (Andrew Wyeth's paintings in his actual landscape) and Longwood Gardens. A legitimately beautiful corner of the mid-Atlantic countryside.",
+    "tip": "Zipcar, ~2 hrs to Chadds Ford, PA. Brandywine River Museum ~$18 (brandy wine.org). Longwood Gardens ~$25 (longwoodgardens.org). Go in October for the fall display. The Wyeth country is worth it alone."
+  },
+  {
+    "id": 343,
+    "title": "A train up to Hudson, NY",
+    "category": "daytrip",
+    "season": "any",
+    "notes": "The small city of Hudson, NY has one of the best antique strips in the Northeast, excellent restaurants, and a walkable downtown that feels like another era. A perfect half-day from the city.",
+    "tip": "Amtrak from Penn Station to Hudson (~2 hrs, ~$40 RT). Warren Street is the main strip. Hudson's Antiques Row runs along Warren and Columbia St. Swoon Kitchen Bar for dinner before the train back."
+  },
+  {
+    "id": 344,
+    "title": "Block Island by ferry",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "A small car-free island off the coast of Rhode Island with Victorian hotels, clay bluffs, and empty beaches. One of the most beautiful day trips from New York — if you don't mind a full travel day.",
+    "tip": "Take Amtrak to New London, CT (~2.5 hrs), then the Block Island Express ferry (~1.5 hrs). Bicycle rentals on the island. The Southeast Light and the North Light are both worth the ride. Go on a weekday."
+  },
+  {
+    "id": 345,
+    "title": "The Panorama of the City of New York at QMA",
+    "category": "free",
+    "season": "any",
+    "notes": "A 9,335-square-foot scale model of every building in New York City, built in 1964. Updated periodically. One of the most extraordinary objects in any museum anywhere.",
+    "tip": "Queens Museum, Flushing Meadows-Corona Park. ~$8 suggested. 7 to Mets-Willets Point. The Panorama is in a darkened room on the lower level. The simulated day-night light cycle runs every hour."
+  },
+  {
+    "id": 346,
+    "title": "Free concerts at Lincoln Center Out of Doors",
+    "category": "free",
+    "season": "summer",
+    "notes": "Lincoln Center's outdoor summer festival brings world-class classical, jazz, and global music to Damrosch Park. Free, every summer, spanning several weeks.",
+    "tip": "Damrosch Park, Lincoln Center Plaza. Free, no tickets required. July–August. lcoutofdoors.org for the schedule. Bring a blanket. The lawn fills fast for the most popular acts — arrive early."
+  },
+  {
+    "id": 347,
+    "title": "SummerStage in Central Park",
+    "category": "free",
+    "season": "summer",
+    "notes": "The city's largest free outdoor music festival, running all summer long in Central Park. Jazz, global music, hip-hop, spoken word, dance — dozens of free performances across two months.",
+    "tip": "Rumsey Playfield, mid-park at 72nd St. Most shows free, some ticketed benefits. cityparksfoundation.org/summerstage for the schedule. Gates open 30 min before showtime. Blankets welcome."
+  },
+  {
+    "id": 348,
+    "title": "The New York Public Library reading rooms",
+    "category": "free",
+    "season": "any",
+    "notes": "The Rose Main Reading Room on the third floor of the 42nd Street library is one of the great interior spaces in the world. Spend an afternoon doing nothing in particular in a room that makes it feel significant.",
+    "tip": "5th Ave and 42nd St, Midtown. Free, open to the public. 7/B/D/F/M to 42nd St-Bryant Park. The map room, the print collection, and the exhibition gallery on the ground floor are all also free and excellent."
+  },
+  {
+    "id": 349,
+    "title": "Bryant Park in the summer — outdoor films",
+    "category": "free",
+    "season": "summer",
+    "notes": "Every Monday evening in summer, Bryant Park screens classic films on the lawn for free. Arrive early to stake out a spot. The city skyline serves as the backdrop.",
+    "tip": "42nd St between 5th and 6th Ave. Films start at dusk, ~8pm. bryantpark.org for the schedule. Bring a blanket and a bottle. People arrive at 5pm to claim space. The films skew classic Hollywood."
+  },
+  {
+    "id": 350,
+    "title": "MoMA free Fridays (suggested donation)",
+    "category": "free",
+    "season": "any",
+    "notes": "MoMA's suggested donation model means you can visit for whatever you choose to pay on any day. The collection alone — Monet, Matisse, Warhol, Picasso, Judd — justifies a regular visit.",
+    "tip": "11 W 53rd St, Midtown. Suggested $25 admission. E/M to 5th Ave-53rd St. The free floors are accessible to anyone. The second-floor contemporary gallery and the sculpture garden are always free."
+  },
+  {
+    "id": 351,
+    "title": "The Socrates Sculpture Park open installation",
+    "category": "free",
+    "season": "any",
+    "notes": "Large-scale outdoor sculpture in a park on the East River in Long Island City. Always free, always changing, and the Manhattan skyline from this angle is extraordinary.",
+    "tip": "32-01 Vernon Blvd, Long Island City. Free, always open during daylight. N/W to Broadway (Astoria). The main installation changes seasonally. Bring a coffee and walk the perimeter. Views of Midtown from Queens."
+  },
+  {
+    "id": 352,
+    "title": "Free gallery night on the UES museum mile",
+    "category": "free",
+    "season": "summer",
+    "notes": "One Tuesday night in June, Museum Mile (5th Avenue from 82nd to 105th St) opens all nine museums for free. A street festival replaces the traffic. One of the best nights in the New York calendar.",
+    "tip": "Museum Mile Festival runs the second Tuesday of June, 6–9pm. Free entry to the Met, Jewish Museum, Cooper Hewitt, Neue Galerie, and more. The street between 82nd and 105th is closed to cars. Arrive early."
+  },
+  {
+    "id": 353,
+    "title": "Wave Hill in the Bronx",
+    "category": "free",
+    "season": "spring",
+    "notes": "A 28-acre private garden and public cultural center in Riverdale, the Bronx, with views across the Hudson to the Palisades. Free on certain days and always beautiful.",
+    "tip": "Henry Hudson Pkwy at W 249th St, Riverdale. Free on Saturdays until noon and all day Tuesday. wavehill.org. 1 to 231st St + BX7 bus. The wild garden and the Pergola overlook are the high points."
+  },
+  {
+    "id": 354,
+    "title": "The African Burial Ground National Monument",
+    "category": "free",
+    "season": "any",
+    "notes": "A small but deeply important national monument in Lower Manhattan marking the largest known African burial ground in North America, rediscovered during construction in 1991.",
+    "tip": "290 Broadway, Lower Manhattan. Free. 4/5/6/A/C/J/Z to Fulton St. The visitor center is inside the federal building lobby (check hours). The outdoor monument is always accessible. Plan to stay longer than you expect."
+  },
+  {
+    "id": 355,
+    "title": "St. Patrick's Cathedral interior, Midtown",
+    "category": "free",
+    "season": "any",
+    "notes": "The Gothic Revival interior of St. Patrick's is one of the grandest rooms in New York, and it's always free to enter. The contrast with Fifth Avenue outside is dramatic.",
+    "tip": "5th Ave between 50th and 51st St, Midtown. Free, open daily 6:30am–8:45pm. B/D/F/M to 47-50th St-Rockefeller Center. The Rose Window and the Lady Chapel in the rear are both worth stopping for."
+  },
+  {
+    "id": 356,
+    "title": "The Harlem waterfront park and Swindler Cove",
+    "category": "free",
+    "season": "summer",
+    "notes": "A quietly beautiful park and small waterway on the Harlem River in Washington Heights — almost entirely unknown, genuinely peaceful, and a completely different view of the city.",
+    "tip": "Peter Jay Sharp Boathouse, 50 Sherman Creek Lane, Inwood. Free. 1 to Dyckman St. Swindler Cove Park has a kayak launch (free in summer), a small garden, and unobstructed views across the Harlem River."
+  },
+  {
+    "id": 357,
+    "title": "The High Bridge, the oldest standing bridge in NYC",
+    "category": "free",
+    "season": "any",
+    "notes": "The High Bridge, completed in 1848, is the oldest standing bridge connecting Manhattan to the mainland. It was restored in 2015 and now has a pedestrian walkway with remarkable views.",
+    "tip": "W 174th St and Amsterdam Ave, Washington Heights. Free. 1 to 181st St. Walk across to the Bronx side and back. The view north toward Yankee Stadium and south toward Midtown is excellent. Bring a camera."
+  },
+  {
+    "id": 358,
+    "title": "The Metropolitan Oval athletic grounds, Maspeth",
+    "category": "free",
+    "season": "summer",
+    "notes": "An extremely unusual private park in Queens — a 100-year-old sports and social club with immaculate grass fields, open to members but accessible to the public in certain circumstances. Worth investigating.",
+    "tip": "Free public parks are nearby: Flushing Meadows-Corona Park is the better choice for most outdoor activity in Queens. The Metropolitan Oval is worth knowing for the spectacle of an intact 1920s sports ground."
+  },
+  {
+    "id": 359,
+    "title": "Inwood Hill Park, the last old-growth forest in Manhattan",
+    "category": "free",
+    "season": "fall",
+    "notes": "The northernmost park in Manhattan contains the last remaining old-growth forest on the island — actual 200-year-old trees, a salt marsh, and the cave where Peter Minuit reportedly purchased Manhattan.",
+    "tip": "Enter at Payson Ave and Isham St, Inwood. A to Inwood-207th St. Free, always open. The ancient tulip trees in the northwestern section are the main draw. Fall foliage here is genuinely impressive."
+  },
+  {
+    "id": 360,
+    "title": "First Saturday at the Brooklyn Museum",
+    "category": "free",
+    "season": "any",
+    "notes": "On the first Saturday of every month, the Brooklyn Museum is free from 5–11pm, with music, performances, art-making, and a young, energetic crowd. One of the best regular events in the city.",
+    "tip": "200 Eastern Pkwy, Crown Heights. Free 5–11pm on first Saturdays. 2/3 to Eastern Pkwy-Brooklyn Museum. The programming includes live DJ sets in the lobby, gallery talks, and the full collection. Arrive after 7pm."
+  },
+  {
+    "id": 361,
+    "title": "The Gowanus Lounge neighborhood walk",
+    "category": "free",
+    "season": "any",
+    "notes": "The Gowanus Canal neighborhood is mid-transformation — Superfund cleanup, new parks, surviving industrial buildings, and a genuine community of studios and bars. A walk along the canal is always changing.",
+    "tip": "F/G to 4th Ave-9th St or Smith-9th St. Walk along 2nd Avenue between 2nd and 9th Streets. The canal is literally toxic but the walking path alongside it is safe and strange. Lavender Lake bar is the post-walk stop."
+  },
+  {
+    "id": 362,
+    "title": "Free yoga in the park (summer only)",
+    "category": "free",
+    "season": "summer",
+    "notes": "Both Central Park and Brooklyn Bridge Park run free yoga classes on summer mornings. Hundreds of people on the lawn, the city as the backdrop. Bring your own mat.",
+    "tip": "Central Park: SummerStage or the Naumburg Bandshell lawn. Brooklyn Bridge Park: Pier 2 or Pier 6. Classes run July–August, usually 9–10am on weekdays. cityparksfoundation.org for schedules."
+  },
+  {
+    "id": 363,
+    "title": "A walk through the Grand Central Terminal food hall",
+    "category": "free",
+    "season": "any",
+    "notes": "The Grand Central Dining Concourse is one of the great American food halls, deep underground in the most beautiful train station in the country. Walk the whole length, then eat whatever.",
+    "tip": "89 E 42nd St, Midtown. Free to wander, open daily. 4/5/6/7/S to Grand Central-42nd St. The Campbell Apartment cocktail bar is upstairs in what was a Gilded Age office. The Oyster Bar downstairs has been open since 1913."
+  },
+  {
+    "id": 364,
+    "title": "A night walk through the Financial District",
+    "category": "free",
+    "season": "any",
+    "notes": "Lower Manhattan after 9pm is quietly surreal — empty streets, lit-up towers, the National September 11 Memorial pools, and the whole harbor visible from the Battery. A genuinely different version of the city.",
+    "tip": "4/5 to Wall St or 1 to Rector St. Walk from the Memorial through the old streets (Stone St, Exchange Pl) and down to Battery Park. Stone St has several good old bars. The Charging Bull is best without crowds."
+  },
+  {
+    "id": 365,
+    "title": "A knife skills class at a culinary school",
+    "category": "classes",
+    "season": "any",
+    "notes": "A two-hour class on the fundamentals of knife technique. It's one of those things that immediately makes cooking at home better, and the class is usually more fun than you expect.",
+    "tip": "The Institute of Culinary Education (225 Liberty St) and the French Culinary Institute both run knife skills workshops. ~$75–120. Book online. You leave with better habits and usually a small recipe packet."
+  },
+  {
+    "id": 366,
+    "title": "A pottery class series in Gowanus or Greenpoint",
+    "category": "classes",
+    "season": "any",
+    "notes": "A four-session beginner wheel-throwing class. The first session you produce lumps. By the fourth, you make something recognizable. One of the better activities to do as a pair.",
+    "tip": "Choplet (396 Van Brunt, Red Hook), Mud, Sweat & Tears (654 10th Ave), or the Brooklyn Pottery Hub offer beginner series. ~$200–280 for 4–6 sessions. Book several weeks ahead. Wear old clothes."
+  },
+  {
+    "id": 367,
+    "title": "A sushi-making class with a real sushi chef",
+    "category": "classes",
+    "season": "any",
+    "notes": "Learn to make sushi rice, break down fish, and roll maki from an actual trained sushi chef. A genuinely technical skill that's surprisingly accessible in a single workshop.",
+    "tip": "Multiple options on Airbnb Experiences from Japanese chefs in Manhattan and Brooklyn. ~$80–120/person. Bring an apron. The fish prep section is usually the most instructive. You eat what you make."
+  },
+  {
+    "id": 368,
+    "title": "A screenprinting workshop at the Gowanus Print Lab",
+    "category": "classes",
+    "season": "any",
+    "notes": "A two-hour intro to screenprinting. You design, expose, and print your own image on fabric or paper. A craft with a real history in New York protest and art culture.",
+    "tip": "Gowanus Print Lab and other Brooklyn workshops offer intro sessions. Check Eventbrite and Airbnb Experiences. ~$55–85. Materials and a shirt/tote bag usually included. No experience needed."
+  },
+  {
+    "id": 369,
+    "title": "A cyanotype workshop at a Brooklyn arts space",
+    "category": "classes",
+    "season": "any",
+    "notes": "A historic photographic printing process using sunlight and iron compounds. You bring objects or negatives and produce beautiful blue prints. A completely different kind of photography class.",
+    "tip": "The Brooklyn Brainery and various arts spaces run cyanotype workshops. Check Eventbrite for upcoming sessions. ~$45–65. Materials provided. Results are immediately satisfying — you leave with actual prints."
+  },
+  {
+    "id": 370,
+    "title": "A bread baking workshop at Sullivan Street Bakery",
+    "category": "classes",
+    "season": "any",
+    "notes": "Jim Lahey's Sullivan Street Bakery invented the no-knead bread technique. Their bread classes teach the technique directly, in the bakery, from the source.",
+    "tip": "533 W 47th St, Hell's Kitchen. Check the bakery's website and Eventbrite for scheduled workshops. ~$75–100. You leave with loaves you made yourself and a recipe you'll actually use. Book early, they fill fast."
+  },
+  {
+    "id": 371,
+    "title": "An Argentine tango class at a milonga",
+    "category": "classes",
+    "season": "any",
+    "notes": "Tango lessons followed by an actual milonga (social dance) where you practice. The studio atmosphere is serious and warm, the technique is genuinely difficult, and the payoff is extraordinary.",
+    "tip": "La Nacional (239 W 14th St) and Dardo Galletto Studios run beginner classes before milongas. ~$20–30/class. Check their websites for schedules. The lesson is 1 hr, then the milonga runs 2–4 more hours."
+  },
+  {
+    "id": 372,
+    "title": "A cocktail science class at MOFAD",
+    "category": "classes",
+    "season": "any",
+    "notes": "The Museum of Food and Drink in Williamsburg runs events and tastings that approach food and drink with genuine rigor. A cocktail history or spirits tasting class is one of their best events.",
+    "tip": "62 Bayard St, Williamsburg. ~$30–60 depending on the event. mofad.org for upcoming events. L to Lorimer St. Their fermentation and food science programs are also excellent."
+  },
+  {
+    "id": 373,
+    "title": "A bookbinding workshop at the Center for Book Arts",
+    "category": "classes",
+    "season": "any",
+    "notes": "Learn to bind your own book — the Coptic stitch, Japanese binding, or a case-bound journal. A meditative, precise craft that produces something you'll actually use.",
+    "tip": "28 W 27th St, Flatiron. ~$75–120. centerforbookarts.org. 1/N/R/W to 28th St. Classes run through the year. The gallery is also free and exhibitions are consistently excellent."
+  },
+  {
+    "id": 374,
+    "title": "A drawing from life class at the Art Students League",
+    "category": "classes",
+    "season": "any",
+    "notes": "The Art Students League has offered open drawing classes since 1875. A live model, charcoal paper, a quiet room, and instructors who have been teaching for decades. Open to all skill levels.",
+    "tip": "215 W 57th St, Midtown. ~$25–35/class. theartstudentsleague.org. Open enrollment in most classes. Single-session figure drawing classes are the easiest to try first. Materials available on-site for purchase."
+  },
+  {
+    "id": 375,
+    "title": "An improv comedy workshop at UCB or PIT",
+    "category": "classes",
+    "season": "any",
+    "notes": "A single-session improv workshop — not a performance, just a 3-hour introduction to the skills and mindset. Useful beyond comedy. Genuinely one of the better ways to spend a Saturday morning.",
+    "tip": "UCB (555 W 42nd St) and the PIT (123 E 24th St) both offer intro workshops and audition prep classes. ~$30–50. Check ucbtheatre.com and thepit-nyc.com for upcoming workshops."
+  },
+  {
+    "id": 376,
+    "title": "A furniture upholstery class in Brooklyn",
+    "category": "classes",
+    "season": "any",
+    "notes": "Find a chair at a flea market and take an intro upholstery class to restore it. A craft that requires patience but produces a genuinely useful, lasting result.",
+    "tip": "The Brooklyn Brainery and various makers' spaces offer intro upholstery workshops. ~$75–150 for a multi-session course. Check Eventbrite and Skillshare. Bring a reference photo of what you want to end up with."
+  },
+  {
+    "id": 377,
+    "title": "A workshop in natural dyeing and indigo",
+    "category": "classes",
+    "season": "summer",
+    "notes": "An afternoon learning to dye fabric with natural plant dyes or traditional Japanese indigo. The results are beautiful and unpredictable. A growing craft community in Brooklyn.",
+    "tip": "Handweaving NYC and other Brooklyn studios offer natural dye workshops. ~$65–95. Check Eventbrite. Materials provided. Summer is the best season because many dye plants are in season. Wear old clothes."
+  },
+  {
+    "id": 378,
+    "title": "A circuit bending or electronics workshop at NYC Resistor",
+    "category": "classes",
+    "season": "any",
+    "notes": "NYC Resistor in Gowanus is a hacker collective that runs regular craft nights and intro workshops in electronics, 3D printing, and laser cutting. Genuinely fun for non-engineers.",
+    "tip": "87 3rd Ave, Gowanus, Brooklyn. Check nycresistor.com for upcoming classes and open hack nights. ~$10–30. No experience needed for most workshops. F/G/R to 4th Ave-9th St."
+  },
+  {
+    "id": 379,
+    "title": "A botanical illustration class at NYBG",
+    "category": "classes",
+    "season": "spring",
+    "notes": "The New York Botanical Garden's School of Professional Horticulture offers botanical drawing and illustration classes in the gardens themselves. Exceptional setting for a studio art class.",
+    "tip": "2900 Southern Blvd, Bronx. ~$75–150 per session. nybg.org/gardens-and-plants/school-of-professional-horticulture. B/D/4 to Bedford Park Blvd-Lehman College, then BX26 bus. Spring sessions are best."
+  },
+  {
+    "id": 380,
+    "title": "A cheese and wine pairing class",
+    "category": "classes",
+    "season": "any",
+    "notes": "A guided tasting of six to eight cheeses with paired wines, led by a cheesemonger or sommelier. An accessible, sociable class that always produces good conversation.",
+    "tip": "Murray's Cheese (254 Bleecker St) runs excellent pairing classes. ~$65–95/person. murrayscheese.com for upcoming events. The staff are knowledgeable and not snobby. Friday evening classes are the most relaxed."
+  },
+  {
+    "id": 381,
+    "title": "Negronis at the Dante bar, West Village",
+    "category": "food",
+    "season": "any",
+    "notes": "Dante has the best Negroni program in the city — twenty-plus variations, a Roman aperitivo hour menu, and a room that feels like an Italian bar from another decade.",
+    "tip": "79-81 MacDougal St, West Village. No reservations, walk-in only. Aperitivo hour (4–7pm Mon–Fri) is the best value. ~$18–22/cocktail. Go on a weekday evening before the weekend crowds."
+  },
+  {
+    "id": 382,
+    "title": "A meditation retreat day at the Interdependence Project",
+    "category": "wellness",
+    "season": "any",
+    "notes": "A single-day urban meditation retreat — extended sitting practice, dharma talks, and walking meditation in the middle of the city. A genuinely different kind of Saturday.",
+    "tip": "The Interdependence Project holds periodic day retreats. ~$50–80, sliding scale often available. Check their website. No prior meditation experience required. The sessions are secular and non-dogmatic."
+  },
+  {
+    "id": 383,
+    "title": "The vintage market at Artists & Fleas, Chelsea Market",
+    "category": "explore",
+    "season": "any",
+    "notes": "One of the best curated vintage and independent designer markets in the city, now inside Chelsea Market year-round. Better than most flea markets for quality-to-price ratio.",
+    "tip": "75 9th Ave (Chelsea Market), Chelsea. Free entry. Open Sat–Sun 10am–9pm. A/C/E/L to 14th St-8th Ave. The independent jewelry and clothing vendors are the strongest part. Easy to spend two hours."
+  },
+  {
+    "id": 384,
+    "title": "A morning at the Grand Bazaar NYC flea market",
+    "category": "explore",
+    "season": "any",
+    "notes": "The best nonprofit flea market in Manhattan, running on the Upper West Side every Sunday. Proceeds support the school whose parking lot it uses. Genuinely good vintage finds.",
+    "tip": "100 W 77th St, Upper West Side. Sundays 10am–5:30pm, year-round. Suggested $1 donation. 1 to 79th St. The art prints, pottery, and vintage clothing sections are the strongest. Arrive before noon."
+  },
+  {
+    "id": 385,
+    "title": "A picnic in Fort Tryon Park with the Heather Garden",
+    "category": "free",
+    "season": "spring",
+    "notes": "The largest public garden in the NYC parks system above 59th Street. In spring, the perennial borders and the Hudson River views combine to make one of the most beautiful afternoons in the city.",
+    "tip": "Fort Tryon Park, Washington Heights. Free. A to 190th St. The Heather Garden is the main formal section. The New Leaf Restaurant and Bar serves food inside the park year-round. Peak bloom: May–June."
+  },
+  {
+    "id": 386,
+    "title": "The Eldridge Street Synagogue on the LES",
+    "category": "arts",
+    "season": "any",
+    "notes": "A restored 1887 synagogue on the Lower East Side, now a museum, with one of the most extraordinary stained glass windows in any New York building. A genuine architectural and historical landmark.",
+    "tip": "12 Eldridge St, Chinatown/LES. ~$15. eldridgestreet.org. F to East Broadway. Guided tours on the hour. The Kiki Smith rose window in the restored sanctuary is the singular thing. Allow 1.5 hrs."
+  },
+  {
+    "id": 387,
+    "title": "A film at the Angelika with a post-film walk to NoLita",
+    "category": "cinema",
+    "season": "any",
+    "notes": "The Angelika's basement theaters — and the Mercer Street subway noise that occasionally punctuates screenings — are a New York film institution. Walk to NoLita after for dinner.",
+    "tip": "18 W Houston St, SoHo. Tickets ~$19. The Angelika Café is a good place to talk through the film before heading out. The 6 blocks to NoLita (Prince and Mott) have excellent options for dinner."
+  },
+  {
+    "id": 388,
+    "title": "Chocolate and bread tasting at Raaka Chocolate, Red Hook",
+    "category": "bakery",
+    "season": "any",
+    "notes": "A bean-to-bar chocolate maker in Red Hook that makes unroasted dark chocolate with unusual flavor profiles. Tour the factory on weekends and sample everything.",
+    "tip": "64 Seabring St, Red Hook, Brooklyn. ~$5–10 for a tasting flight. raakaChocolate.com. F/G to Smith-9th St, then walk or take the B61 bus. The tour runs weekend afternoons. Factory outlet prices are better than retail."
+  },
+  {
+    "id": 389,
+    "title": "An evening at Rough Trade Records, Williamsburg",
+    "category": "shows",
+    "season": "any",
+    "notes": "One of the great independent record stores in the world, with a venue space in back that hosts intimate performances. Even without a show, browsing the stacks is its own form of Saturday.",
+    "tip": "64 N 9th St, Williamsburg. The record shop is free to browse. Shows in the venue ~$15–30 at ticketweb.com. L to Bedford Ave. They also host in-store performances and listening events, often free."
+  },
+  {
+    "id": 390,
+    "title": "A Sunday gospel service in Harlem",
+    "category": "shows",
+    "season": "any",
+    "notes": "Several Harlem churches welcome visitors to their Sunday gospel services. The music is extraordinary and the experience is entirely different from a performance. Go with genuine respect.",
+    "tip": "Abyssinian Baptist Church (132 Odell Clark Pl W) and Greater Refuge Temple both welcome respectful visitors. Free, no photography. Services typically 11am. Dress appropriately. Stay for the whole service."
+  },
+  {
+    "id": 391,
+    "title": "Smorgasburg on a Saturday morning",
+    "category": "food",
+    "season": "summer",
+    "notes": "The open-air food market in Williamsburg or Prospect Park with 100+ vendors, all local. Eat aggressively across multiple cuisines. Start early before the lines build.",
+    "tip": "Williamsburg: East River State Park, 90 Kent Ave, Saturdays 11am–6pm. Prospect Park: April–October, Sundays. smorgasburg.com. Free entry. Bring cash. Arrive before noon. The ube soft serve is consistent."
+  },
+  {
+    "id": 392,
+    "title": "A walk through Little Italy and the Mulberry Street strip",
+    "category": "explore",
+    "season": "any",
+    "notes": "The actual remaining block of Little Italy is small, but the architecture and a few old-school restaurants are still there. Add a walk through NoLita and the SoHo cast-iron district.",
+    "tip": "6 to Spring St. The real Little Italy is just a few blocks on Mulberry between Broome and Canal. Di Palo's (200 Grand St) is the genuine Italian grocery to buy from. The rest is mostly tourist-facing."
+  },
+  {
+    "id": 393,
+    "title": "A ceramics open studio at 3rd Ward or Brooklyn Pottery",
+    "category": "classes",
+    "season": "any",
+    "notes": "An open studio session where you work independently on a project you've started in a class or bring your own design. Glazing day is the most satisfying.",
+    "tip": "Brooklyn Pottery Hub (various locations) and Choplet offer open studio memberships and single-session access. ~$20–40/session. Book in advance. The community of regulars at ceramics studios is always good."
+  },
+  {
+    "id": 394,
+    "title": "Late-night ramen at Ichiran, alone-together",
+    "category": "food",
+    "season": "winter",
+    "notes": "Ichiran's individual booth dining — each person in their own stall, ordering by slip, the bamboo screen raised to deliver your bowl. Intensely focused, deeply meditative. Perfect after midnight.",
+    "tip": "374 Johnson Ave, Bushwick (or 132 W 31st, Midtown). ~$20–25/bowl. Open late. L to Morgan Ave. The customization slip is serious — fill it out carefully. Single-booth dining is the whole experience, don't sit side-by-side."
+  },
+  {
+    "id": 395,
+    "title": "The Basilica of St. Patrick's Old Cathedral, NoLita",
+    "category": "free",
+    "season": "any",
+    "notes": "The original (1815) St. Patrick's Cathedral in NoLita, now overshadowed by the midtown version, is a quieter and more atmospheric space. The walled churchyard is one of the secret gardens of the city.",
+    "tip": "263 Mulberry St, NoLita. Free. 6 to Spring St. Open daily. The interior has been used in Godfather scenes. The cemetery wall runs the full block and is worth the walk-around alone."
+  },
+  {
+    "id": 396,
+    "title": "A sake tasting at Sakagura, under the east 40s",
+    "category": "food",
+    "season": "any",
+    "notes": "A Japanese sake bar hidden in the basement of a Midtown office building. One of the most surprising rooms in the city — suddenly you are not in Midtown anymore.",
+    "tip": "211 E 43rd St, basement, Midtown. ~$15–25/glass for premium sakes. sakagura.com. 4/5/6/7 to Grand Central. The omakase sake pairing option is the best way to navigate the list. Reservations recommended."
+  },
+  {
+    "id": 397,
+    "title": "The Brooklyn Botanic Garden at cherry blossom time",
+    "category": "free",
+    "season": "spring",
+    "notes": "The Cherry Esplanade in late April is one of the most photographed places in New York for a reason. Worth the crowds once. The Japanese Hill-and-Pond Garden is worth every other visit.",
+    "tip": "990 Washington Ave, Crown Heights. ~$18. 2/3 to Eastern Pkwy-Brooklyn Museum. Late April for peak bloom — the BBG website has a blossom tracker. Go on a weekday morning. Membership ($75/yr) pays for itself in three visits."
+  },
+  {
+    "id": 398,
+    "title": "A summer evening at Canoe Hill or Harriman State Park",
+    "category": "daytrip",
+    "season": "summer",
+    "notes": "Harriman State Park is 47,000 acres of trails an hour from the city, with swimming holes at Lake Tiorati and ridge-top views that look nothing like New York. Worth a full day.",
+    "tip": "Zipcar or rental, ~1 hr. The Pine Meadow Lake trail is the standard route (8 miles, moderate). The Long Path goes north through the whole park. Arrive early; parking fills on summer weekends by 9am."
+  },
+  {
+    "id": 399,
+    "title": "A night at the Jane Hotel rooftop or The Top of the Standard",
+    "category": "explore",
+    "season": "summer",
+    "notes": "Two of the best rooftop bar situations in the city — the Jane on the West Village waterfront and the Top of the Standard in the Meatpacking. Different vibes, both extraordinary at night.",
+    "tip": "The Jane: 113 Jane St (rooftop opens late spring). The Top of the Standard: 848 Washington St. Both require reservations or early arrival. ~$18–22/cocktail. The views justify the prices, once."
+  },
+  {
+    "id": 400,
+    "title": "One final adventure: somewhere neither of us has been",
+    "category": "explore",
+    "season": "any",
+    "notes": "Look at the map of New York. Find a neighborhood, a park, a street, or a spot that neither of us has ever visited. Go there without a plan. Report back.",
+    "tip": "New York has 302 neighborhoods, 578 miles of waterfront, and 30,000 acres of parkland. Whatever you haven't seen yet: that is the activity. No tips needed. Just go."
+  }
+]
