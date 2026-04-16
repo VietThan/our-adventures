@@ -6,4 +6,5 @@ node_modules/
 dist/
 .next/
 cdk.out/
+cdk.context.json
 .DS_Store
