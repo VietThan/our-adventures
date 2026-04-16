@@ -1,0 +1,120 @@
+name: Deploy app
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: apps/web/package-lock.json
+
+      - name: Install dependencies
+        working-directory: apps/web
+        run: npm ci
+
+      - name: Build Next.js (standalone)
+        working-directory: apps/web
+        run: npm run build
+
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.EC2_SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H "${{ secrets.EC2_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Rsync build to EC2
+        run: |
+          # Standalone server (includes only the node_modules it needs)
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/deploy_key" \
+            apps/web/.next/standalone/ \
+            deploy@${{ secrets.EC2_HOST }}:/home/deploy/app/
+
+          # Static assets (.next/standalone does not include these)
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/deploy_key" \
+            apps/web/.next/static/ \
+            deploy@${{ secrets.EC2_HOST }}:/home/deploy/app/.next/static/
+
+          # Public directory
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/deploy_key" \
+            apps/web/public/ \
+            deploy@${{ secrets.EC2_HOST }}:/home/deploy/app/public/
+
+          # Migration files
+          rsync -az \
+            -e "ssh -i ~/.ssh/deploy_key" \
+            db/migrations/ \
+            deploy@${{ secrets.EC2_HOST }}:/home/deploy/migrations/
+
+      - name: Write .env, run migrations, restart service
+        run: |
+          ssh -i ~/.ssh/deploy_key deploy@${{ secrets.EC2_HOST }} 'bash -s' << 'ENDSSH'
+          set -e
+
+          # Read secrets from SSM using the EC2 instance profile.
+          # No AWS credentials are needed in GHA — the instance role has
+          # ssm:GetParameter for /our-adventures/* and /shared/db/*.
+          DB_PASS=$(aws ssm get-parameter \
+            --name /our-adventures/db/password \
+            --with-decryption \
+            --query Parameter.Value \
+            --output text \
+            --region us-east-1)
+
+          DB_ENDPOINT=$(aws ssm get-parameter \
+            --name /shared/db/endpoint \
+            --query Parameter.Value \
+            --output text \
+            --region us-east-1)
+
+          GOOGLE_CLIENT_ID=$(aws ssm get-parameter \
+            --name /our-adventures/auth/google-client-id \
+            --with-decryption \
+            --query Parameter.Value \
+            --output text \
+            --region us-east-1)
+
+          GOOGLE_CLIENT_SECRET=$(aws ssm get-parameter \
+            --name /our-adventures/auth/google-client-secret \
+            --with-decryption \
+            --query Parameter.Value \
+            --output text \
+            --region us-east-1)
+
+          NEXTAUTH_SECRET=$(aws ssm get-parameter \
+            --name /our-adventures/auth/secret \
+            --with-decryption \
+            --query Parameter.Value \
+            --output text \
+            --region us-east-1)
+
+          # Write .env — systemd EnvironmentFile reads this on service start.
+          # Using printf to avoid nested heredoc indentation issues.
+          printf 'DATABASE_URL=postgresql://our_adventures:%s@%s:5432/vietthan?sslmode=require\n' \
+            "$DB_PASS" "$DB_ENDPOINT" > /home/deploy/app/.env
+          printf 'NEXTAUTH_URL=https://adventures.sleepyshortcake.com\n' >> /home/deploy/app/.env
+          printf 'NEXTAUTH_SECRET=%s\n' "$NEXTAUTH_SECRET"      >> /home/deploy/app/.env
+          printf 'GOOGLE_CLIENT_ID=%s\n' "$GOOGLE_CLIENT_ID"    >> /home/deploy/app/.env
+          printf 'GOOGLE_CLIENT_SECRET=%s\n' "$GOOGLE_CLIENT_SECRET" >> /home/deploy/app/.env
+          chmod 600 /home/deploy/app/.env
+
+          # Run migrations (idempotent — safe on every deploy)
+          DATABASE_URL="postgresql://our_adventures:${DB_PASS}@${DB_ENDPOINT}:5432/vietthan?sslmode=require"
+          psql "$DATABASE_URL" -f /home/deploy/migrations/001_initial_schema.sql
+
+          # Restart the Next.js service
+          sudo systemctl restart web
+          ENDSSH
