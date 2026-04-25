@@ -32,7 +32,7 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.EC2_SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -H "${{ secrets.EC2_HOST }}" >> ~/.ssh/known_hosts
+          ssh-keyscan -H "${{ vars.EC2_HOST }}" >> ~/.ssh/known_hosts
 
       - name: Rsync build to EC2
         run: |
@@ -40,29 +40,29 @@ jobs:
           rsync -az --delete \
             -e "ssh -i ~/.ssh/deploy_key" \
             apps/web/.next/standalone/ \
-            deploy@${{ secrets.EC2_HOST }}:/home/deploy/app/
+            deploy@${{ vars.EC2_HOST }}:/home/deploy/app/
 
           # Static assets (.next/standalone does not include these)
           rsync -az --delete \
             -e "ssh -i ~/.ssh/deploy_key" \
             apps/web/.next/static/ \
-            deploy@${{ secrets.EC2_HOST }}:/home/deploy/app/.next/static/
+            deploy@${{ vars.EC2_HOST }}:/home/deploy/app/.next/static/
 
           # Public directory
           rsync -az --delete \
             -e "ssh -i ~/.ssh/deploy_key" \
             apps/web/public/ \
-            deploy@${{ secrets.EC2_HOST }}:/home/deploy/app/public/
+            deploy@${{ vars.EC2_HOST }}:/home/deploy/app/public/
 
           # Migration files
           rsync -az \
             -e "ssh -i ~/.ssh/deploy_key" \
             db/migrations/ \
-            deploy@${{ secrets.EC2_HOST }}:/home/deploy/migrations/
+            deploy@${{ vars.EC2_HOST }}:/home/deploy/migrations/
 
       - name: Write .env, run migrations, restart service
         run: |
-          ssh -i ~/.ssh/deploy_key deploy@${{ secrets.EC2_HOST }} 'bash -s' << 'ENDSSH'
+          ssh -i ~/.ssh/deploy_key deploy@${{ vars.EC2_HOST }} 'bash -s' << 'ENDSSH'
           set -e
 
           # Read secrets from SSM using the EC2 instance profile.
