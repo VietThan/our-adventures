@@ -107,6 +107,10 @@ export class ComputeStack extends cdk.Stack {
       // Cloudflare A record on every deploy, so a stop/start is fixed on
       // the next push to main (or a manual workflow_dispatch).
       associatePublicIpAddress: true,
+      // User data is provisioning-critical for this single-instance app
+      // (deploy user, nginx, RDS CA bundle, Certbot). Replace the instance
+      // when user data changes so first-boot setup actually runs.
+      userDataCausesReplacement: true,
     });
 
     // Attach app-tier-sg so the RDS SG allows port 5432 from this instance.
