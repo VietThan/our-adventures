@@ -3,6 +3,7 @@ import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 
 const rootDir = path.resolve(import.meta.dirname, "../..");
+const envFilePath = path.join(rootDir, "apps/web/.env.local");
 const require = createRequire(path.join(rootDir, "apps/web/package.json"));
 const { Client } = require("pg");
 
@@ -11,6 +12,8 @@ export function getRootDir() {
 }
 
 export async function withDatabase(run) {
+  await loadLocalEnvFile();
+
   const databaseUrl = process.env.DATABASE_URL;
 
   if (!databaseUrl) {
@@ -107,4 +110,54 @@ export async function seedActivities(client) {
   }
 
   console.log(`Inserted ${activities.length} baseline activities.`);
+}
+
+let hasLoadedEnvFile = false;
+
+async function loadLocalEnvFile() {
+  if (hasLoadedEnvFile) {
+    return;
+  }
+
+  hasLoadedEnvFile = true;
+
+  let raw;
+  try {
+    raw = await readFile(envFilePath, "utf8");
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
+      return;
+    }
+
+    throw error;
+  }
+
+  for (const line of raw.split(/\r?\n/)) {
+    const trimmed = line.trim();
+
+    if (!trimmed || trimmed.startsWith("#")) {
+      continue;
+    }
+
+    const separatorIndex = trimmed.indexOf("=");
+    if (separatorIndex === -1) {
+      continue;
+    }
+
+    const key = trimmed.slice(0, separatorIndex).trim();
+    if (!key || process.env[key] !== undefined) {
+      continue;
+    }
+
+    let value = trimmed.slice(separatorIndex + 1).trim();
+
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1);
+    }
+
+    process.env[key] = value;
+  }
 }

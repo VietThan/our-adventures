@@ -15,16 +15,14 @@ This directory owns the repository-level PostgreSQL contract for `our-adventures
 Run migrations only:
 
 ```bash
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/vietthan \
+docker compose up -d
+
 node scripts/migrate.mjs
 ```
 
 Run the full Phase 1 bootstrap from the repo root:
 
 ```bash
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/vietthan \
-VIET_EMAIL="viet@example.com" \
-LINH_EMAIL="linh@example.com" \
 node scripts/bootstrap-phase1.mjs
 ```
 
@@ -36,6 +34,13 @@ This script:
 
 Routine deploys should prefer `scripts/migrate.mjs`. `scripts/bootstrap-phase1.mjs`
 is for first-time environment setup.
+
+Docker is only responsible for running the local Postgres service and keeping
+its data volume. Schema setup and bootstrap now flow through the repo scripts,
+not through `/docker-entrypoint-initdb.d/`.
+
+For local development, these repo scripts automatically read `apps/web/.env.local`
+when it exists. In production or CI, pass environment variables explicitly.
 
 The app expects to run queries with:
 

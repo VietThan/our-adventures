@@ -27,7 +27,8 @@ cd apps/web
 npm install
 
 cd ..
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/vietthan \
+node scripts/migrate.mjs
+
 VIET_EMAIL="viet@example.com" \
 LINH_EMAIL="linh@example.com" \
 node scripts/bootstrap-phase1.mjs
@@ -42,6 +43,8 @@ DATABASE_URL=postgresql://postgres:postgres@localhost:5432/vietthan
 GOOGLE_CLIENT_ID=...
 GOOGLE_CLIENT_SECRET=...
 AUTH_SECRET=...
+VIET_EMAIL=...
+LINH_EMAIL=...
 ```
 
 Then run the app:
@@ -63,11 +66,16 @@ npm run dev
 
 ## Scripts
 
+- `docker compose up -d`
+  - starts only the local Postgres service and persistent data volume
+  - does not auto-apply schema files
 - `node scripts/migrate.mjs`
   - applies all SQL files in `db/migrations/`
   - suitable for routine local resets and production deploy steps
+  - reads `apps/web/.env.local` automatically when present
 - `node scripts/bootstrap-phase1.mjs`
   - runs migrations
   - seeds Viet/Linh idempotently
   - imports baseline activities once if the table is empty
   - intended for first-time environment bootstrap
+  - reads `apps/web/.env.local` automatically when present
