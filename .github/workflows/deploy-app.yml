@@ -112,9 +112,11 @@ jobs:
           printf 'GOOGLE_CLIENT_SECRET=%s\n' "$GOOGLE_CLIENT_SECRET" >> /home/deploy/app/.env
           chmod 600 /home/deploy/app/.env
 
-          # Run migrations (idempotent — safe on every deploy)
+          # Run all migrations in filename order (idempotent — safe on every deploy)
           DATABASE_URL="postgresql://our_adventures:${DB_PASS}@${DB_ENDPOINT}:5432/vietthan?sslmode=require"
-          psql "$DATABASE_URL" --set ON_ERROR_STOP=1 -f /home/deploy/migrations/001_initial_schema.sql
+          for migration in $(find /home/deploy/migrations -maxdepth 1 -type f -name '*.sql' | sort); do
+            psql "$DATABASE_URL" --set ON_ERROR_STOP=1 -f "$migration"
+          done
 
           # Restart the Next.js service
           sudo systemctl restart web

@@ -79,3 +79,21 @@ npm run dev
   - imports baseline activities once if the table is empty
   - intended for first-time environment bootstrap
   - reads `apps/web/.env.local` automatically when present
+
+## Production First-Time Seed
+
+Routine deploys should rely on `.github/workflows/deploy-app.yml`, which now runs
+all files in `db/migrations/` in filename order.
+
+For the one-time production seed, use the checked-in SQL file:
+
+- [data/001_phase1_seed.sql](/Users/vietthan/projects/workspace-viett/our-adventures/data/001_phase1_seed.sql:1)
+
+Before running it:
+
+1. Replace the placeholder `viet@example.com` and `linh@example.com` values with the real production emails.
+2. Run it only after migrations have been applied.
+3. Run it only once against an empty `our_adventures.activities` table.
+
+The file intentionally aborts if activities already exist, so it cannot silently
+double-seed the baseline catalog.

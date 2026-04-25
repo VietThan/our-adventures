@@ -42,6 +42,20 @@ not through `/docker-entrypoint-initdb.d/`.
 For local development, these repo scripts automatically read `apps/web/.env.local`
 when it exists. In production or CI, pass environment variables explicitly.
 
+## Production Seed
+
+For first-time production data bootstrap, use:
+
+- [`../data/001_phase1_seed.sql`](../data/001_phase1_seed.sql)
+
+This SQL file:
+
+- seeds the two allowlisted users idempotently
+- inserts the 400 baseline activities
+- aborts if `activities` already contains rows
+
+Edit the two placeholder email addresses in that file before running it in production.
+
 The app expects to run queries with:
 
 ```sql
