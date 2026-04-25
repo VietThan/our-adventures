@@ -17,7 +17,6 @@ export class ComputeStack extends cdk.Stack {
     // the cached value without making an API call.
     const vpcId       = ssm.StringParameter.valueFromLookup(this, '/shared/network/vpc-id');
     const appTierSgId = ssm.StringParameter.valueFromLookup(this, '/shared/network/app-tier-sg-id');
-    const oidcArn     = ssm.StringParameter.valueFromLookup(this, '/shared/iam/github-oidc-provider-arn');
 
     // -------------------------------------------------------------------------
     // Import shared VPC and app-tier security group by ID
@@ -182,35 +181,6 @@ export class ComputeStack extends cdk.Stack {
       'NGINXEOF',
       'systemctl restart nginx',
     );
-
-    // -------------------------------------------------------------------------
-    // GitHub Actions IAM role (OIDC) — used by deploy-infra.yml only
-    // -------------------------------------------------------------------------
-    // Mirrors the GitHubActions-SharedInfra pattern in shared-aws-infra exactly,
-    // scoped to this repo's main branch.
-    //
-    // Note: oidcArn comes from valueFromLookup — it resolves to the real ARN
-    // after the first cdk synth populates cdk.context.json. If cdk synth shows
-    // a dummy value in the trust policy, run it once to populate the context
-    // and then run cdk deploy.
-    const ghaRole = new iam.Role(this, 'GitHubActionsRole', {
-      roleName: 'GitHubActions-OurAdventures',
-      assumedBy: new iam.WebIdentityPrincipal(oidcArn, {
-        StringEquals: {
-          'token.actions.githubusercontent.com:aud': 'sts.amazonaws.com',
-          'token.actions.githubusercontent.com:sub':
-            'repo:VietThan/our-adventures:ref:refs/heads/main',
-        },
-      }),
-    });
-
-    // Only permission: assume CDK bootstrap roles. CDK bootstrap roles do the
-    // actual CloudFormation work — this role just hands off to them.
-    ghaRole.addToPolicy(new iam.PolicyStatement({
-      effect: iam.Effect.ALLOW,
-      actions: ['sts:AssumeRole'],
-      resources: [`arn:aws:iam::${this.account}:role/cdk-*`],
-    }));
 
     // -------------------------------------------------------------------------
     // SSM export — EC2 public IP
