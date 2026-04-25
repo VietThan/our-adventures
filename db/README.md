@@ -85,22 +85,21 @@ Or follow logs live:
 sudo journalctl -u web -f
 ```
 
+Use nginx logs for raw HTTP request activity:
+
+```bash
+sudo tail -f /var/log/nginx/access.log
+sudo tail -f /var/log/nginx/error.log
+```
+
 ## TLS Note
 
-Current production app connectivity to RDS uses a temporary workaround: the web
-app disables Postgres certificate verification for SSL-enabled connections.
+Production app connectivity to RDS verifies the server certificate with the AWS
+RDS global CA bundle at `/etc/ssl/certs/rds-combined-ca-bundle.pem`.
 
-Reason:
-
-- the production app host is not yet configured with the AWS RDS CA bundle
-- without that CA chain, Node/`pg` rejects the RDS certificate during login and
-  other database-backed requests
-
-Future fix:
-
-- provide the AWS RDS CA chain to the app environment
-- configure `pg` to verify against that CA
-- remove the temporary `rejectUnauthorized: false` behavior
+The EC2 user data installs that bundle during instance boot. In production, the
+web app fails startup for remote database connections if TLS verification needs
+that CA file and it is missing.
 
 The app expects to run queries with:
 

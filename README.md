@@ -4,7 +4,8 @@ A private full-stack activity tracker for Viet and Linh.
 
 ## Status
 
-Phase 1 implementation in progress. The app now has a real database contract, seed/bootstrap path, Auth.js v5 wiring, and the first authenticated dashboard flow under `apps/web/`.
+Phase 1 is complete. The app has a real database contract, seed/bootstrap path,
+Auth.js v5 wiring, and an authenticated dashboard flow under `apps/web/`.
 
 ## Local Development
 
@@ -82,8 +83,9 @@ npm run dev
 
 ## Production First-Time Seed
 
-Routine deploys should rely on `.github/workflows/deploy-app.yml`, which now runs
-all files in `db/migrations/` in filename order.
+Routine deploys should rely on `.github/workflows/deploy-app.yml`, which reads
+the current EC2 public IP from SSM and runs all files in `db/migrations/` in
+filename order.
 
 For the one-time production seed, use the checked-in SQL file:
 
@@ -134,17 +136,16 @@ This is the fastest way to catch production-only issues such as:
 - database connection failures
 - migration/runtime mismatches after deploy
 
-## Known Production Debt
+For raw HTTP request activity, use nginx logs instead:
 
-Current production database connectivity uses a temporary TLS workaround in the
-web app: SSL connections to Postgres disable certificate verification so the app
-can connect to RDS without a configured CA bundle on the host.
+```bash
+sudo tail -f /var/log/nginx/access.log
+sudo tail -f /var/log/nginx/error.log
+```
 
-This is not the desired long-term state.
+## Production Database TLS
 
-Future fix:
-
-- install or ship the AWS RDS CA bundle for the app environment
-- configure the Postgres client to trust that CA
-- remove the `rejectUnauthorized: false` workaround and restore strict
-  certificate verification
+Production database connections verify the RDS certificate with the AWS RDS
+global CA bundle at `/etc/ssl/certs/rds-combined-ca-bundle.pem`. The EC2 user
+data installs that bundle during instance boot, and production startup fails if a
+remote database connection needs TLS but the bundle is missing.

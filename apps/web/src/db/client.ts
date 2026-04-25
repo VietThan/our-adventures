@@ -50,6 +50,10 @@ function buildSslConfig(hostname: string | null) {
   try {
     return { ca: readFileSync(RDS_CA_PATH, "utf8") };
   } catch {
+    if (process.env.NODE_ENV === "production") {
+      throw new Error(`RDS CA bundle not found at ${RDS_CA_PATH}`);
+    }
+
     // CA bundle not found — likely local dev hitting a non-localhost PG.
     // Fall back to unverified TLS rather than crashing, but log a warning.
     console.warn(
