@@ -33,4 +33,6 @@ jobs:
 
       - name: Deploy CDK stack
         working-directory: infra
-        run: npx cdk deploy --require-approval never
+        env:
+          DEPLOY_KEY_PUBLIC: ${{ vars.DEPLOY_KEY_PUBLIC }}
+        run: npx cdk deploy --require-approval never --context "deployKeyPublic=$DEPLOY_KEY_PUBLIC"

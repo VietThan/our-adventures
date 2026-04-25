@@ -8,6 +8,10 @@ export class ComputeStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
+    // Deploy SSH public key — passed via --context deployKeyPublic="..." at synth time.
+    // Set DEPLOY_KEY_PUBLIC as a GitHub Actions variable and pass it in deploy-infra.yml.
+    const deployKeyPublic = this.node.getContext('deployKeyPublic') as string;
+
     // -------------------------------------------------------------------------
     // Read shared infra outputs from SSM
     // -------------------------------------------------------------------------
@@ -129,8 +133,14 @@ export class ComputeStack extends cdk.Stack {
       '',
       '# App user — deploys run as this user, not root or ec2-user',
       'useradd -m -s /bin/bash deploy',
-      'mkdir -p /home/deploy/app /home/deploy/migrations',
-      'chown -R deploy:deploy /home/deploy/app /home/deploy/migrations',
+      'mkdir -p /home/deploy/app /home/deploy/migrations /home/deploy/.ssh',
+      'chmod 700 /home/deploy/.ssh',
+      '',
+      '# Deploy SSH authorized key — passed in at synth time via CDK context.',
+      '# Public keys are not sensitive; the private key lives in GHA secrets.',
+      `echo '${deployKeyPublic}' > /home/deploy/.ssh/authorized_keys`,
+      'chmod 600 /home/deploy/.ssh/authorized_keys',
+      'chown -R deploy:deploy /home/deploy/app /home/deploy/migrations /home/deploy/.ssh',
       '',
       '# Allow deploy user to restart the web service without a password',
       'echo "deploy ALL=(ALL) NOPASSWD: /bin/systemctl restart web" > /etc/sudoers.d/deploy-web',
