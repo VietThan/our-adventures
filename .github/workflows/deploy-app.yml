@@ -113,11 +113,95 @@ jobs:
           chmod 600 /home/deploy/app/.env
 
           # Run all migrations in filename order (idempotent — safe on every deploy)
-          DATABASE_URL="postgresql://our_adventures:${DB_PASS}@${DB_ENDPOINT}:5432/vietthan"
+          DATABASE_URL="postgresql://our_adventures:${DB_PASS}@${DB_ENDPOINT}:5432/vietthan?sslmode=verify-full&sslrootcert=/etc/ssl/certs/rds-combined-ca-bundle.pem"
           for migration in $(find /home/deploy/migrations -maxdepth 1 -type f -name '*.sql' | sort); do
             psql "$DATABASE_URL" --set ON_ERROR_STOP=1 -f "$migration"
           done
 
           # Restart the Next.js service
           sudo systemctl restart web
+
+          # Wait for the app to be ready before cutting DNS over.
+          # systemctl restart can return before the process is actually serving.
+          echo "Waiting for app readiness..."
+          for i in $(seq 1 30); do
+            if systemctl is-active --quiet web && curl -fsS -o /dev/null http://127.0.0.1:3000/; then
+              echo "App is ready after ${i}s"
+              break
+            fi
+            if [ "$i" -eq 30 ]; then
+              echo "ERROR: App did not become ready within 30s" >&2
+              exit 1
+            fi
+            sleep 1
+          done
+
+          # Update Cloudflare A record to point to this instance.
+          # Runs after readiness check to avoid a 502 window.
+          # Disable xtrace — the SSH block uses set -e only, but guard
+          # against future changes that might add -x.
+          set +x
+
+          CF_TOKEN=$(aws ssm get-parameter \
+            --name /our-adventures/cloudflare/dns-api-token \
+            --with-decryption \
+            --query Parameter.Value \
+            --output text \
+            --region us-east-1)
+
+          CF_ZONE_ID=$(aws ssm get-parameter \
+            --name /our-adventures/cloudflare/zone-id \
+            --query Parameter.Value \
+            --output text \
+            --region us-east-1)
+
+          IMDS_TOKEN=$(curl -sX PUT "http://169.254.169.254/latest/api/token" \
+            -H "X-aws-ec2-metadata-token-ttl-seconds: 60")
+          PUBLIC_IP=$(curl -s -H "X-aws-ec2-metadata-token: $IMDS_TOKEN" \
+            http://169.254.169.254/latest/meta-data/public-ipv4)
+
+          # Find the existing A record ID for adventures.sleepyshortcake.com
+          CF_RESPONSE=$(curl -fsS -X GET \
+            "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/dns_records?type=A&name=adventures.sleepyshortcake.com" \
+            -H "Authorization: Bearer ${CF_TOKEN}" \
+            -H "Content-Type: application/json")
+
+          CF_SUCCESS=$(echo "$CF_RESPONSE" | python3 -c "import sys,json; print(json.load(sys.stdin).get('success', False))")
+          if [ "$CF_SUCCESS" != "True" ]; then
+            echo "ERROR: Cloudflare API list request failed" >&2
+            echo "$CF_RESPONSE" >&2
+            exit 1
+          fi
+
+          CF_RECORD_ID=$(echo "$CF_RESPONSE" | python3 -c "import sys,json; r=json.load(sys.stdin)['result']; print(r[0]['id'] if r else '')")
+
+          if [ -n "$CF_RECORD_ID" ]; then
+            # Update existing record
+            CF_UPDATE=$(curl -fsS -X PUT \
+              "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/dns_records/${CF_RECORD_ID}" \
+              -H "Authorization: Bearer ${CF_TOKEN}" \
+              -H "Content-Type: application/json" \
+              --data "{\"type\":\"A\",\"name\":\"adventures\",\"content\":\"${PUBLIC_IP}\",\"proxied\":true}")
+            CF_OK=$(echo "$CF_UPDATE" | python3 -c "import sys,json; print(json.load(sys.stdin).get('success', False))")
+            if [ "$CF_OK" != "True" ]; then
+              echo "ERROR: Cloudflare API update failed" >&2
+              echo "$CF_UPDATE" >&2
+              exit 1
+            fi
+            echo "Cloudflare A record updated to ${PUBLIC_IP}"
+          else
+            # Create new record
+            CF_CREATE=$(curl -fsS -X POST \
+              "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/dns_records" \
+              -H "Authorization: Bearer ${CF_TOKEN}" \
+              -H "Content-Type: application/json" \
+              --data "{\"type\":\"A\",\"name\":\"adventures\",\"content\":\"${PUBLIC_IP}\",\"proxied\":true}")
+            CF_OK=$(echo "$CF_CREATE" | python3 -c "import sys,json; print(json.load(sys.stdin).get('success', False))")
+            if [ "$CF_OK" != "True" ]; then
+              echo "ERROR: Cloudflare API create failed" >&2
+              echo "$CF_CREATE" >&2
+              exit 1
+            fi
+            echo "Cloudflare A record created for ${PUBLIC_IP}"
+          fi
           ENDSSH
