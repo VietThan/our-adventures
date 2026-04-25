@@ -1,7 +1,22 @@
 import { NextResponse } from "next/server";
 
-export async function GET() {
-  return NextResponse.json({
-    message: "Pick activity placeholder",
+import { pickRandomActivity } from "@/db/queries";
+import { parseCategory, parseScope, parseSearch } from "@/lib/dashboard-filters";
+import { getCurrentAppUser } from "@/lib/current-user";
+
+export async function GET(request: Request) {
+  const currentUser = await getCurrentAppUser();
+  if (!currentUser) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  const { searchParams } = new URL(request.url);
+  const picked = await pickRandomActivity({
+    currentUserId: currentUser.id,
+    category: parseCategory(searchParams.get("category") ?? undefined),
+    scope: parseScope(searchParams.get("scope") ?? undefined),
+    search: parseSearch(searchParams.get("q") ?? undefined),
   });
+
+  return NextResponse.json(picked);
 }

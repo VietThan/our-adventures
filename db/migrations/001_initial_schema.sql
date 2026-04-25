@@ -32,6 +32,7 @@ CREATE TABLE IF NOT EXISTS our_adventures.activities (
   season TEXT NOT NULL,
   notes TEXT,
   tip TEXT,
+  link TEXT,
   is_custom BOOLEAN NOT NULL DEFAULT FALSE,
   added_by TEXT,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
@@ -39,16 +40,17 @@ CREATE TABLE IF NOT EXISTS our_adventures.activities (
 );
 
 CREATE TABLE IF NOT EXISTS our_adventures.users (
-  id TEXT PRIMARY KEY,
+  id BIGSERIAL PRIMARY KEY,
   email TEXT NOT NULL UNIQUE,
   display_name TEXT NOT NULL,
+  google_sub TEXT UNIQUE,
   avatar_url TEXT,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
 CREATE TABLE IF NOT EXISTS our_adventures.completions (
   activity_id INT NOT NULL REFERENCES our_adventures.activities(id) ON DELETE CASCADE,
-  user_id TEXT NOT NULL REFERENCES our_adventures.users(id),
+  user_id BIGINT NOT NULL REFERENCES our_adventures.users(id),
   completed_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   rating SMALLINT CHECK (rating BETWEEN 1 AND 5),
   review TEXT,
