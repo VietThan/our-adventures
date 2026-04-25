@@ -133,3 +133,18 @@ This is the fastest way to catch production-only issues such as:
 - missing or invalid environment variables
 - database connection failures
 - migration/runtime mismatches after deploy
+
+## Known Production Debt
+
+Current production database connectivity uses a temporary TLS workaround in the
+web app: SSL connections to Postgres disable certificate verification so the app
+can connect to RDS without a configured CA bundle on the host.
+
+This is not the desired long-term state.
+
+Future fix:
+
+- install or ship the AWS RDS CA bundle for the app environment
+- configure the Postgres client to trust that CA
+- remove the `rejectUnauthorized: false` workaround and restore strict
+  certificate verification

@@ -12,9 +12,16 @@ export function getPool() {
     throw new Error("DATABASE_URL is not set");
   }
 
+  const ssl =
+    connectionString.includes("sslmode=") ||
+    connectionString.includes("ssl=true")
+      ? { rejectUnauthorized: false }
+      : undefined;
+
   if (!global.__ourAdventuresPool) {
     global.__ourAdventuresPool = new Pool({
       connectionString,
+      ssl,
     });
   }
 

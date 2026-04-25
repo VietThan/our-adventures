@@ -85,6 +85,23 @@ Or follow logs live:
 sudo journalctl -u web -f
 ```
 
+## TLS Note
+
+Current production app connectivity to RDS uses a temporary workaround: the web
+app disables Postgres certificate verification for SSL-enabled connections.
+
+Reason:
+
+- the production app host is not yet configured with the AWS RDS CA bundle
+- without that CA chain, Node/`pg` rejects the RDS certificate during login and
+  other database-backed requests
+
+Future fix:
+
+- provide the AWS RDS CA chain to the app environment
+- configure `pg` to verify against that CA
+- remove the temporary `rejectUnauthorized: false` behavior
+
 The app expects to run queries with:
 
 ```sql
