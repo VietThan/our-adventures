@@ -97,3 +97,39 @@ Before running it:
 
 The file intentionally aborts if activities already exist, so it cannot silently
 double-seed the baseline catalog.
+
+## Production Troubleshooting
+
+If the deployed app is up but something like sign-in or API requests fails, get
+the `web` service logs from the EC2 instance first.
+
+Open an SSM session:
+
+```bash
+INSTANCE_ID=$(aws ec2 describe-instances \
+  --filters "Name=tag:aws:cloudformation:stack-name,Values=ComputeStack" "Name=instance-state-name,Values=running" \
+  --query 'Reservations[0].Instances[0].InstanceId' \
+  --output text \
+  --profile VietThan-Admin-SSO)
+
+aws ssm start-session --target "$INSTANCE_ID" --profile VietThan-Admin-SSO
+```
+
+Then inspect the service logs:
+
+```bash
+sudo journalctl -u web -n 200 --no-pager
+```
+
+To follow new lines live while reproducing a bug in the browser:
+
+```bash
+sudo journalctl -u web -f
+```
+
+This is the fastest way to catch production-only issues such as:
+
+- Auth.js host trust errors
+- missing or invalid environment variables
+- database connection failures
+- migration/runtime mismatches after deploy

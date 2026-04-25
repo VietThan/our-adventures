@@ -56,6 +56,35 @@ This SQL file:
 
 Edit the two placeholder email addresses in that file before running it in production.
 
+## Production Log Access
+
+If production bootstrap or login behavior looks wrong, inspect the `web` service
+logs on the EC2 instance before changing code or rerunning seed steps.
+
+Open an SSM session:
+
+```bash
+INSTANCE_ID=$(aws ec2 describe-instances \
+  --filters "Name=tag:aws:cloudformation:stack-name,Values=ComputeStack" "Name=instance-state-name,Values=running" \
+  --query 'Reservations[0].Instances[0].InstanceId' \
+  --output text \
+  --profile VietThan-Admin-SSO)
+
+aws ssm start-session --target "$INSTANCE_ID" --profile VietThan-Admin-SSO
+```
+
+Then:
+
+```bash
+sudo journalctl -u web -n 200 --no-pager
+```
+
+Or follow logs live:
+
+```bash
+sudo journalctl -u web -f
+```
+
 The app expects to run queries with:
 
 ```sql
