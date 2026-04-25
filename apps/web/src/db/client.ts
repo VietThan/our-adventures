@@ -12,11 +12,10 @@ export function getPool() {
     throw new Error("DATABASE_URL is not set");
   }
 
-  const ssl =
-    connectionString.includes("sslmode=") ||
-    connectionString.includes("ssl=true")
-      ? { rejectUnauthorized: false }
-      : undefined;
+  const hostname = getDatabaseHostname(connectionString);
+  const ssl = shouldUseSsl(hostname)
+    ? { rejectUnauthorized: false }
+    : undefined;
 
   if (!global.__ourAdventuresPool) {
     global.__ourAdventuresPool = new Pool({
@@ -26,6 +25,22 @@ export function getPool() {
   }
 
   return global.__ourAdventuresPool;
+}
+
+function getDatabaseHostname(connectionString: string) {
+  try {
+    return new URL(connectionString).hostname;
+  } catch {
+    return null;
+  }
+}
+
+function shouldUseSsl(hostname: string | null) {
+  if (!hostname) {
+    return false;
+  }
+
+  return !["localhost", "127.0.0.1", "::1"].includes(hostname);
 }
 
 export async function withSchemaSearchPath<T>(

@@ -104,7 +104,7 @@ jobs:
 
           # Write .env — systemd EnvironmentFile reads this on service start.
           # Using printf to avoid nested heredoc indentation issues.
-          printf 'DATABASE_URL=postgresql://our_adventures:%s@%s:5432/vietthan?sslmode=require\n' \
+          printf 'DATABASE_URL=postgresql://our_adventures:%s@%s:5432/vietthan\n' \
             "$DB_PASS" "$DB_ENDPOINT" > /home/deploy/app/.env
           printf 'NEXTAUTH_URL=https://adventures.sleepyshortcake.com\n' >> /home/deploy/app/.env
           printf 'NEXTAUTH_SECRET=%s\n' "$NEXTAUTH_SECRET"      >> /home/deploy/app/.env
@@ -113,7 +113,7 @@ jobs:
           chmod 600 /home/deploy/app/.env
 
           # Run all migrations in filename order (idempotent — safe on every deploy)
-          DATABASE_URL="postgresql://our_adventures:${DB_PASS}@${DB_ENDPOINT}:5432/vietthan?sslmode=require"
+          DATABASE_URL="postgresql://our_adventures:${DB_PASS}@${DB_ENDPOINT}:5432/vietthan"
           for migration in $(find /home/deploy/migrations -maxdepth 1 -type f -name '*.sql' | sort); do
             psql "$DATABASE_URL" --set ON_ERROR_STOP=1 -f "$migration"
           done
