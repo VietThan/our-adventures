@@ -1,9 +1,12 @@
+import { readFileSync } from "node:fs";
 import { Pool, type PoolClient } from "pg";
 
 declare global {
   // Reuse the pool during local hot reload to avoid runaway connections.
   var __ourAdventuresPool: Pool | undefined;
 }
+
+const RDS_CA_PATH = "/etc/ssl/certs/rds-combined-ca-bundle.pem";
 
 export function getPool() {
   const connectionString = process.env.DATABASE_URL;
@@ -13,9 +16,7 @@ export function getPool() {
   }
 
   const hostname = getDatabaseHostname(connectionString);
-  const ssl = shouldUseSsl(hostname)
-    ? { rejectUnauthorized: false }
-    : undefined;
+  const ssl = buildSslConfig(hostname);
 
   if (!global.__ourAdventuresPool) {
     global.__ourAdventuresPool = new Pool({
@@ -41,6 +42,21 @@ function shouldUseSsl(hostname: string | null) {
   }
 
   return !["localhost", "127.0.0.1", "::1"].includes(hostname);
+}
+
+function buildSslConfig(hostname: string | null) {
+  if (!shouldUseSsl(hostname)) return undefined;
+
+  try {
+    return { ca: readFileSync(RDS_CA_PATH, "utf8") };
+  } catch {
+    // CA bundle not found — likely local dev hitting a non-localhost PG.
+    // Fall back to unverified TLS rather than crashing, but log a warning.
+    console.warn(
+      `RDS CA bundle not found at ${RDS_CA_PATH} — using unverified TLS`,
+    );
+    return { rejectUnauthorized: false };
+  }
 }
 
 export async function withSchemaSearchPath<T>(
