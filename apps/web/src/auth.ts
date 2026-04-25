@@ -9,6 +9,7 @@ function buildAuthErrorRedirect(code: "not-allowed" | "google-conflict") {
 }
 
 export const { auth, handlers, signIn, signOut } = NextAuth({
+  trustHost: true,
   pages: {
     signIn: "/",
     error: "/",
