@@ -1,0 +1,110 @@
+@startuml infra-diagram
+title our-adventures — AWS Infrastructure & Access Flow
+
+skinparam linetype ortho
+skinparam ArrowColor #555555
+skinparam defaultFontName Helvetica
+skinparam defaultFontSize 12
+
+skinparam rectangle {
+  BackgroundColor #F8F8F8
+  BorderColor #AAAAAA
+  RoundCorner 8
+}
+
+skinparam node {
+  BackgroundColor #DDEEFF
+  BorderColor #5588BB
+}
+
+skinparam component {
+  BackgroundColor #FFFDE7
+  BorderColor #F9A825
+}
+
+skinparam database {
+  BackgroundColor #E8F5E9
+  BorderColor #388E3C
+}
+
+skinparam cloud {
+  BackgroundColor #FCE4EC
+  BorderColor #C62828
+}
+
+skinparam actor {
+  BackgroundColor #EDE7F6
+  BorderColor #512DA8
+}
+
+' ─── Users ───────────────────────────────────────────────────────────────────
+actor Viet
+actor Linh
+
+' ─── External services ───────────────────────────────────────────────────────
+cloud "Cloudflare" as CF {
+  component "DNS A record\nadventures.sleepyshortcake.com\n(proxied)" as DNS
+  component "TLS proxy\n(Cloudflare edge)" as CFProxy
+}
+
+cloud "Let's Encrypt" as LE {
+  component "TLS certificate\n(DNS-01 via Cloudflare)" as Cert
+}
+
+cloud "Google OAuth" as GOAuth {
+  component "OAuth 2.0\nAuth.js provider" as GoogleOAuth
+}
+
+cloud "GitHub Actions" as GHA {
+  component "deploy-app.yml\n(push to main)" as GHADeploy
+}
+
+' ─── AWS ─────────────────────────────────────────────────────────────────────
+rectangle "AWS us-east-1" as AWS {
+
+  rectangle "SSM Parameter Store" as SSMBox {
+    component "/our-adventures/*\n/shared/db/*\n/shared/network/*" as SSMParams
+  }
+
+  rectangle "Shared VPC" as VPC {
+
+    rectangle "Public Subnets (2 AZs)" as PublicSubnets {
+      node "EC2 t4g.nano\n(Amazon Linux 2023 ARM)" as EC2 {
+        component "nginx :80\n→ redirect HTTPS" as NginxHTTP
+        component "nginx :443\n→ proxy :3000" as NginxHTTPS
+        component "Next.js :3000\n(systemd web.service)" as NextJS
+        component "app-tier-SG\n(identity label)" as AppTierSG
+        component "EC2-SG\n:22 SSH · :80 HTTP · :443 HTTPS" as EC2SG
+      }
+    }
+
+    rectangle "Private Isolated Subnets (2 AZs)" as PrivateSubnets {
+      database "RDS PostgreSQL 18\nt4g.micro\ndb: vietthan\nschema: our_adventures" as RDS
+      component "RDS-SG\n:5432 from app-tier-SG only" as RDSSL
+    }
+
+  }
+}
+
+' ─── Relationships ────────────────────────────────────────────────────────────
+Viet --> DNS : HTTPS
+Linh --> DNS : HTTPS
+DNS --> CFProxy
+CFProxy --> NginxHTTPS : :443 (proxied)
+CFProxy --> NginxHTTP : :80 → 301
+
+NginxHTTPS --> NextJS : proxy_pass :3000
+NextJS --> RDS : :5432 TLS\n(RDS CA bundle)
+NextJS --> GoogleOAuth : OAuth redirect
+NextJS --> SSMParams : read secrets\n(instance role)
+
+GHADeploy --> SSMParams : read EC2 IP
+GHADeploy --> EC2 : rsync + SSH :22\n(deploy key)
+GHADeploy --> DNS : update A record\n(Cloudflare API)
+
+EC2 --> Cert : DNS-01 challenge\n+ auto-renewal (Certbot)
+
+RDSSL .. RDS
+AppTierSG .. EC2
+
+@enduml
